@@ -1,5 +1,5 @@
 <list>
-    <npc id="50101" templateId="18819" name="" serverSideName="true" title="L2Tenkai Treasure" serverSideTitle="true"
+    <npc id="50101" templateId="18819" name="" serverSideName="true" title="l2Club Treasure" serverSideTitle="true"
          level="99"
          type="L2Monster" atkRange="10" hpMax="35891228" hpReg="37.4" mpMax="1000000" mpReg="12.12" STR="100" CON="143"
          DEX="89"

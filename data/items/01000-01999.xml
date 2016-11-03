@@ -2141,7 +2141,7 @@
     </item>
     <!-- Ingredient needed for certain magic. -->
     <item id="1373" type="EtcItem" name="Magic Gem" icon="icon.etc_crystal_ball_white_i00" immediateEffect="1"
-          weight="80" price="600"
+          weight="80" price="600" isDestroyable="false" isSellable="false" isTradable="false"
           isStackable="true" handler="MagicGem">
     </item>
     <!-- Magical potion that increases movement Speed dramatically -->

@@ -7,9 +7,9 @@
     -->
     <config name="GameserverHostname" var="GAMESERVER_HOSTNAME" default="*" />
 
-    <config name="GameserverHosts" var="GAME_SERVER_HOSTS" default="127.0.0.1,*" />
+    <config name="GameserverHosts" var="GAME_SERVER_HOSTS" default="127.0.0.1" />
 
-    <config name="GameserverSubnets" var="GAME_SERVER_SUBNETS" default="127.0.0.0/8,0.0.0.0/0" />
+    <config name="GameserverSubnets" var="GAME_SERVER_SUBNETS" default="127.0.0.0/8" />
 
     <config name="GameserverPort" var="PORT_GAME" default="7777" />
 
@@ -34,7 +34,7 @@
         WARNING: <u><b><font color="red">Please don't change default IPs here if you don't know what are you doing!</font></b></u>
         WARNING: <u><b><font color="red">External/Internal IPs are now inside "ipconfig.xml" file.</font></b></u>
     -->
-    <config name="LoginHost" var="GAME_SERVER_LOGIN_HOST" default="localhost" />
+    <config name="LoginHost" var="GAME_SERVER_LOGIN_HOST" default="127.0.0.1" />
 
     <!--
         -
@@ -50,11 +50,11 @@
 
     <config name="GameDbDriver" var="DATABASE_DRIVER" default="com.mysql.jdbc.Driver" />
 
-    <config name="GameDbURL" var="DATABASE_URL" default="jdbc:mysql://192.168.103.1:3306/l2tenkai_khadia" />
+    <config name="GameDbURL" var="DATABASE_URL" default="jdbc:mysql://localhost:3306/l2tenkai" />
 
-    <config name="GameDbLogin" var="DATABASE_LOGIN" default="l2tenkai_khadia" />
+    <config name="GameDbLogin" var="DATABASE_LOGIN" default="l2tenkai" />
 
-    <config name="GameDbPassword" var="DATABASE_PASSWORD" default="Mpb4gpfr" />
+    <config name="GameDbPassword" var="DATABASE_PASSWORD" default="123456" />
 
     <config name="GameMaximumDbConnections" var="DATABASE_MAX_CONNECTIONS" default="100" />
 
@@ -2599,7 +2599,7 @@
         Require server restart to disconnect expired shops.
         0 = disabled (always restore).
     -->
-    <config name="OfflineMaxDays" var="OFFLINE_MAX_DAYS" default="0" />
+    <config name="OfflineMaxDays" var="OFFLINE_MAX_DAYS" default="100" />
 
     <!-- Disconnect shop after finished selling, buying. -->
     <config name="OfflineDisconnectFinished" var="OFFLINE_DISCONNECT_FINISHED" default="True" />
@@ -2634,7 +2634,7 @@
         Screen welcome message text to show on character login if enabled
         ('' for a new line, but message can have max 2 lines)
     -->
-    <config name="ScreenWelcomeMessageText" var="WELCOME_MESSAGE_TEXT" default="Welcome to L2J server!" />
+    <config name="ScreenWelcomeMessageText" var="WELCOME_MESSAGE_TEXT" default="Welcome to L2CLUB" />
 
     <!-- Show screen welcome message for x seconds when character log in to game if enabled -->
     <config name="ScreenWelcomeMessageTime" var="WELCOME_MESSAGE_TIME" default="10" />
@@ -3089,5 +3089,5 @@
 
     <!-- Password Recovery Link -->
     <config name="SecondAuthRecoveryLink" var="SECOND_AUTH_REC_LINK"
-            default="http://www.example.com/l2j/charPassRec.php" />
+            default="http://l2club.net/Account/?action=show_forget" />
 </list>

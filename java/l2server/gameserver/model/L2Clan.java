@@ -974,7 +974,7 @@ public class L2Clan
 				int leaderId = clanData.getInt("leader_id");
 
 				PreparedStatement statement2 = con.prepareStatement(
-						"SELECT char_name,level,classid,charId,title,power_grade,subpledge,apprentice,sponsor,sex,race FROM characters WHERE clanid=?");
+						"SELECT char_name,level,classid,charId,title,power_grade,subpledge,apprentice,sponsor,sex,classid FROM characters WHERE clanid=?");
 				statement2.setInt(1, getClanId());
 				ResultSet clanMembers = statement2.executeQuery();
 
@@ -983,7 +983,7 @@ public class L2Clan
 					member = new L2ClanMember(this, clanMembers.getString("char_name"), clanMembers.getInt("level"),
 							clanMembers.getInt("classid"), clanMembers.getInt("charId"),
 							clanMembers.getInt("subpledge"), clanMembers.getInt("power_grade"),
-							clanMembers.getString("title"), clanMembers.getInt("sex") != 0, clanMembers.getInt("race"));
+							clanMembers.getString("title"), clanMembers.getInt("sex") != 0, clanMembers.getInt("classid"));
 					if (member.getObjectId() == leaderId)
 					{
 						setLeader(member);

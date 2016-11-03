@@ -632,8 +632,9 @@ public class LoginController
 		Connection con = null;
 		try
 		{
-			MessageDigest md = MessageDigest.getInstance("SHA-512");
-			byte[] raw = (password.toLowerCase() + "XjCSl+n/mpc4" + user.toLowerCase()).getBytes("UTF-8");
+			//MessageDigest md = MessageDigest.getInstance("SHA-512");
+			MessageDigest md = MessageDigest.getInstance("SHA");
+			byte[] raw = (password.toLowerCase()).getBytes("UTF-8");
 			byte[] hash = md.digest(raw);
 
 			byte[] expected = null;

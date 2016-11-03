@@ -49,7 +49,8 @@ public class ShowBoard extends L2GameServerPacket
 		writeS("bypass _bbsmemo"); // memo
 		writeS("bypass _bbsmail"); // mail
 		writeS("bypass _bbsfriends"); // friends
-		writeS("bypass bbs_add_fav"); // add fav.
+		writeS("bypass _bbsfriends"); // add fav.
+//writeS("bypass bbs_add_fav"); // add fav.
 		if (_htmlCode.length() < 8192)
 		{
 			writeS(_htmlCode.toString());

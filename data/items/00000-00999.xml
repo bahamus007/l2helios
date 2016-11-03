@@ -8159,8 +8159,8 @@
           isTradable="false"
           isDropable="false" isSellable="false" isDepositable="false" isStackable="true" isQuestitem="true">
     </item>
-    <item id="938" type="EtcItem" name="Deck" icon="icon.etc_spell_books_red_i00" immediateEffect="1" isTradable="true"
-          isSellable="false"
+    <item id="938" type="EtcItem" name="Deck" icon="icon.etc_spell_books_red_i00" immediateEffect="1" isTradable="false"
+          isSellable="false"  isDestroyable="false"
           handler="MagicVisor">
     </item>
     <item id="939" type="EtcItem" name="Gara's Quest Item #11" icon="icon.item_normal52" immediateEffect="1"

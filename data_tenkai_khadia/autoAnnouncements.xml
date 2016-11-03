@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list>
-    <announce text="Are you looking for the server information? Check the Community Board (ALT + B)!" initial="10"
+    <announce text="หากท่านกำลังมองหาข้อมูล สามารถตรวจสอบได้จาก คอมมูนิตี้ (ALT + B)!" initial="10"
               reuse="100" />
-    <announce text="Never share your account information!" initial="30" reuse="100" />
-    <announce text="Please use our forum to report any issue!" initial="50" reuse="100" />
-    <announce text="Check the server updates at our forums!" initial="70" reuse="100" />
-    <announce text="Are you looking for the gmshop or npcbuffer? Check your Magic Gem (look at your inventory)!"
+    <announce text="โปรดรักษา ID รหัสผ่านของคุณเป็นความลับ" initial="30" reuse="100" />
+    <announce text="รายการข้อมูล โปรดใช้ facebook" initial="50" reuse="100" />
+    <announce text="ค้นหาไอเท็ม เติมเงิน บัฟ และบริการต่างๆ กดที่ Magic Gem"
               initial="90" reuse="100" />
 </list>

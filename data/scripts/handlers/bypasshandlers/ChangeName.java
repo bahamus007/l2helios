@@ -41,7 +41,7 @@ public class ChangeName implements IBypassHandler
 		{
 			if (command.equalsIgnoreCase("ChangeCharName"))
 			{
-				String html = "<html>" + "<title>Tenkai</title>" + "<body>" +
+				String html = "<html>" + "<title>l2Club</title>" + "<body>" +
 						"<center><br><tr><td>Change Name</tr></td><br>" + "<br>" +
 						"Tired of your current character name? Have in mind that this is a very big privilege, the name change has always been denied by the administrators!<br>" +
 						"But I can help you. This is not a recommended option, I would suggest you to create another character, but if you insist that much... it will be 10 coins of luck.<br>" +
@@ -113,7 +113,7 @@ public class ChangeName implements IBypassHandler
 		{
 			if (command.equalsIgnoreCase("ChangeClanName"))
 			{
-				String html = "<html>" + "<title>Tenkai</title>" + "<body>" +
+				String html = "<html>" + "<title>l2Club</title>" + "<body>" +
 						"<center><br><tr><td>Change Clan Name</tr></td><br>" + "<br>" +
 						"Do you want to change your current clan name? Have in mind that this is a very big privilege, any name change has always been denied by the administrators!<br>" +
 						"But I can help you. This is not a recommended option, I would suggest you to create another clan, but if you insist that much... it will be 25 coins of luck.<br>" +

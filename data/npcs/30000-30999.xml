@@ -15374,7 +15374,7 @@
         <skill id="4414" level="2" /> <!-- Standard Type -->
         <skill id="4415" level="3" /> <!-- One-handed Sword -->
         <skill id="4045" level="1" /> <!-- Full Magic Attack Resistance -->
-        <spawn x="83331" y="147905" z="-3400" heading="16700" respawn="5" />
+        <spawn x="83674" y="147992" z="-3406" heading="30709" respawn="5" /><!-- giran -->
         <spawn x="15693" y="142886" z="-2696" heading="16000" respawn="5" />
         <spawn x="-12676" y="122821" z="-3112" heading="48000" respawn="5" />
         <spawn x="146738" y="25756" z="-2008" heading="0" respawn="5" />

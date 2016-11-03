@@ -47,7 +47,7 @@ public class Delevel implements IBypassHandler
 				}
 			}
 			String html =
-					"<html>" + "<title>Tenkai</title>" + "<body>" + "<center><br><tr><td>Change Level</tr></td><br>" +
+					"<html>" + "<title>l2Club</title>" + "<body>" + "<center><br><tr><td>Change Level</tr></td><br>" +
 							"<br>" + "What level do you wish to be?<br>" + "<table width=300>";
 			for (int i = minLevel; i < activeChar.getLevel(); i += 10)
 			{

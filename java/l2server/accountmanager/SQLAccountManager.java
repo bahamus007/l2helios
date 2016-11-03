@@ -191,9 +191,10 @@ public class SQLAccountManager
 			SQLException, NoSuchAlgorithmException
 	{
 		// Encode Password
-		MessageDigest md = MessageDigest.getInstance("SHA-512");
+		//MessageDigest md = MessageDigest.getInstance("SHA-512");
+		MessageDigest md = MessageDigest.getInstance("SHA");
 		byte[] newpass;
-		newpass = (password.toLowerCase() + "XjCSl+n/mpc4" + account.toLowerCase()).getBytes("UTF-8");
+		newpass = (password.toLowerCase()).getBytes("UTF-8");
 		newpass = md.digest(newpass);
 
 		// Add to Base

@@ -104,12 +104,12 @@ public class MonsterRace
 			{
 				_second[0] = _first[0];
 				_second[1] = _first[1];
-				_first[0] = 8 - i;
+				_first[0] = 1 + i;// singto
 				_first[1] = total;
 			}
 			else if (total >= _second[1])
 			{
-				_second[0] = 8 - i;
+				_second[0] = 1 + i;// singto
 				_second[1] = total;
 			}
 		}
