@@ -240,7 +240,7 @@ public class CustomBypass implements IBypassHandler
 				sb.append("<button value=\"Done\" action=\"bypass -h npc_" + target.getObjectId() + "_" + command +
 						" $text\" back=\"l2ui_ct1.button_df\" width=65 height=20 fore=\"l2ui_ct1.button_df\"></button></td></tr><br>");
 				sb.append("</center><br><Button ALIGN=LEFT ICON=\"NORMAL\" action=\"bypass -h npc_" +
-						target.getObjectId() + "_Chat title_color\">Back</Button></body></html>");
+						target.getObjectId() + "_Chat premium_special\">Back</Button></body></html>");
 				player.sendPacket(new NpcHtmlMessage(0, sb.toString()));
 			}
 			else
@@ -324,7 +324,7 @@ public class CustomBypass implements IBypassHandler
 		else if (command.equalsIgnoreCase("increaseclanlevel"))
 		{
 			L2Clan playerClan = player.getClan();
-			if (playerClan == null || !player.isClanLeader())
+			if (playerClan == null || !player.isClanLeader() || (playerClan.getLevel() == 10))
 			{
 				player.sendMessage("Special Services: You can't use this function!");
 				return false;
@@ -342,6 +342,7 @@ public class CustomBypass implements IBypassHandler
 			{
 				playerClan.changeLevel(10);
 			}
+			
 
 			//Add the skills
 			while (PledgeSkillTree.getInstance().getAvailableSkills(player).length != 0)

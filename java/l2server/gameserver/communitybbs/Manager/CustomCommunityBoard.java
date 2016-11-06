@@ -841,8 +841,9 @@ public class CustomCommunityBoard
 				sendCommunityBoardPage(getCommunityPage("index"), activeChar);
 				break;
 
-			case "serverNews":
-				sendCommunityBoardPage(getCustomNewsBoard(), activeChar);
+			case "serverNews"://singto
+				//sendCommunityBoardPage(getCustomNewsBoard(), activeChar);
+				sendCommunityBoardPage(getCommunityPage("serverNews"), activeChar);
 				break;
 
 			case "castles":
