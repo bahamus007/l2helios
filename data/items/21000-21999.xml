@@ -1546,17 +1546,21 @@
     <item id="21221" type="Armor" name="Valakas' Necklace - 180-day" icon="icon.accessory_necklace_of_valakas_i00"
           defaultAction="equip"
           bodypart="neck" immediateEffect="1" crystalType="s" weight="150" isTradable="false" isDropable="false"
-          isSellable="false">
-        <baseAdd stat="mDef" val="95" />
+          isSellable="false" time="259200" isEpic="true">
+        <baseAdd stat="mDef" val="125" />
         <add stat="maxMp" val="50" />
-    </item>
+        <enchant stat="mDef" val="0" />
+        <skill id="3557" level="1" /> <!-- Valakas' Necklace -->
+	</item>
     <!-- MP + 37, Bleed Resistance + 40%, Bleed Atk. Rate + 40%, Heal Amount increase, Vampiric Rage Effect, Stun/Mental Attack Resistance 30%, Stun/Mental Atk. Rate + 30%, MP consumption decrease, and Earth Resistance increases. Only one effect is applied even when the two identical earrings are worn. 180 days. -->
     <item id="21222" type="Armor" name="Antharas' Earring - 180-day" icon="icon.accessory_earring_of_antaras_i00"
           defaultAction="equip"
           bodypart="rear;lear" immediateEffect="1" crystalType="s" weight="150" isTradable="false" isDropable="false"
-          isSellable="false">
-        <baseAdd stat="mDef" val="71" />
+          isSellable="false" time="259200" isEpic="true">
+        <baseAdd stat="mDef" val="94" />
         <add stat="maxMp" val="37" />
+        <enchant stat="mDef" val="0" />
+        <skill id="3558" level="1" /> <!-- Antharas' Earring -->
     </item>
     <!-- Wrapped Pack containing 5 Anakim Transformation Scrolls. -->
     <item id="21223" type="EtcItem" name="Transformation Scroll: Anakim Pack"

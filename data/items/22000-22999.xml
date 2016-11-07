@@ -2152,19 +2152,21 @@
     <item id="22302" type="Armor" name="Antharas' Earring - 3-day (Event)" icon="icon.accessory_earring_of_antaras_i00"
           defaultAction="equip"
           bodypart="rear;lear" immediateEffect="1" crystalType="s" weight="150" isTradable="false" isDropable="false"
-          isSellable="false">
+          isSellable="false" time="4320" isEpic="true">
         <baseAdd stat="mDef" val="94" />
         <add stat="maxMp" val="37" />
         <enchant stat="mDef" val="0" />
+        <skill id="3558" level="1" /> <!-- Antharas' Earring -->
     </item>
     <!-- MP + 37, Bleed Resistance + 40%, Bleed Attack Rate + 40%, increases Heal Amount, Vampiric Rage Effect, Stun/Mental Attack Resistance + 30%, Stun/Mental attack rate + 30%, decreases MP consumption, and increases Heal Amount and Earth Resistance. Only one effect is applied when two of the same earrings are equipped. -->
     <item id="22303" type="Armor" name="Antharas' Earring - 7-day (Event)" icon="icon.accessory_earring_of_antaras_i00"
           defaultAction="equip"
           bodypart="rear;lear" immediateEffect="1" crystalType="s" weight="150" isTradable="false" isDropable="false"
-          isSellable="false">
+          isSellable="false" time="10080" isEpic="true">
         <baseAdd stat="mDef" val="94" />
         <add stat="maxMp" val="37" />
         <enchant stat="mDef" val="0" />
+        <skill id="3558" level="1" /> <!-- Antharas' Earring -->
     </item>
     <!-- MP + 21, Poison Resistance + 40%, Poison Attack Rate + 40%, Hold Resistance + 30%, Hold attack rate + 30%, and increases Accuracy, Critical Damage, P. Atk., and Casting Spd. Only one effect is applied when two of the same ring are equipped. -->
     <item id="22304" type="Armor" name="Baium's Ring - 3-day (Event)" icon="icon.accessory_ring_of_baium_i00"

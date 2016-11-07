@@ -4563,8 +4563,12 @@
 	-->
     <item id="37667" type="Armor" name="Blessed Antharas' Earring - 30-day" icon="icon.bm_earring_of_antaras"
           defaultAction="equip"
-          bodypart="rhand" immediateEffect="1" weight="150" isTradable="false" isDropable="false" isSellable="false">
+          bodypart="rhand" immediateEffect="1" weight="150" isTradable="false" isDropable="false" isSellable="false" time="43200" isEpic="true">
         <baseAdd stat="mDef" val="170" />
+        <add stat="maxMp" val="59" />
+        <enchant stat="mDef" val="0" />
+        <skill id="13313" level="1" /> <!-- Blessed Antharas' Earring -->
+        <skill id="13314" level="1" /> <!-- Blessed Antharas' Earring -->
     </item>
     <!--
 		Dimensional Item
@@ -4572,8 +4576,11 @@
 	-->
     <item id="37668" type="Armor" name="Blessed Valakas' Necklace - 30-day" icon="icon.bm_necklace_of_valakas"
           defaultAction="equip"
-          bodypart="rhand" immediateEffect="1" weight="150" isTradable="false" isDropable="false" isSellable="false">
+          bodypart="rhand" immediateEffect="1" weight="150" isTradable="false" isDropable="false" isSellable="false" time="43200" isEpic="true">
         <baseAdd stat="mDef" val="226" />
+        <add stat="maxMp" val="79" />
+        <skill id="13315" level="1" /> <!-- Blessed Valakas' Necklace -->
+        <skill id="13316" level="1" /> <!-- Blessed Valakas' Necklace -->
     </item>
     <!--
 		Dimensional Item
@@ -5029,13 +5036,15 @@
           bodypart="rear;lear" immediateEffect="1" weight="150" isTradable="false" isDropable="false"
           isSellable="false">
         <baseAdd stat="mDef" val="170" />
+        <add stat="maxMp" val="59" />
+        <enchant stat="mDef" val="0" />
         <skill id="13313" level="1" /> <!-- Blessed Antharas' Earring -->
         <skill id="13314" level="1" /> <!-- Blessed Antharas' Earring -->
     </item>
     <!-- HP +625, MP +79, Sleep Resistance 50% increase, Sleep Attack Rate 50% increase, physical/magic skill cooldown decrease, Wild Magic Effect, damage shield effect, fire resistance 30 increase, Dark Resistance 20 increase, STR +3, INT +3. P. Skill Atk. 5% increase, P. Atk. 10% increase, M. Atk. 20% increase, hold resistance skill use. Hold resistance 100% increase momentarily. Cannot be used in the Olympiad. -->
     <item id="37733" type="Armor" name="Blessed Valakas' Necklace - 7-day" icon="icon.accessory_necklace_of_valakas_i00"
           defaultAction="equip"
-          bodypart="neck" immediateEffect="1" weight="150" isTradable="false" isDropable="false" isSellable="false">
+          bodypart="neck" immediateEffect="1" weight="150" isTradable="false" isDropable="false" isSellable="false" time="10080" isEpic="true">
         <baseAdd stat="mDef" val="226" />
         <skill id="13315" level="1" /> <!-- Blessed Valakas' Necklace -->
         <skill id="13316" level="1" /> <!-- Blessed Valakas' Necklace -->

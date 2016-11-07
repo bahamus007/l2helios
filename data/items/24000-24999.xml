@@ -4769,14 +4769,20 @@
     <!-- MP + 37, Bleed Resistance + 40%, Bleed Attack Rate + 40%, Heal Amount increase, Vampiric Rage Effect, Stun/Mental Resistance + 30%, Stun/Mental Attack Rate + 30% , MP Consumption decrease, Earth Resistance increase. Equipping 2 will give the effect of 1. Cannot be used in the Olympiad. Can be stored in the private warehouse. -->
     <item id="24359" type="Armor" name="Antharas' Earring - 3-day" icon="icon.accessory_earring_of_antaras_i00"
           defaultAction="equip"
-          bodypart="rear;lear" immediateEffect="1" crystalCount="1" crystalType="s" weight="150">
+          bodypart="rear;lear" immediateEffect="1" crystalCount="1" crystalType="s" weight="150" time="4320" isEpic="true">
         <baseAdd stat="mDef" val="94" />
+        <add stat="maxMp" val="37" />
+        <enchant stat="mDef" val="0" />
+        <skill id="3558" level="1" /> <!-- Antharas' Earring -->
     </item>
     <!-- MP + 50, Sleep Resistance + 40% , Sleep Attack Rate + 40%, HP + 445, Cooldown decrease, P./M. Atk. increase, Wild Magic Effect, Damage Shield Effect, Fire Resistance increase. Equipping 2 will give the effect of 1. Cannot be used in the Olympiad. Can be stored in the private warehouse. -->
     <item id="24360" type="Armor" name="Valakas' Necklace - 3-day" icon="icon.accessory_necklace_of_valakas_i00"
           defaultAction="equip"
-          bodypart="neck" immediateEffect="1" crystalCount="1" crystalType="s" weight="150">
-        <baseAdd stat="mDef" val="95" />
+          bodypart="neck" immediateEffect="1" crystalCount="1" crystalType="s" weight="150" time="4320" isEpic="true">
+        <baseAdd stat="mDef" val="125" />
+        <add stat="maxMp" val="50" />
+        <enchant stat="mDef" val="0" />
+        <skill id="3557" level="1" /> <!-- Valakas' Necklace -->
     </item>
     <!-- MP + 31, Bleed Resistance + 30%, Bleed Attack Rate + 30%, Heal Amount increase, Vampiric Rage Effect, Stun/Mental Resistance + 20% , Stun/Mental Attack Rate + 20%. Equipping 2 will give the effect of 1. Cannot be used in the Olympiad. Can be stored in the private warehouse. -->
     <item id="24361" type="Armor" name="Zaken's Earring - 3-day" icon="icon.accessory_earring_of_zaken_i00"
