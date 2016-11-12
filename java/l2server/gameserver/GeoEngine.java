@@ -774,7 +774,7 @@ public class GeoEngine extends GeoData
 		}
 		try
 		{
-			File geo_bugs = new File("./data/geodata/geo_bugs.txt");
+			File geo_bugs = new File(Config.DATAPACK_ROOT + "/" + Config.DATA_FOLDER + "/geodata/geo_index.txt");
 
 			_geoBugsOut = new BufferedOutputStream(new FileOutputStream(geo_bugs, true));
 		}

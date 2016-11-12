@@ -135,7 +135,7 @@ public class Q350_EnhanceYourWeapon extends Quest
             factory.setValidating(false);
             factory.setIgnoringComments(true);
 
-            File file = new File(Config.DATAPACK_ROOT + "/data/scripts/quests/Q350_EnhanceYourWeapon/data.xml");
+            File file = new File(Config.DATAPACK_ROOT + "/data_classic/scripts/quests/Q350_EnhanceYourWeapon/data.xml");
             if (!file.exists())
             {
                 Log.severe("[EnhanceYourWeapon] Missing data.xml. The quest wont work without it!");
