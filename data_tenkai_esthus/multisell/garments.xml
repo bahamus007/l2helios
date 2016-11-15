@@ -52,4 +52,8 @@
         <ingredient id="4037" count="15" /> <!-- Coin of Luck -->
         <production id="47232" count="1" /> <!-- Cowboy-Purple Garment -->
     </item>
+	<item>
+        <ingredient id="4037" count="10" /> <!-- Coin of Luck -->
+        <production id="36413" count="1" /> <!-- Single Mesh Armor -->
+    </item>
 </list>
