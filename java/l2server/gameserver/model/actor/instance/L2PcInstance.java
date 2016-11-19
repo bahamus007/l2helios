@@ -2869,6 +2869,7 @@ public class L2PcInstance extends L2Playable
 
 				if (crystaltype > getExpertiseIndex())
 				{
+					
 					if (item.isWeapon() && crystaltype > weaponPenalty)
 					{
 						weaponPenalty = crystaltype;
@@ -22870,7 +22871,7 @@ public class L2PcInstance extends L2Playable
 	{
 		final int playerLevel = level == 0 ? getLevel() : level;
 
-		int levelRange = 0;
+		int levelRange = 0;						
 
 		if (playerLevel >= 99)
 		{
@@ -22914,6 +22915,77 @@ public class L2PcInstance extends L2Playable
 		}
 
 		return levelRange;
+	}
+
+	public final int getGearGradeForCurrentLevel2()//by singto
+	{
+		return getGearGradeForCurrentLevel2(0);
+	}
+
+	public final int getGearGradeForCurrentLevel2(int level)
+	{
+		//final int playerLevel2 = level == 0 ? getLevel() : level;
+
+		int levelRange2 = 0;
+/*
+		if (playerLevel2 >= 1)
+		{
+			levelRange2 = L2Item.CRYSTAL_R99;
+			levelRange2 = L2Item.CRYSTAL_R95;
+			levelRange2 = L2Item.CRYSTAL_R;
+			levelRange2 = L2Item.CRYSTAL_S80;
+			levelRange2 = L2Item.CRYSTAL_S;
+			levelRange2 = L2Item.CRYSTAL_A;
+			levelRange2 = L2Item.CRYSTAL_B;
+			levelRange2 = L2Item.CRYSTAL_C;
+			levelRange2 = L2Item.CRYSTAL_D;
+			levelRange2 = L2Item.CRYSTAL_NONE;
+		}
+		*/
+		/*
+		if (playerLevel2 >= 99)
+		{
+			levelRange2 = L2Item.CRYSTAL_R99;
+		}
+		else if (playerLevel2 >= 95)
+		{
+			levelRange2 = L2Item.CRYSTAL_R95;
+		}
+		else if (playerLevel2 >= 85)
+		{
+			levelRange2 = L2Item.CRYSTAL_R;
+		}
+		else if (playerLevel2 >= 80)
+		{
+			levelRange2 = L2Item.CRYSTAL_S80;
+		}
+		else if (playerLevel2 >= 76)
+		{
+			levelRange2 = L2Item.CRYSTAL_S;
+		}
+		else if (playerLevel2 >= 61)
+		{
+			levelRange2 = L2Item.CRYSTAL_A;
+		}
+		else if (playerLevel2 >= 52)
+		{
+			levelRange2 = L2Item.CRYSTAL_B;
+		}
+		else if (playerLevel2 >= 40)
+		{
+			levelRange2 = L2Item.CRYSTAL_C;
+		}
+		else if (playerLevel2 >= 20)
+		{
+			levelRange2 = L2Item.CRYSTAL_D;
+		}
+		else
+		{
+			levelRange2 = L2Item.CRYSTAL_NONE;
+		}
+*/
+
+		return levelRange2;
 	}
 
 	public final int[] getMinMaxLevelForGearGrade(final int gearGrade)
