@@ -3622,7 +3622,9 @@
     <!-- Bestows an attack or defense type set option. -->
     <item id="17396" type="Armor" name="Seraph Helmet - Heavy Armor" icon="icon.armor_helmet_i00" defaultAction="equip"
           bodypart="head"
-          immediateEffect="1" crystalCount="1226" crystalType="r95" weight="530" price="57490000">
+          immediateEffect="1" crystalCount="1226" crystalType="r95" weight="530" price="57490000"
+          boundItem="17913"
+          blessedItem="18049">
         <baseAdd stat="pDef" val="141" />
         <enchant stat="pDef" val="0" />
         <enchant stat="rEvas" val="0.2" />
@@ -3636,7 +3638,9 @@
     <item id="17397" type="Armor" name="Seraph Breastplate - Heavy Armor" icon="icon.armor_t401_u_i00"
           defaultAction="equip"
           armorType="heavy" bodypart="chest" immediateEffect="1" crystalCount="3270" crystalType="r95" weight="7520"
-          price="153308000">
+          price="153308000"
+		  boundItem="17914"
+          blessedItem="18050">
         <baseAdd stat="pDef" val="377" />
         <enchant stat="pDef" val="0" />
         <enchant stat="pAtk" val="2" />
@@ -3649,7 +3653,9 @@
     <!-- Bestows an attack or defense type set option. -->
     <item id="17398" type="Armor" name="Seraph Gaiters - Heavy Armor" icon="icon.armor_t401_l_i00" defaultAction="equip"
           armorType="heavy"
-          bodypart="legs" immediateEffect="1" crystalCount="2044" crystalType="r95" weight="3170" price="95818000">
+          bodypart="legs" immediateEffect="1" crystalCount="2044" crystalType="r95" weight="3170" price="95818000"
+		  boundItem="17915"
+          blessedItem="18051">
         <baseAdd stat="pDef" val="235" />
         <enchant stat="pDef" val="0" />
         <enchant stat="rCrit" val="0.34" />
@@ -3662,7 +3668,9 @@
     <!-- Bestows an attack or defense type set option. -->
     <item id="17399" type="Armor" name="Seraph Gauntlets - Heavy Armor" icon="icon.armor_t401_g_i00"
           defaultAction="equip" bodypart="gloves"
-          immediateEffect="1" crystalCount="817" crystalType="r95" weight="510" price="38327000">
+          immediateEffect="1" crystalCount="817" crystalType="r95" weight="510" price="38327000"
+		  boundItem="17916"
+          blessedItem="18052">
         <baseAdd stat="pDef" val="94" />
         <enchant stat="pDef" val="0" />
         <enchant stat="accCombat" val="0.2" />
@@ -3675,7 +3683,9 @@
     <!-- Bestows an attack or defense type set option. -->
     <item id="17400" type="Armor" name="Seraph Boots - Heavy Armor" icon="icon.armor_t401_b_i00" defaultAction="equip"
           bodypart="feet"
-          immediateEffect="1" crystalCount="817" crystalType="r95" weight="1070" price="38327000">
+          immediateEffect="1" crystalCount="817" crystalType="r95" weight="1070" price="38327000"
+		  boundItem="17917"
+          blessedItem="18053">
         <baseAdd stat="pDef" val="94" />
         <enchant stat="pDef" val="0" />
         <enchant stat="runSpd" val="0.6" />
@@ -3687,7 +3697,9 @@
     <!-- Bestows an attack or defense type set option. -->
     <item id="17401" type="Armor" name="Seraph Shield - Heavy Armor" icon="icon.beranka_i00" defaultAction="equip"
           bodypart="lhand"
-          immediateEffect="1" crystalCount="429" crystalType="r95" weight="1130" price="40243000">
+          immediateEffect="1" crystalCount="429" crystalType="r95" weight="1130" price="40243000"
+		  boundItem="17918"
+          blessedItem="18054">
         <baseSub stat="rEvas" val="8" />
         <baseSub stat="mEvasRate" val="8" />
         <set stat="rShld" val="20" />
@@ -8303,7 +8315,7 @@
           defaultAction="equip"
           bodypart="head" immediateEffect="1" crystalCount="76" crystalType="r95" weight="530" price="3593000"
           isTradable="false"
-          isDropable="false" isSellable="false" blessedItem="18049">
+          isDropable="false" isSellable="false" standardItem="17396">
         <baseAdd stat="pDef" val="139" />
         <enchant stat="pDef" val="0" />
         <enchant stat="rEvas" val="0.2" />
