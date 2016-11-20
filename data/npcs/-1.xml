@@ -1,0 +1,10 @@
+<list>
+    <npc id="-1" name="Game Master Shop" level="70" type="L2Npc" atkRange="40" hpMax="4228" hpReg="0.0"
+         mpMax="1642"
+         mpReg="0.0" STR="88" CON="82" DEX="55" INT="79" WIT="78" MEN="78" pAtk="4900" mAtk="2550" pDef="3840"
+         mDef="825" pAtkSpd="253"
+         mAtkSpd="398" pCritRate="40" mCritRate="40" walkSpd="50" runSpd="186" collisionRadius="30" collisionHeight="13"
+         fireRes="300"
+         waterRes="300" windRes="300" earthRes="300" holyRes="300" darkRes="300" aiType="fighter">
+    </npc>
+</list>
