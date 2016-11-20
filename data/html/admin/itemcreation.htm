@@ -15,63 +15,46 @@
         </td>
     </tr>
 </table>
-<br>
-<table width=260>
+<table width=280>
     <tr>
-        <td>Fill the ID number in item-id to create the item that you want, use amount if you need more than one. <font
-                color="LEVEL">Caution: Do not use amount with non-stackable items</font></td>
+        <td><center><font color="ff00ff">Do not use amount with non-stackable items</font></center></td>
     </tr>
 </table>
-<br>
 <center>
-    <table width=270>
-        <tr>
-            <td>Item-ID:</td>
-            <td>Amount:</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>
-                <edit var="itemid" width=50>
-            </td>
-            <td>
-                <edit var="itemnum" width=70 type=number>
-            </td>
-            <td>
-                <button value="Create Item" action="bypass admin_create_item $itemid $itemnum" width=140 height=21
-                        back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
-            </td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td>
-                <button value="Give Item to Target" action="bypass admin_give_item_target $itemid $itemnum" width=140
-                        height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
-            </td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td>
-                <button value="Give Item to All Online" action="bypass admin_give_item_to_all $itemid $itemnum"
-                        width=140 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
-            </td>
-        </tr>
+<table width=270 cellpadding="4">
+       <tr>
+<td>Item-ID:</td>
+<td><edit var="itemid" width=60></td>
+</tr>
+<tr>
+<td>Amount:</td>
+<td><edit var="itemnum" width=137 height=12 type=number></td>
+</tr>
+       <tr>
+<td></td>
+<td>
+<button value="Create Item" action="bypass -h admin_create_item $itemid $itemnum" width=140 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td></tr>
+
+<tr><td></td><td>
+<button value="Target" action="bypass -h admin_give_item_target $itemid $itemnum" width=140 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+</td></tr>
+
+<tr><td></td><td>
+<button value="All Online" action="bypass -h admin_give_item_to_all $itemid $itemnum" width=140 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+</td></tr>
     </table>
-    <br><br>
     <table width=270 cellpadding="4">
         <tr>
             <td>Coin Type:</td>
             <td>
-                <combobox width=120 height=17 var=ebox
+                <combobox width=135 height=17 var=ebox
                           list=Adena;AncientAdena;FestivalAdena;BlueEva;GoldEinhasad;SilverShilen;BloodyPaagrio;FantasyIsleCoin>
             </td>
         </tr>
         <tr>
             <td>Amount:</td>
             <td>
-                <edit var="vbox" width=120 height=12 type=number>
+                <edit var="vbox" width=135 height=12 type=number>
             </td>
         </tr>
         <tr>
