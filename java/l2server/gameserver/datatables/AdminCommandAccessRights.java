@@ -68,7 +68,7 @@ public class AdminCommandAccessRights
 				{
 					String adminCommand = d.getString("name");
 					String accessLevels = d.getString("accessLevels");
-					boolean confirm = d.getBool("configmDlg", false);
+					boolean confirm = d.getBool("confirmDlg", false);
 					_adminCommandAccessRights
 							.put(adminCommand, new L2AdminCommandAccessRight(adminCommand, accessLevels, confirm));
 				}));
