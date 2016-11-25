@@ -11927,7 +11927,7 @@
         <spawn x="42989" y="-47791" z="-798" heading="1103" respawn="60" />
         <spawn x="-28276" y="122445" z="-3720" heading="9231" respawn="60" />
         <spawn x="16721" y="154985" z="-3624" heading="0" respawn="60" />
-        <spawn x="17328" y="170574" z="-3496" heading="56099" respawn="60" />
+        <spawn x="17326" y="170549" z="-3501" heading="50874" respawn="60" />
         <spawn x="85849" y="-142801" z="-1336" heading="15000" respawn="0" />
     </npc>
     <npc id="30768" name="Auctioneer" level="70" type="L2Auctioneer" atkRange="40" hpMax="3858" hpReg="7.5" mpMax="1642"
