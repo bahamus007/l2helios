@@ -4447,14 +4447,64 @@
          waterRes="0"
          windRes="0" earthRes="0" holyRes="0" darkRes="0" aiType="fighter">
     </npc>
-    <npc id="26131" name="Isabella" title="Raid Boss" level="120" type="L2Npc" atkRange="40" hpMax="1" hpReg="0.0"
-         mpMax="0"
-         mpReg="0.0" STR="80" CON="86" DEX="60" INT="42" WIT="40" MEN="40" pAtk="1" mAtk="1" pDef="1" mDef="1"
-         pAtkSpd="250"
-         mAtkSpd="333" pCritRate="40" mCritRate="40" walkSpd="80" runSpd="120" collisionRadius="10" collisionHeight="24"
-         fireRes="0"
-         waterRes="0" windRes="0" earthRes="0" holyRes="0" darkRes="0" aiType="fighter">
+    <npc id="26131" name="Isabella" title="Raid Boss" level="101" type="L2RaidBoss" atkRange="40" hpMax="8161846" hpReg="7.5" mpMax="48616" mpReg="2.7" STR="88" CON="82" DEX="55" INT="79" WIT="78" MEN="78" pAtk="223830" mAtk="121891" pDef="25764" mDef="11187" pAtkSpd="439" mAtkSpd="599" pCritRate="40" mCritRate="40" walkSpd="80" runSpd="300" collisionRadius="10" collisionHeight="24" fireRes="450" waterRes="450" windRes="450" earthRes="450" holyRes="450" darkRes="450" aiType="fighter"  skillChance="15">
+	<skill id="5464" level="1" /> <!-- Wind Attack -->
+	<skill id="4494" level="1" /> <!-- Raid Boss -->
+	<skill id="16517" level="2" /> <!-- Isabella -->
+	<skill id="4416" level="6" /> <!-- Humanoids -->
+	    <itemDrop itemId="36514" min="1" max="1" chance="33.3333" /> <!-- Elcyum Crystal -->
+        <itemDrop itemId="36978" min="1" max="1" chance="14.2857" /> <!-- Scroll: Enchant Hair Accessory -->
+        <itemDrop itemId="36979" min="1" max="1" chance="14.2857" /> <!-- Life Stone: Hair Accessory -->
+        <itemDrop itemId="37986" min="1" max="1" chance="9.5238" /> <!-- Apocalypse Stormer Crafting Pack -->
+        <itemDrop itemId="37981" min="1" max="1" chance="9.5238" /> <!-- Apocalypse Shaper Crafting Pack -->
+        <itemDrop itemId="37982" min="1" max="1" chance="4.7619" /> <!-- Apocalypse Cutter Crafting Pack -->
+        <itemDrop itemId="37983" min="1" max="1" chance="4.7619" /> <!-- Apocalypse Slasher Crafting Pack -->
+        <itemDrop itemId="38573" min="1" max="1" chance="4.112" /> <!-- Apparition Stone (Lv. 93) -->
+        <itemDrop itemId="17329" min="1" max="1" chance="1.28299" /> <!-- Apocalypse Stormer -->
+        <itemDrop itemId="17324" min="1" max="1" chance="1.258" /> <!-- Apocalypse Shaper -->
+        <itemDrop itemId="17325" min="1" max="1" chance="1.205" /> <!-- Apocalypse Cutter -->
+        <itemDrop itemId="17326" min="1" max="1" chance="1.184" /> <!-- Apocalypse Slasher -->
+        <itemDrop itemId="37081" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Kanadis' Hand -->
+        <itemDrop itemId="37072" min="1" max="1" chance="0.75" /> <!-- Monster Weapon Appearance Stone: Tebot's Axe -->
+        <itemDrop itemId="37086" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Shield of Corruption -->
+        <itemDrop itemId="37085" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Theor's Shield -->
+        <itemDrop itemId="37080" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Satyr's Staff -->
+        <itemDrop itemId="37070" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Tegaffe's Dualsword -->
+        <itemDrop itemId="37083" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Centaur's Bow -->
+        <itemDrop itemId="37077" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Guillotine's Greatsword -->
+        <itemDrop itemId="37082" min="1" max="1" chance="0.75" /> <!-- Monster Weapon Appearance Stone: Kanadis' Bow -->
+        <itemDrop itemId="37078" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Thesakar's Spear -->
+        <itemDrop itemId="37084" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Spicula's Crossbow -->
+        <itemDrop itemId="37075" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Drakos' Dagger -->
+        <itemDrop itemId="37069" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Octavis' Sword -->
+        <itemDrop itemId="37068" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Sword of Corruption -->
+        <itemDrop itemId="37074" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Tebot's Dual Blunt Weapon -->
+        <itemDrop itemId="37076" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Drakos' Dual Dagger -->
+        <itemDrop itemId="37071" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Seknus' One-handed Magic Sword -->
+        <itemDrop itemId="37073" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Glakias' Hammer -->
+        <itemDrop itemId="37067" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Theor's Sword -->
+        <itemDrop itemId="37079" min="1" max="1"
+                  chance="0.75" /> <!-- Monster Weapon Appearance Stone: Mimilead's Staff -->
+        <spawn x="-50592" y="83216" z="-5128" heading="32274" respawn="60" randomRespawn="32274" />
     </npc>
+
     <npc id="26132" name="Croa" title="Raid Minion" level="120" type="L2Npc" atkRange="40" hpMax="1" hpReg="0.0"
          mpMax="0" mpReg="0.0"
          STR="80" CON="86" DEX="60" INT="42" WIT="40" MEN="40" pAtk="1" mAtk="1" pDef="1" mDef="1" pAtkSpd="250"
