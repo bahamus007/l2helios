@@ -405,8 +405,39 @@
         <mob id="23398" /> <!-- Koraza -->
         <mob id="23399" /> <!-- Bend Beetle -->
     </farmZone>
-    <farmZone name="christmas">
+
+	<farmZone name="christmas">
         <mob id="80198" /> <!-- Snowman_Red -->
         <mob id="80199" /> <!-- Snowman_Blue -->
+    </farmZone>
+
+	<farmZone name="enchanted_valley">
+        <mob id="23566" />  <!-- Nymph Rose -->
+        <mob id="23567" /> <!-- Nymph Rose -->
+        <mob id="23568" /> <!-- Nymph Lily -->
+        <mob id="23569" /> <!-- Nymph Lily -->
+        <mob id="23570" /> <!-- Nymph Tulip -->
+        <mob id="23571" /> <!-- Nymph Tulip -->
+        <mob id="23572" /> <!-- Nymph Cosmos -->
+        <mob id="23573" /> <!-- Nymph Cosmos -->
+        <mob id="23578" /> <!-- Nymph Guardian -->
+        <mob id="23579" /> <!-- Buoyant Seed -->
+        <mob id="23580" /> <!-- Fluttering Seed -->
+		<mob id="23581" /> <!-- Apherus -->
+    </farmZone>
+
+	<farmZone name="garden_of_spirits">
+        <mob id="23550" />  <!-- Kerberos Liger -->
+        <mob id="23551" /> <!-- Kerberos Fort -->
+        <mob id="23552" /> <!-- Kerberos Nero  -->
+        <mob id="23553" /> <!-- Fury Sylph Barrena  -->
+        <mob id="23554" /> <!-- Fury Kiku  -->
+        <mob id="23555" /> <!-- Fury Sylph Temptress  -->
+        <mob id="23556" /> <!-- Fury Sylph Purka  -->
+        <mob id="23557" /> <!-- Fury Kerberos Liger  -->
+        <mob id="23558" /> <!-- Fury Kerberos Nero  -->
+        <mob id="23559" /> <!-- El Floato  -->
+        <mob id="23560" /> <!-- El Floato  -->
+		<mob id="23562" /> <!-- Harpe -->
     </farmZone>
 </list>
