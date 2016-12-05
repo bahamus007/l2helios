@@ -18,5 +18,7 @@
          runSpd="100" collisionRadius="10" collisionHeight="24" fireRes="20" waterRes="20" windRes="20" earthRes="20"
          holyRes="20"
          darkRes="20" aiType="fighter">
+        <spawn x="-114074" y="252641" z="-1554" heading="32294" respawn="1000" />
     </npc>
+   
 </list>

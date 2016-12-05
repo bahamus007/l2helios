@@ -1001,29 +1001,24 @@
           bodypart="none" material="steel"
           weight="0" crystal_type="none">
     </item>
-    <item id="47153" type="Weapon" name="NPC-only Blackbird Cloak" icon="icon.armor_back04" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="47153" type="Armor" name="NPC-only Blackbird Cloak" icon="icon.armor_back04" defaultAction="equip"
+          bodypart="back" immediateEffect="1" crystal_type="r" weight="220">
         <baseAdd stat="pDef" val="7" />
     </item>
-    <item id="47154" type="Weapon" name="NPC-only Royal Guard Cloak" icon="icon.armor_back04" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="47154" type="Armor" name="NPC-only Royal Guard Cloak" icon="icon.armor_back04" defaultAction="equip"
+          bodypart="back" immediateEffect="1" weight="220" crystal_type="r">
         <baseAdd stat="pDef" val="7" />
     </item>
-    <item id="47155" type="Weapon" name="NPC-only Guardian Cloak" icon="icon.armor_back04" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="47155" type="Armor" name="NPC-only Guardian Cloak" icon="icon.armor_back04" defaultAction="equip"
+          bodypart="back" immediateEffect="1" weight="220" crystal_type="r">
         <baseAdd stat="pDef" val="7" />
     </item>
-    <item id="47156" type="Weapon" name="NPC-only Trackers Cloak" icon="icon.armor_back04" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="47156" type="Armor" name="NPC-only Trackers Cloak" icon="icon.armor_back04" defaultAction="equip"
+          bodypart="back" immediateEffect="1" weight="220" crystal_type="r">
         <baseAdd stat="pDef" val="7" />
     </item>
-    <item id="47157" type="Weapon" name="NPC-only Visitors Cloak" icon="icon.armor_back04" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="47157" type="Armor" name="NPC-only Visitors Cloak" icon="icon.armor_back04" defaultAction="equip"
+          bodypart="back" immediateEffect="1" weight="220" crystal_type="r">
         <baseAdd stat="pDef" val="7" />
     </item>
     <item id="47158" type="Weapon" name="Commando Talisman" icon="icon.etc_blackbird_talisman" bodypart="none"
@@ -1312,9 +1307,9 @@
         <baseAdd stat="mDef" val="98" />
     </item>
     <!-- MP +43, Stun/Paralysis/Knock Back Atk. Rate +25%, Stun/Paralysis/Knock Back Resistance +25%, Additional Damage to the Giants +5%, P. Critical Damage +15%, P. Atk. +4%. Effect does not stack with identical ones. -->
-    <item id="47215" type="Weapon" name="Ring of Authority" icon="icon.accessory_ring_of_helios_red" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="47215" type="Armor" name="Ring of Authority" icon="icon.accessory_ring_of_helios_red" defaultAction="equip" bodypart="rfinger;lfinger"
+          immediateEffect="1" weight="150">
+        <skill id="16748" level="1" />
         <baseAdd stat="mDef" val="101" />
     </item>
     <!--
@@ -1322,26 +1317,27 @@
 		Effect does not stack with identical ones.
 		Can be crafted.
 	-->
-    <item id="47216" type="Weapon" name="Ruler's Ring of Authority" icon="icon.accessory_ring_of_helios_enchant_red"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="47216" type="Armor" name="Ruler's Ring of Authority" icon="icon.accessory_ring_of_helios_enchant_red" defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" weight="150" >
         <baseAdd stat="mDef" val="114" />
+        <skill id="16749" level="1"/>
     </item>
     <!-- MP +43, Stun/Paralysis/Knock Back Atk. Rate +25%, Stun/Paralysis/Knock Back Resistance +25%, Additional Damage to the Giants +5%, M. Critical Damage +15%, M. Atk. +4%. Effect does not stack with identical ones. -->
-    <item id="47217" type="Weapon" name="Ring of the Truth" icon="icon.accessory_ring_of_helios" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="47217" type="Armor" name="Ring of the Truth" icon="icon.accessory_ring_of_helios" defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" weight="150" >
         <baseAdd stat="mDef" val="101" />
+        <skill id="16750" level="1"/>
     </item>
     <!--
 		MP +46, M. Atk. +5%, M. Critical Damage +20%, LUC/CHA +2, Stun/Paralysis/Knock Back Atk./Def. Success Rate +30%, Additional Damage to the Giants +5%, 3-second Knock Down when single M. Atk. skill is used.
 		Effect does not stack with identical ones.
 		Can be crafted.
 	-->
-    <item id="47218" type="Weapon" name="Ring of the Truth-Seeker" icon="icon.accessory_ring_of_helios_enchant"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="47218" type="Armor" name="Ring of the Truth-Seeker" icon="icon.accessory_ring_of_helios_enchant" defaultAction="equip"
+          bodypart="rfinger;lfinger"
+          weight="150" immediateEffect="1">
         <baseAdd stat="mDef" val="114" />
+        <skill id="16751" level="1" />
     </item>
     <!-- Take this to Rafforty to enhance the Ring of the Beginning. -->
     <item id="47219" type="Weapon" name="Source of the Emperor" icon="icon.source of the load" bodypart="none"
@@ -2577,34 +2573,40 @@
           weight="0" crystal_type="none">
     </item>
     <!-- STR +5 when wearing the Talisman. Effect does not stack with identical ones. -->
-    <item id="47435" type="Weapon" name="Mysterious Talisman - STR - 2-hour" icon="icon.npoint_talisman_stat"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="47435" type="Armor" name="Mysterious Talisman - STR - 2-hour" icon="icon.npoint_talisman_stat"
+          defaultAction="equip"
+          bodypart="deco1" crystalType="none" material="steel" weight="0" time="120">
+        <skill id="90005" level="1"/>
     </item>
     <!-- INT +5 when wearing the Talisman. Effect does not stack with identical ones. -->
-    <item id="47436" type="Weapon" name="Mysterious Talisman - INT - 2-hour" icon="icon.npoint_talisman_stat"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="47436" type="Armor" name="Mysterious Talisman - INT - 2-hour" icon="icon.npoint_talisman_stat"
+          defaultAction="equip"
+          bodypart="deco1" crystalType="none" material="steel" weight="0" time="120">
+        <skill id="90005" level="2"/>
     </item>
     <!-- DEX +5 when wearing the Talisman. Effect does not stack with identical ones. -->
-    <item id="47437" type="Weapon" name="Mysterious Talisman - DEX - 2-hour" icon="icon.npoint_talisman_stat"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="47437" type="Armor" name="Mysterious Talisman - DEX - 2-hour" icon="icon.npoint_talisman_stat"
+          defaultAction="equip"
+          bodypart="deco1" crystalType="none" material="steel" weight="0" time="120">
+        <skill id="90005" level="3"/>
     </item>
     <!-- WIT +5 when wearing the Talisman. Effect does not stack with identical ones. -->
-    <item id="47438" type="Weapon" name="Mysterious Talisman - WIT - 2-hour" icon="icon.npoint_talisman_stat"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="47438" type="Armor" name="Mysterious Talisman - WIT - 2-hour" icon="icon.npoint_talisman_stat"
+          defaultAction="equip"
+          bodypart="deco1" crystalType="none" material="steel" weight="0" time="120">
+        <skill id="90005" level="4"/>
     </item>
     <!-- CON +5 when wearing the Talisman. Effect does not stack with identical ones. -->
-    <item id="47439" type="Weapon" name="Mysterious Talisman - CON - 2-hour" icon="icon.npoint_talisman_stat"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="47439" type="Armor" name="Mysterious Talisman - CON - 2-hour" icon="icon.npoint_talisman_stat"
+          defaultAction="equip"
+          bodypart="deco1" crystalType="none" material="steel" weight="0" time="120">
+        <skill id="90005" level="5"/>
     </item>
     <!-- MEN +5 when wearing the Talisman. Effect does not stack with identical ones. -->
-    <item id="47440" type="Weapon" name="Mysterious Talisman - MEN - 2-hour" icon="icon.npoint_talisman_stat"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="47440" type="Armor" name="Mysterious Talisman - MEN - 2-hour" icon="icon.npoint_talisman_stat"
+          defaultAction="equip"
+          bodypart="deco1" crystalType="none" material="steel" weight="0" time="120">
+        <skill id="90005" level="6"/>
     </item>
     <!-- Attack Attribute Bonus +50 when wearing the Talisman. Effect does not stack with identical ones. -->
     <item id="47441" type="Weapon" name="Mysterious Talisman - Attack Attribute - 2-hour"
@@ -2876,10 +2878,10 @@
 		(Craft Effect)
 		STR +2
 	-->
-    <item id="47478" type="Weapon" name="Ruler's Ring of Authority - Str"
-          icon="icon.accessory_ring_of_helios_enchant_red" bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="47478" type="Armor" name="Ruler's Ring of Authority - Str" icon="icon.accessory_ring_of_helios_enchant_red" defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" weight="150" >
         <baseAdd stat="mDef" val="114" />
+        <skill id="16749" level="2"/>
     </item>
     <!--
 		MP +46, P. Atk. +5%, P. Critical Damage +20%, LUC/CHA +2, Stun/Paralysis/Knock Back Atk./Def. Success Rate +30%, Additional Damage to the Giants +5%, 3-second Paralysis when single P. Atk. skill is used
@@ -2888,10 +2890,10 @@
 		(Craft Effect)
 		INT +2
 	-->
-    <item id="47479" type="Weapon" name="Ruler's Ring of Authority - Int"
-          icon="icon.accessory_ring_of_helios_enchant_red" bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="47479" type="Armor" name="Ruler's Ring of Authority - Int" icon="icon.accessory_ring_of_helios_enchant_red" defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" weight="150" >
         <baseAdd stat="mDef" val="114" />
+        <skill id="16749" level="3"/>
     </item>
     <!--
 		MP +46, P. Atk. +5%, P. Critical Damage +20%, LUC/CHA +2, Stun/Paralysis/Knock Back Atk./Def. Success Rate +30%, Additional Damage to the Giants +5%, 3-second Paralysis when single P. Atk. skill is used
@@ -2900,10 +2902,10 @@
 		(Craft Effect)
 		CON +2
 	-->
-    <item id="47480" type="Weapon" name="Ruler's Ring of Authority - CON"
-          icon="icon.accessory_ring_of_helios_enchant_red" bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="47480" type="Armor" name="Ruler's Ring of Authority - CON" icon="icon.accessory_ring_of_helios_enchant_red" defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" weight="150" >
         <baseAdd stat="mDef" val="114" />
+        <skill id="16749" level="4"/>
     </item>
     <!--
 		MP +46, M. Atk. +5%, M. Critical Damage +20%, LUC/CHA +2, Stun/Paralysis/Knock Back Atk./Def. Success Rate +30%, Additional Damage to the Giants +5%, 3-second Paralysis when single P. Atk. skill is used
@@ -2912,10 +2914,10 @@
 		(Craft Effect)
 		STR +2
 	-->
-    <item id="47481" type="Weapon" name="Ring of the Truth-Seeker - Str" icon="icon.accessory_ring_of_helios_enchant"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="47481" type="Armor" name="Ring of the Truth-Seeker - Str" icon="icon.accessory_ring_of_helios_enchant" defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" weight="150" >
         <baseAdd stat="mDef" val="114" />
+        <skill id="16751" level="2"/>
     </item>
     <!--
 		MP +46, M. Atk. +5%, M. Critical Damage +20%, LUC/CHA +2, Stun/Paralysis/Knock Back Atk./Def. Success Rate +30%, Additional Damage to the Giants +5%, 3-second Paralysis when single P. Atk. skill is used
@@ -2924,10 +2926,10 @@
 		(Craft Effect)
 		INT +2
 	-->
-    <item id="47482" type="Weapon" name="Ring of the Truth-Seeker - Int" icon="icon.accessory_ring_of_helios_enchant"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="47482" type="Armor" name="Ring of the Truth-Seeker - Int" icon="icon.accessory_ring_of_helios_enchant" defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" weight="150" >
         <baseAdd stat="mDef" val="114" />
+        <skill id="16751" level="3"/>
     </item>
     <!--
 		MP +46, M. Atk. +5%, M. Critical Damage +20%, LUC/CHA +2, Stun/Paralysis/Knock Back Atk./Def. Success Rate +30%, Additional Damage to the Giants +5%, 3-second Paralysis when single P. Atk. skill is used
@@ -2936,10 +2938,10 @@
 		(Craft Effect)
 		CON +2
 	-->
-    <item id="47483" type="Weapon" name="Ring of the Truth-Seeker - CON" icon="icon.accessory_ring_of_helios_enchant"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="47483" type="Armor" name="Ring of the Truth-Seeker - Con" icon="icon.accessory_ring_of_helios_enchant" defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" weight="150" >
         <baseAdd stat="mDef" val="114" />
+        <skill id="16751" level="4"/>
     </item>
     <!--
 		MP +59, P./M. Def. +15%, CON/MEN +3, Earth/Holy Attribute Def. +30, Bleed Atk./Def. Success Rate +50%, Stun/Mental Atk./Def. Success Rate +40%, Heal Received +10%, Skill MP Consumption -5%, Vampiric Rage +4%
@@ -3898,24 +3900,29 @@
           weight="0" crystal_type="none">
     </item>
     <!-- Disrupts the target's skill casting when used. When used on a PC, inflicts damage with 13275 power, ignoring the target's CP. Low chance of killing the enemy instantly. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
-    <item id="47687" type="Weapon" name="Greater Topaz" icon="icon.bm_jewel_absdmg_high_lv1_lavianrose" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="47687" type="Armor" name="Greater Topaz" icon="icon.bm_jewel_absdmg_high_lv1_lavianrose" defaultAction="equip"
+          bodypart="jewel"
+          immediateEffect="1" weight="5">
+         <!-- Greater Topaz -->
     </item>
     <!-- When equipped, increases Soulshot and Beast Soulshot damage by 20% and P. Atk. By 9%. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
-    <item id="47688" type="Weapon" name="Greater Ruby" icon="icon.bm_jewel_ssdmg_high_lv1_lavianrose" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="47688" type="Armor" name="Greater Ruby" icon="icon.bm_jewel_ssdmg_high_lv1_lavianrose" defaultAction="equip"
+          bodypart="jewel"
+          immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+        <skill id="18715" level="1" />
     </item>
     <!-- When equipped, increases Spiritshot and Blessed Spiritshot damage by 20% and M. Atk. By 13%. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
-    <item id="47689" type="Weapon" name="Greater Sapphire" icon="icon.bm_jewel_spsdmg_high_lv1_lavianrose"
-          bodypart="none" material="steel"
-          weight="0" crystal_type="none">
+    <item id="47689" type="Armor" name="Greater Sapphire" icon="icon.bm_jewel_spsdmg_high_lv1_lavianrose" defaultAction="equip"
+          bodypart="jewel"
+          immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+        <skill id="18718" level="2"/>
     </item>
     <!-- When equipped, PvP incoming damage decreases by 15% and cancels the attacker's target. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
-    <item id="47690" type="Weapon" name="Greater Obsidian" icon="icon.bm_jewel_pvpdef_high_lv1_lavianrose"
-          bodypart="none" material="steel"
+    <item id="47690" type="Armor" name="Greater Obsidian" icon="icon.bm_jewel_pvpdef_high_lv1_lavianrose"
+          bodypart="jewel" material="steel"
           weight="0" crystal_type="none">
+        <skill id="17704" level="6"/>
+        <skill id="18720" level="1"/>
     </item>
     <!-- When equipped, increases Attack Attribute by 120 and all Defense Attributes by 70. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
     <item id="47691" type="Weapon" name="Greater Opal" icon="icon.bm_jewel_atkeleup_high_lv1_lavianrose" bodypart="none"
@@ -3933,9 +3940,9 @@
           material="steel" weight="0" crystal_type="none">
     </item>
     <!-- When equipped, P. Def. Increases by 1986 and incoming P. Critical Damage decreases by 5%. P. Def. increases by 10% as well. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
-    <item id="47694" type="Weapon" name="Greater Diamond" icon="icon.bm_jewel_phydef_high_lv1_lavianrose"
-          bodypart="none" material="steel"
-          weight="0" crystal_type="none">
+    <item id="47694" type="Armor" name="Greater Diamond" icon="icon.bm_jewel_phydef_high_lv1_lavianrose" defaultAction="equip"
+          bodypart="jewel"
+          immediateEffect="1" weight="5">
     </item>
     <!-- When equipped, M. Def. Increases by 1150 and incoming M. Critical Damage decreases by 5%. M. Def. increases by 10% as well. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
     <item id="47695" type="Weapon" name="Greater Pearl" icon="icon.bm_jewel_magdef_high_lv1_lavianrose" bodypart="none"
@@ -3963,8 +3970,8 @@
           material="steel" weight="0" crystal_type="none">
     </item>
     <!-- When equipped, M. Skill Critical Damage + 12% and M. Skill Power + 5%. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
-    <item id="47700" type="Weapon" name="Greater Blue Cat's Eye" icon="icon.bm_jewel_blue_catseye_high_lv1_lavianrose"
-          bodypart="none"
+    <item id="47700" type="Armor" name="Greater Blue Cat's Eye" icon="icon.bm_jewel_blue_catseye_high_lv1_lavianrose"
+          bodypart="jewel"
           material="steel" weight="0" crystal_type="none">
     </item>
     <!-- Double-click to obtain a Red Cat's Eye Lv. 1. -->
