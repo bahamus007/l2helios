@@ -3850,54 +3850,64 @@
           material="steel" weight="0" crystal_type="none">
     </item>
     <!-- When using a physical skill after equipping, P. Critical Damage + 1% and P. Skill Critical Damage + 1%. Effect does not stack with additional jewels of the same type. -->
-    <item id="47677" type="Weapon" name="Red Cat's Eye - Lv. 1" icon="icon.bm_jewel_red_catseye" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+	 <item id="47677" type="Armor" name="Red Cat's Eye - Lv. 1" icon="icon.bm_jewel_red_catseye" defaultAction="equip"
+          bodypart="jewel"
+          immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+        <skill id="18713" level="1" /> <!-- Red Cat's Eye -->
     </item>
     <!-- When using a physical skill after equipping, P. Critical Damage + 2% and P. Skill Critical Damage + 2%. Effect does not stack with additional jewels of the same type. -->
-    <item id="47678" type="Weapon" name="Red Cat's Eye - Lv. 2" icon="icon.bm_jewel_red_catseye" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+	 <item id="47678" type="Armor" name="Red Cat's Eye - Lv. 2" icon="icon.bm_jewel_red_catseye" defaultAction="equip"
+          bodypart="jewel"
+          immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+        <skill id="18713" level="2" /> <!-- Red Cat's Eye -->
     </item>
     <!-- When using a physical skill after equipping, P. Critical Damage + 4% and P. Skill Critical Damage + 4%. Effect does not stack with additional jewels of the same type. -->
-    <item id="47679" type="Weapon" name="Red Cat's Eye - Lv. 3" icon="icon.bm_jewel_red_catseye" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+	 <item id="47679" type="Armor" name="Red Cat's Eye - Lv. 3" icon="icon.bm_jewel_red_catseye" defaultAction="equip"
+          bodypart="jewel"
+          immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+        <skill id="18713" level="3" /> <!-- Red Cat's Eye -->
     </item>
     <!-- When using a physical skill after equipping, P. Critical Damage + 7% and P. Skill Critical Damage + 7%. Effect does not stack with additional jewels of the same type. -->
-    <item id="47680" type="Weapon" name="Red Cat's Eye - Lv. 4" icon="icon.bm_jewel_red_catseye" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+	 <item id="47680" type="Armor" name="Red Cat's Eye - Lv. 4" icon="icon.bm_jewel_red_catseye" defaultAction="equip"
+          bodypart="jewel"
+          immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+        <skill id="18713" level="4" /> <!-- Red Cat's Eye -->
     </item>
     <!-- When using a physical skill after equipping, P. Critical Damage + 12% and P. Skill Critical Damage + 12%. Effect does not stack with additional jewels of the same type. -->
-    <item id="47681" type="Weapon" name="Red Cat's Eye - Lv. 5" icon="icon.bm_jewel_red_catseye" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+	 <item id="47681" type="Armor" name="Red Cat's Eye - Lv. 5" icon="icon.bm_jewel_red_catseye" defaultAction="equip"
+          bodypart="jewel"
+          immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+        <skill id="18713" level="5" /> <!-- Red Cat's Eye -->
     </item>
     <!-- When equipped, M. Skill Critical Damage + 1%. Effect does not stack with additional jewels of the same type. -->
-    <item id="47682" type="Weapon" name="Blue Cat's Eye - Lv. 1" icon="Icon.bm_jewel_blue_catseye" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+	<item id="47682" type="Armor" name="Blue Cat's Eye - Lv. 1" icon="icon.bm_jewel_blue_catseye" defaultAction="equip"
+          bodypart="jewel"
+          immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+        <skill id="18714" level="1" /> <!-- Blue Cat's Eye -->
     </item>
     <!-- When equipped, M. Skill Critical Damage + 2%. Effect does not stack with additional jewels of the same type. -->
-    <item id="47683" type="Weapon" name="Blue Cat's Eye - Lv. 2" icon="Icon.bm_jewel_blue_catseye" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+	<item id="47683" type="Armor" name="Blue Cat's Eye - Lv. 2" icon="icon.bm_jewel_blue_catseye" defaultAction="equip"
+          bodypart="jewel"
+          immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+        <skill id="18714" level="2" /> <!-- Blue Cat's Eye -->
     </item>
     <!-- When equipped, M. Skill Critical Damage + 4%. Effect does not stack with additional jewels of the same type. -->
-    <item id="47684" type="Weapon" name="Blue Cat's Eye - Lv. 3" icon="Icon.bm_jewel_blue_catseye" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+	<item id="47684" type="Armor" name="Blue Cat's Eye - Lv. 3" icon="icon.bm_jewel_blue_catseye" defaultAction="equip"
+          bodypart="jewel"
+          immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+        <skill id="18714" level="3" /> <!-- Blue Cat's Eye -->
     </item>
     <!-- When equipped, M. Skill Critical Damage + 7%. Effect does not stack with additional jewels of the same type. -->
-    <item id="47685" type="Weapon" name="Blue Cat's Eye - Lv. 4" icon="Icon.bm_jewel_blue_catseye" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+	<item id="47685" type="Armor" name="Blue Cat's Eye - Lv. 4" icon="icon.bm_jewel_blue_catseye" defaultAction="equip"
+          bodypart="jewel"
+          immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+        <skill id="18714" level="4" /> <!-- Blue Cat's Eye -->
     </item>
     <!-- When equipped, M. Skill Critical Damage + 12%. Effect does not stack with additional jewels of the same type. -->
-    <item id="47686" type="Weapon" name="Blue Cat's Eye - Lv. 5" icon="Icon.bm_jewel_blue_catseye" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+	<item id="47686" type="Armor" name="Blue Cat's Eye - Lv. 5" icon="icon.bm_jewel_blue_catseye" defaultAction="equip"
+          bodypart="jewel"
+          immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+        <skill id="18714" level="5" /> <!-- Blue Cat's Eye -->
     </item>
     <!-- Disrupts the target's skill casting when used. When used on a PC, inflicts damage with 13275 power, ignoring the target's CP. Low chance of killing the enemy instantly. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
     <item id="47687" type="Armor" name="Greater Topaz" icon="icon.bm_jewel_absdmg_high_lv1_lavianrose" defaultAction="equip"

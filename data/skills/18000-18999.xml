@@ -3407,6 +3407,52 @@
         <set name="skillType" val="NOTDONE" />
         <set name="operateType" val="OP_ACTIVE" />
     </skill>
+
+	 <!--
+		Level 1: P.Critical Damage +1%,  P.Skill Critical Damage +1%.
+		Level 2: P.Critical Damage +2%,  P.Skill Critical Damage +2%.
+		Level 3: P.Critical Damage +4%,  P.Skill Critical Damage +4%.
+		Level 4: P.Critical Damage +7%,  P.Skill Critical Damage +7%.
+		Level 5: P.Critical Damage +12%,  P.Skill Critical Damage +12%.
+		Level 6: P.Critical Damage +12%,  P.Skill Critical Damage +12%, P Skill Power +5%.
+	-->
+	<skill id="18713" levels="6" name="Red Cat's Eye">
+        <table name="#pCritDmg">1 2 4 7 12 12</table>
+        <table name="#pSkillCritDmg">1 2 4 7 12 12</table>
+        <table name="#pSkillCritDmg">0 0 0 0 0 5</table>
+        <table name="#name">Red;Red;Red;Red;Red;Greater Red</table>
+        <set name="name" val="#name" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
+        <set name="operateType" val="OP_PASSIVE" />
+		<for>
+			<addPercent stat="pCritDmg" val="#pCritDmg" />
+			<addPercent stat="pSkillCritDmg" val="#pSkillCritDmg" />
+			<addPercent stat="physicalSkillPower" val="#physicalSkillPower" />
+		</for>
+    </skill>
+
+	 <!--
+		Level 1: M Skill.Critical Damage +1%.
+		Level 2: M Skill.Critical Damage +2%.
+		Level 3: M Skill.Critical Damage +4%.
+		Level 4: M Skill.Critical Damage +7%.
+		Level 5: M Skill.Critical Damage +12%.
+		Level 6: M Skill.Critical Damage +12%, M Skill Power +5%.
+	-->
+	<skill id="18714" levels="6" name="Blue Cat's Eye">
+        <table name="#mCritDmg">1 2 4 7 12 12</table>
+        <table name="#mSkillPower">0 0 0 0 0 5</table>
+        <table name="#name">Blue;Blue;Blue;Blue;Blue;Greater Blue</table>
+        <set name="name" val="#name" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
+        <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <addPercent stat="mCritDmg" val="#mCritDmg" />
+			<addPercent stat="mSkillPower" val="#mSkillPower" />
+        </for>
+    </skill>
     <!-- Soulshot damage + 20% / Patk +9%. -->
     <skill id="18715" levels="1" name="Ruby">
         <set name="target" val="TARGET_SELF" />
@@ -3418,13 +3464,13 @@
     </skill>
     <!--  Blessed Soulshot damage + 20% / mAtk + 9%. -->
     <skill id="18718" levels="2" name="Sapphire">
-        <table name="#mAtk">9 9 9 9 9 9</table>
+        <table name="#mAtk">1.09 1.09</table>
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
         <set name="magicLvl" val="1" />
         <for>
-            <mul val="1.09" order="0x30" stat="mAtk" />
+            <mul order="0x30" stat="mAtk" val="#mAtk"  />
         </for>
     </skill>
     <skill id="18720" levels="1" name="Obsidian">
