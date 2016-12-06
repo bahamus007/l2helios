@@ -3419,7 +3419,7 @@
 	<skill id="18713" levels="6" name="Red Cat's Eye">
         <table name="#pCritDmg">1 2 4 7 12 12</table>
         <table name="#pSkillCritDmg">1 2 4 7 12 12</table>
-        <table name="#pSkillCritDmg">0 0 0 0 0 5</table>
+        <table name="#physicalSkillPower">0 0 0 0 0 5</table>
         <table name="#name">Red;Red;Red;Red;Red;Greater Red</table>
         <set name="name" val="#name" />
         <set name="target" val="TARGET_SELF" />
