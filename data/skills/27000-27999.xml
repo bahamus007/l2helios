@@ -3518,4 +3518,22 @@
             <addPercent stat="mAtk" val="2" />
         </for>
     </skill>
+	 <!-- 6 Jewels can be equipped. -->
+    <skill id="27718" levels="1" name="La Vie En Rose's Elegant Brooch">
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
+        <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <override stat="jewelry" val="6" />
+        </for>
+    </skill>
+	 <!-- Expands inventory. -->
+    <skill id="27719" levels="1" name="La Vie En Rose's Elegant Brooch">
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
+        <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="inventoryLimit" val="12" />
+        </for>
+    </skill>
     </list>
