@@ -4763,7 +4763,7 @@
 		Level 6: P. Def. + 1986, P. Critical Damage - 5%. Additional P. Def. + 10%.
 	-->
     <skill id="17708" levels="6" name="Greater Diamond">
-        <table name="#def">283 567 945 1418 1986 1986</table>
+        <table name="#pdef">283 567 945 1418 1986 1986</table>
         <table name="#critVuln">1 2 3 4 5 5</table>
         <table name="#pdef">0 0 0 0 0 10</table>
         <table name="#name">Diamond;Diamond;Diamond;Diamond;Diamond;Greater Diamond</table>
@@ -4773,7 +4773,7 @@
         <set name="operateType" val="OP_PASSIVE" />
         <for>
             <!-- <mul val="#def" order="0x30" stat="pDef" /> -->
-			<add stat="pDef" val="#def" /><!-- singto -->
+			<add stat="pDef" val="#pdef" /><!-- singto -->
             <subPercent stat="critVuln" val="#critVuln" />
             <addPercent stat="pDef" val="#pdef" />
         </for>
@@ -4787,7 +4787,7 @@
 		Level 6: M. Def. + 1150, M. Critical Damage - 5%. Additional M. Def. + 10%.
 	-->
     <skill id="17709" levels="6" name="Greater Pearl">
-        <table name="#def">163 328 548 821 1150 1150</table>
+        <table name="#mdef">163 328 548 821 1150 1150</table>
         <table name="#matk">0 0 0 0 0 10</table>
         <table name="#critVuln">1 2 3 4 5 5</table>
         <table name="#name">Pearl;Pearl;Pearl;Pearl;Pearl;Greater Pearl</table>
@@ -4797,7 +4797,7 @@
         <set name="operateType" val="OP_PASSIVE" />
         <for>
             <!-- <mul val="#def" order="0x30" stat="mDef" /> -->
-			<add stat="pDef" val="#def" /><!-- singto -->
+			<add stat="mDef" val="#mdef" /><!-- singto -->
             <subPercent stat="magicCritVuln" val="#critVuln" />
             <addPercent stat="mAtk" val="#matk"/>
         </for>
