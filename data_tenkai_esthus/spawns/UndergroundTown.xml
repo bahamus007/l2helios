@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <spawn npcId="32327" x="-50288" y="-146672" z="-14936" heading="39296" respawn="60" /> <!-- Adventurers' Guide, Newbie Buff Manager -->
+    <spawn npcId="32478" x="-52768" y="-147520" z="-14944" heading="34328" respawn="60" /> <!-- Dimensional Merchant, Life Vitality -->
+    <spawn npcId="33587" x="-50272" y="-146592" z="-14936" heading="29872" respawn="60" /> <!-- Mentor Guide, Mentoring Manager -->
+    <spawn npcId="33825" x="-52775" y="-146928" z="-14944" heading="47824" respawn="60" /> <!-- La Vie En Rose, Beauty Shop Manager -->
+    <spawn npcId="34157" x="-50306" y="-148305" z="-14120" heading="42184" respawn="60" /> <!-- None -->
+    <spawn npcId="34158" x="-50325" y="-148335" z="-14120" heading="13732" respawn="60" /> <!-- None -->
+    <spawn npcId="34159" x="-49832" y="-147934" z="-14120" heading="24484" respawn="60" /> <!-- None -->
+    <spawn npcId="34160" x="-50295" y="-148232" z="-14144" heading="53996" respawn="60" /> <!-- None -->
+    <spawn npcId="34161" x="-49742" y="-147937" z="-14152" heading="13772" respawn="60" /> <!-- None -->
+    <spawn npcId="34162" x="-49734" y="-148288" z="-14184" heading="43716" respawn="60" /> <!-- None -->
+    <spawn npcId="34163" x="-49782" y="-148266" z="-14184" heading="50600" respawn="60" /> <!-- None -->
+    <spawn npcId="34164" x="-49823" y="-148373" z="-14152" heading="11196" respawn="60" /> <!-- None -->
+    <spawn npcId="34165" x="-49845" y="-148330" z="-14184" heading="0" respawn="60" /> <!-- None -->
+    <spawn npcId="34166" x="-49691" y="-147937" z="-14152" heading="19404" respawn="60" /> <!-- None -->
+    <spawn npcId="34167" x="-49864" y="-147928" z="-14120" heading="4936" respawn="60" /> <!-- None -->
+    <spawn npcId="34168" x="-49723" y="-148334" z="-14184" heading="35088" respawn="60" /> <!-- None -->
+    <spawn npcId="34169" x="-50287" y="-148260" z="-14144" heading="20456" respawn="60" /> <!-- None -->
+    <spawn npcId="34180" x="-49844" y="-147853" z="-14144" heading="48988" respawn="60" /> <!-- Settlen, Owner -->
+    <spawn npcId="34181" x="-49728" y="-147856" z="-14144" heading="48828" respawn="60" /> <!-- Lailly, Madame -->
+    <spawn npcId="34182" x="-49488" y="-147856" z="-14152" heading="53012" respawn="60" /> <!-- Lollia, Only Daughter -->
+    <spawn npcId="34183" x="-49616" y="-147904" z="-14152" heading="2253" respawn="60" /> <!-- Hanna, Kitchen Employee -->
+    <spawn npcId="34184" x="-49664" y="-147952" z="-14152" heading="44030" respawn="60" /> <!-- Brodien, Employee -->
+    <spawn npcId="34185" x="-49936" y="-147920" z="-14152" heading="43934" respawn="60" /> <!-- Lupia, Employee -->
+    <spawn npcId="34186" x="-49968" y="-147856" z="-14152" heading="38490" respawn="60" /> <!-- Mei, Employee -->
+    <spawn npcId="34187" x="-50206" y="-146712" z="-14936" heading="47396" respawn="60" /> <!-- Adventure Guildsman, PC Manager -->
+    <spawn npcId="34188" x="-51008" y="-147180" z="-14920" heading="40976" respawn="60" /> <!-- Plie, Gatekeeper -->
+    <spawn npcId="34191" x="-51104" y="-147168" z="-14944" heading="53104" respawn="60" /> <!-- Tutu, Warehouse Keeper -->
+    <spawn npcId="34197" x="-50944" y="-143552" z="-14944" heading="52124" respawn="60" /> <!-- Glissade, Administrative Manager -->
+    <spawn npcId="34198" x="-51040" y="-143488" z="-14944" heading="48596" respawn="60" /> <!-- Piroue, Administrative Aide -->
+    <spawn npcId="34200" x="-50017" y="-148596" z="-14120" heading="47800" respawn="60" /> <!-- Mystic Summoning -->
+    <spawn npcId="34200" x="-50175" y="-148398" z="-14120" heading="47800" respawn="60" /> <!-- Mystic Summoning -->
+    <spawn npcId="34200" x="-49320" y="-148185" z="-14120" heading="47800" respawn="60" /> <!-- Mystic Summoning -->
+    <spawn npcId="34200" x="-50112" y="-148078" z="-14120" heading="47800" respawn="60" /> <!-- Mystic Summoning -->
+    <spawn npcId="34200" x="-49485" y="-148037" z="-14120" heading="47800" respawn="60" /> <!-- Mystic Summoning -->
+    <spawn npcId="34203" x="-50720" y="-149040" z="-14936" heading="26108" respawn="60" /> <!-- Tavern Employee -->
+    <spawn npcId="34204" x="-48607" y="-148127" z="-14512" heading="54840" respawn="60" /> <!-- Tavern Employee -->
+    <spawn npcId="34189" x="-52646" y="-147041" z="-14944" heading="42728" respawn="60" /> <!-- Mistress, Auction House Manager -->
+    <spawn npcId="34190" x="-54000" y="-146768" z="-14944" heading="7504" respawn="60" /> <!-- Attitude, Grocer -->
+    <spawn npcId="34192" x="-53313" y="-148013" z="-14944" heading="16672" respawn="60" /> <!-- Fouette, Warehouse Keeper -->
+    <spawn npcId="34208" x="-53567" y="-147376" z="-14944" heading="5168" respawn="60" /> <!-- Bartman, Blacksmith -->
+</list>
