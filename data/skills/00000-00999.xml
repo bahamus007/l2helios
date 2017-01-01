@@ -5501,7 +5501,7 @@
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="SIEGEFLAG" />
         <set name="operateType" val="OP_ACTIVE" />
-        <set name="itemConsumeId" val="2131" />
+        <set name="itemConsumeId" val="2132" />
         <set name="itemConsumeCount" val="300" />
         <set name="mpConsume" val="30" />
         <set name="hitTime" val="4000" />
@@ -8019,7 +8019,7 @@
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="SIEGEFLAG" />
         <set name="operateType" val="OP_ACTIVE" />
-        <set name="itemConsumeId" val="2131" />
+        <set name="itemConsumeId" val="2132" />
         <set name="itemConsumeCount" val="300" />
         <set name="mpConsume" val="30" />
         <set name="hitTime" val="4000" />
