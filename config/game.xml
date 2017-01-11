@@ -2140,6 +2140,10 @@
 
     <config name="RaidMDefenceMultiplier" var="RAID_MDEFENCE_MULTIPLIER" default="1" />
 
+    <config name="DefenderPDefenceMultiplier" var="DEFENDER_PDEFENCE_MULTIPLIER" default="1" />
+
+    <config name="DefenderMDefenceMultiplier" var="DEFENDER_MDEFENCE_MULTIPLIER" default="1" />
+
     <!--
         Percent of physical and magical attack for raid bosses.
         Example: A setting of 10 will cause attack to be 90% lower than normal,
@@ -2148,6 +2152,10 @@
     <config name="RaidPAttackMultiplier" var="RAID_PATTACK_MULTIPLIER" default="1" />
 
     <config name="RaidMAttackMultiplier" var="RAID_MATTACK_MULTIPLIER" default="1" />
+
+    <config name="DefenderPAttackMultiplier" var="DEFENDER_PATTACK_MULTIPLIER" default="1" />
+
+    <config name="DefenderMAttackMultiplier" var="DEFENDER_MATTACK_MULTIPLIER" default="1" />
 
     <!--
         Configure Minimum and Maximum time multiplier between raid boss re-spawn.
@@ -2568,7 +2576,7 @@
         Option to enable or disable offline trade feature.
         Enable -> true, Disable -> false
     -->
-    <config name="OfflineTradeEnable" var="OFFLINE_TRADE_ENABLE" default="False" />
+    <config name="OfflineTradeEnable" var="OFFLINE_TRADE_ENABLE" default="True" />
 
     <!--
         Option to enable or disable offline craft feature.
@@ -2719,8 +2727,7 @@
     <config name="DualboxCheckMaxPlayersPerIP" var="L2JMOD_DUALBOX_CHECK_MAX_PLAYERS_PER_IP" default="0" />
 
     <!-- Maximum number of players per IP address allowed to participate in olympiad. -->
-    <config name="DualboxCheckMaxOlympiadParticipantsPerIP" var="L2JMOD_DUALBOX_CHECK_MAX_OLYMPIAD_PARTICIPANTS_PER_IP"
-            default="1" />
+    <config name="DualboxCheckMaxOlympiadParticipantsPerIP" var="L2JMOD_DUALBOX_CHECK_MAX_OLYMPIAD_PARTICIPANTS_PER_IP" default="1" />
 
     <!--
         Whitelist of the addresses for dualbox checks.
@@ -2820,7 +2827,7 @@
         -
         Olympiad Start Time in Military hours Default 8pm (20)
     -->
-    <config name="AltOlyStartTime" var="ALT_OLY_START_TIME" default="20" />
+    <config name="AltOlyStartTime" var="ALT_OLY_START_TIME" default="18" />
 
     <!-- Olympiad Start Time for Min's, Default 00 so at the start of the hour. -->
     <config name="AltOlyMin" var="ALT_OLY_MIN" default="00" />
