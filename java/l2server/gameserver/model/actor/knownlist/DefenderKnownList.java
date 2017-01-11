@@ -64,7 +64,8 @@ public class DefenderKnownList extends AttackableKnownList
 
 			// Check if player is an enemy of this defender npc
 			if (player != null && (player.getSiegeState() == 2 && !player.isRegisteredOnThisSiegeField(activeSiegeId) ||
-					player.getSiegeState() == 0))
+					player.getSiegeState() == 0) || player.getSiegeState() == 1)
+				// add player.getSiegeState() == 1) by singto
 			{
 				if (getActiveChar().getAI().getIntention() == CtrlIntention.AI_INTENTION_IDLE)
 				{

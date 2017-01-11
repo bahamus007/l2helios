@@ -45,6 +45,7 @@ public class L2DefenderInstance extends L2Attackable
 	{
 		super(objectId, template);
 		setInstanceType(InstanceType.L2DefenderInstance);
+		setIsDefender(true);//singto
 	}
 
 	@Override
@@ -107,8 +108,8 @@ public class L2DefenderInstance extends L2Attackable
 			int activeSiegeId = _fort != null ? _fort.getFortId() : _castle != null ? _castle.getCastleId() : 0;
 
 			// Check if player is an enemy of this defender npc
-			if (player != null && (player.getSiegeState() == 2 && !player.isRegisteredOnThisSiegeField(activeSiegeId) ||
-					player.getSiegeState() == 0))
+			if (player != null && (player.getSiegeState() == 2 && !player.isRegisteredOnThisSiegeField(activeSiegeId) || player.getSiegeState() == 0) || player.getSiegeState() == 1)
+			// add player.getSiegeState() == 0) || player.getSiegeState() == 1) by singto
 			{
 				return true;
 			}
@@ -243,8 +244,7 @@ public class L2DefenderInstance extends L2Attackable
 				if (_fort != null && _fort.getZone().isActive() || _castle != null && _castle.getZone().isActive())
 				{
 					int activeSiegeId = _fort != null ? _fort.getFortId() : _castle != null ? _castle.getCastleId() : 0;
-					if (player != null &&
-							(player.getSiegeState() == 2 && player.isRegisteredOnThisSiegeField(activeSiegeId)))
+					if (player != null && (player.getSiegeState() == 2 && player.isRegisteredOnThisSiegeField(activeSiegeId)))
 					{
 						return;
 					}

@@ -571,8 +571,12 @@ public class Olympiad
 		}
 		else
 		{
+			/*
 			endTime.add(Calendar.MONTH, 1);
 			endTime.set(Calendar.DAY_OF_MONTH, 1);
+			*/
+			endTime.add(Calendar.DAY_OF_WEEK, 7);// singto
+			endTime.set(Calendar.DAY_OF_WEEK,Calendar.MONDAY);// singto
 		}
 		endTime.set(Calendar.AM_PM, Calendar.AM);
 		endTime.set(Calendar.HOUR, 12);

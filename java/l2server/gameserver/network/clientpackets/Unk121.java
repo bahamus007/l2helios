@@ -19,4 +19,3 @@ public class Unk121 extends L2GameClientPacket
 		//Log.info(getType() + " was received from " + getClient() + ".");
 	}
 }
-

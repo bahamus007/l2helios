@@ -418,7 +418,7 @@ public class Server
 			OfflineTradersTable.restoreOfflineTraders();
 		}
 
-		//Runtime.getRuntime().addShutdownHook(Shutdown.getInstance());
+		Runtime.getRuntime().addShutdownHook(Shutdown.getInstance());//singto add offline
 
 		Log.info("IdFactory: Free ObjectID's remaining: " + IdFactory.getInstance().size());
 
@@ -530,7 +530,7 @@ public class Server
 		//SqlToXml.spawns();
 		//SqlToXml.raidBosses();
 
-		Runtime.getRuntime().addShutdownHook(Shutdown.getInstance());
+		//Runtime.getRuntime().addShutdownHook(Shutdown.getInstance()); //singto remove
 	}
 
 	static long _t = 0;

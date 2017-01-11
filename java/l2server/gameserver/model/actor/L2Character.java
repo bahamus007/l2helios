@@ -2941,6 +2941,10 @@ public abstract class L2Character extends L2Object
 	{
 		return false;
 	}
+	public boolean isDefender()//singto
+	{
+		return false;
+	}
 
 	/**
 	 * Return True if the L2Character is minion.
@@ -6527,6 +6531,11 @@ public abstract class L2Character extends L2Object
 
 				// Manage attack or cast break of the target (calculating rate, sending message...)
 				if (!target.isRaid() && Formulas.calcAtkBreak(target, damage))
+				{
+					target.breakAttack();
+					target.breakCast();
+				}
+				if (!target.isDefender() && Formulas.calcAtkBreak(target, damage))//singto
 				{
 					target.breakAttack();
 					target.breakCast();

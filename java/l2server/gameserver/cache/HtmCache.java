@@ -159,7 +159,8 @@ public class HtmCache implements Reloadable
 				byte[] raw = new byte[bytes];
 
 				bis.read(raw);
-				content = new String(raw, "ISO-8859-1");
+				//content = new String(raw, "ISO-8859-1");
+				content = new String(raw, "UTF-8");//singto
 				content = content.replaceAll("\r\n", "\n");
 
 				String oldContent = _cache.get(hashcode);

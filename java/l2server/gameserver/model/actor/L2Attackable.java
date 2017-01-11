@@ -55,6 +55,7 @@ public class L2Attackable extends L2Npc
 	private boolean _isRaid = false;
 	private boolean _isRaidMinion = false;
 	private boolean _champion = false;
+	private boolean _isDefender = false;
 
 	/**
 	 * This class contains all AggroInfo of the L2Attackable against the attacker L2Character.
@@ -2784,6 +2785,11 @@ public class L2Attackable extends L2Npc
 	{
 		return _isRaid;
 	}
+	@Override
+	public boolean isDefender()//singto
+	{
+		return _isDefender;
+	}
 
 	/**
 	 * Set this Npc as a Raid instance.<BR><BR>
@@ -2793,6 +2799,10 @@ public class L2Attackable extends L2Npc
 	public void setIsRaid(boolean isRaid)
 	{
 		_isRaid = isRaid;
+	}
+	public void setIsDefender(boolean isDefender)
+	{
+		_isDefender = isDefender;
 	}
 
 	/**

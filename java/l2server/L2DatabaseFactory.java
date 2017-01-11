@@ -73,6 +73,7 @@ public class L2DatabaseFactory
 			config.setIdleMaxAge(Config.DATABASE_MAX_IDLE_TIME); // 0 = idle connections never expire
 			config.setStatementsCacheSize(
 					20); // L2J put a fantasy value (100) here with comment "SURE?", let's try with less since default is 0
+			//config.setJdbcUrl("jdbc:mysql://127.0.0.1/l2tenkai2"); //fix ip
 			config.setJdbcUrl(Config.DATABASE_URL);
 			config.setUsername(Config.DATABASE_LOGIN);
 			config.setPassword(Config.DATABASE_PASSWORD);
@@ -115,6 +116,7 @@ public class L2DatabaseFactory
 		}
 
 		// Web Database...
+		/*
 		config = new BoneCPConfig();
 
 		try
@@ -129,9 +131,9 @@ public class L2DatabaseFactory
 			config.setAcquireIncrement(5);
 			config.setIdleMaxAge(Config.DATABASE_MAX_IDLE_TIME);
 			config.setStatementsCacheSize(20);
-			config.setJdbcUrl("jdbc:mysql://94.23.102.159/accounting");
-			config.setUsername("accounting_user");
-			config.setPassword("f00ky0gr4np4");
+			config.setJdbcUrl(Config.DATABASE_URL);//singto
+			config.setUsername(Config.DATABASE_LOGIN);//singto
+			config.setPassword(Config.DATABASE_PASSWORD);//singto
 			config.setTransactionRecoveryEnabled(true);
 
 			_webDatabase = new BoneCP(config);
@@ -142,6 +144,7 @@ public class L2DatabaseFactory
 		{
 			Log.log(Level.WARNING, "DatabaseFactory: Failed to connect to the Web Database!", e);
 		}
+		*/
 	}
 
 	// =========================================================

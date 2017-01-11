@@ -455,6 +455,10 @@ public class CharStat
 		{
 			bonusAtk *= Config.RAID_MATTACK_MULTIPLIER;
 		}
+		if (_activeChar.isDefender())
+		{
+			bonusAtk *= Config.DEFENDER_MATTACK_MULTIPLIER;//singto
+		}
 		double attack = _activeChar.getTemplate().baseMAtk * bonusAtk;
 
 		// Add the power of the skill to the attack effect
@@ -568,6 +572,10 @@ public class CharStat
 		if (_activeChar.isRaid())
 		{
 			defense *= Config.RAID_MDEFENCE_MULTIPLIER;
+		}
+		if (_activeChar.isDefender())
+		{
+			defense *= Config.DEFENDER_MDEFENCE_MULTIPLIER;//singto
 		}
 
 		double finalDef = calcStat(Stats.MAGIC_DEFENSE, defense, target, skill);
@@ -684,6 +692,10 @@ public class CharStat
 		if (_activeChar.isRaid())
 		{
 			bonusAtk *= Config.RAID_PATTACK_MULTIPLIER;
+		}
+		if (_activeChar.isDefender())
+		{
+			bonusAtk *= Config.DEFENDER_PATTACK_MULTIPLIER;//singto
 		}
 		return (int) calcStat(Stats.PHYS_ATTACK, _activeChar.getTemplate().basePAtk * bonusAtk, target, null);
 	}
@@ -878,6 +890,10 @@ public class CharStat
 		if (_activeChar.isRaid())
 		{
 			defense *= Config.RAID_PDEFENCE_MULTIPLIER;
+		}
+		if (_activeChar.isDefender())
+		{
+			defense *= Config.DEFENDER_PDEFENCE_MULTIPLIER;//singto
 		}
 
 		double finalDef = calcStat(Stats.PHYS_DEFENSE, defense, target, null);

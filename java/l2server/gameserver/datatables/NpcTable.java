@@ -716,6 +716,19 @@ public class NpcTable
 		}
 		return list.toArray(new L2NpcTemplate[list.size()]);
 	}
+	public final L2NpcTemplate[] getAllDefender() // singto
+	{
+		final ArrayList<L2NpcTemplate> list = new ArrayList<>();
+
+		for (final Object t : _npcs.getValues())
+		{
+			if ("L2Defender".equalsIgnoreCase(((L2NpcTemplate) t).Type))
+			{
+				list.add((L2NpcTemplate) t);
+			}
+		}
+		return list.toArray(new L2NpcTemplate[list.size()]);
+	}
 
 	public final L2NpcTemplate[] getAllNpcByType(final String type)
 	{
