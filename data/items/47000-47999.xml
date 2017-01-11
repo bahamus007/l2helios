@@ -3997,14 +3997,12 @@
         <skill id="18714" level="6" /> <!-- Blue Cat's Eye -->
     </item>
     <!-- Double-click to obtain a Red Cat's Eye Lv. 1. -->
-    <item id="47701" type="Weapon" name="La Vie En Rose's Red Cat's Eye Chest"
-          icon="icon.bm_jewelbox_red_catseye_lavianrose"
-          bodypart="none" material="steel" weight="0" crystal_type="none">
+    <item id="47701" type="EtcItem" name="La Vie En Rose's Red Cat's Eye Chest" icon="icon.bm_jewelbox_red_catseye_lavianrose" immediateEffect="1" weight="0" isStackable="true" handler="ExtractableItems">
+    <capsuledItem id="47677" min="1" max="1" chance="100.0" /> <!-- Red Cat's Eye -->
     </item>
     <!-- Double-click to obtain a Blue Cat's Eye Lv. 1. -->
-    <item id="47702" type="Weapon" name="La Vie En Rose's Blue Cat's Eye Chest"
-          icon="icon.bm_jewelbox_blue_catseye_lavianrose"
-          bodypart="none" material="steel" weight="0" crystal_type="none">
+    <item id="47702" type="EtcItem" name="La Vie En Rose's Blue Cat's Eye Chest" icon="icon.bm_jewelbox_red_catseye_lavianrose" immediateEffect="1" weight="0" isStackable="true" handler="ExtractableItems">
+    <capsuledItem id="47682" min="1" max="1" chance="100.0" /> <!-- Blue Cat's Eye -->
     </item>
     <!-- Double-click to obtain a Red Cat's Eye Lv. 3. -->
     <item id="47703" type="Weapon" name="Red Cat's Eye Lv. 3 Jewelry Box" icon="icon.bm_jewelbox_red_catseye_lavianrose"
