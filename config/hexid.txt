@@ -1,0 +1,4 @@
+#the hexID to auth into login
+#Wed Nov 02 21:26:20 ICT 2016
+HexID=-1530376847774360ccba7b8c954ea9a5
+ServerID=4
