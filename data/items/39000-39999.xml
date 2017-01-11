@@ -4276,42 +4276,42 @@
     <!-- Activates 1 Talisman Slot. STR stat can be added or enhanced. -->
     <item id="39748" type="Armor" name="Dimensional Bracelet - Stage 1 - STR" icon="icon.dimension_bracelet_i00"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 1 Talisman Slot. DEX stat can be added or enhanced. -->
     <item id="39749" type="Armor" name="Dimensional Bracelet - Stage 1 - DEX" icon="icon.dimension_bracelet_i00"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 1 Talisman Slot. CON stat can be added or enhanced. -->
     <item id="39750" type="Armor" name="Dimensional Bracelet - Stage 1 - CON" icon="icon.dimension_bracelet_i00"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 1 Talisman Slot. INT stat can be added or enhanced. -->
     <item id="39751" type="Armor" name="Dimensional Bracelet - Stage 1 - INT" icon="icon.dimension_bracelet_i00"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 1 Talisman Slot. MEN stat can be added or enhanced. -->
     <item id="39752" type="Armor" name="Dimensional Bracelet - Stage 1 - MEN" icon="icon.dimension_bracelet_i00"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 1 Talisman Slot. WIT stat can be added or enhanced. -->
     <item id="39753" type="Armor" name="Dimensional Bracelet - Stage 1 - WIT" icon="icon.dimension_bracelet_i00"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 1 Talisman Slot. LUC stat can be added or enhanced. -->
     <item id="39754" type="Armor" name="Dimensional Bracelet - Stage 1 - LUC" icon="icon.dimension_bracelet_i00"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 1 Talisman Slot. CHA stat can be added or enhanced. -->
     <item id="39755" type="Armor" name="Dimensional Bracelet - Stage 1 - CHA" icon="icon.dimension_bracelet_i00"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 1 Talisman Slot. STR + 1. -->
     <item id="39756" type="Armor" name="Dimensional Bracelet - Stage 1 - STR" icon="icon.dimension_bracelet_i00"
@@ -4596,47 +4596,47 @@
     <!-- Activates 2 Talisman Slots. -->
     <item id="39796" type="Armor" name="Dimensional Bracelet - Stage 2 - Basic" icon="icon.dimension_bracelet_i01"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 2 Talisman Slots. STR stat can be added or enhanced. -->
     <item id="39797" type="Armor" name="Dimensional Bracelet - Stage 2 - STR" icon="icon.dimension_bracelet_i01"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 2 Talisman Slots. DEX stat can be added or enhanced. -->
     <item id="39798" type="Armor" name="Dimensional Bracelet - Stage 2 - DEX" icon="icon.dimension_bracelet_i01"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 2 Talisman Slots. CON stat can be added or enhanced. -->
     <item id="39799" type="Armor" name="Dimensional Bracelet - Stage 2 - CON" icon="icon.dimension_bracelet_i01"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 2 Talisman Slots. INT stat can be added or enhanced. -->
     <item id="39800" type="Armor" name="Dimensional Bracelet - Stage 2 - INT" icon="icon.dimension_bracelet_i01"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 2 Talisman Slots. MEN stat can be added or enhanced. -->
     <item id="39801" type="Armor" name="Dimensional Bracelet - Stage 2 - MEN" icon="icon.dimension_bracelet_i01"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 2 Talisman Slots. WIT stat can be added or enhanced. -->
     <item id="39802" type="Armor" name="Dimensional Bracelet - Stage 2 - WIT" icon="icon.dimension_bracelet_i01"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 2 Talisman Slots. LUC stat can be added or enhanced. -->
     <item id="39803" type="Armor" name="Dimensional Bracelet - Stage 2 - LUC" icon="icon.dimension_bracelet_i01"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 2 Talisman Slots. CHA stat can be added or enhanced. -->
     <item id="39804" type="Armor" name="Dimensional Bracelet - Stage 2 - CHA" icon="icon.dimension_bracelet_i01"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 2 Talisman Slots. STR + 1. -->
     <item id="39805" type="Armor" name="Dimensional Bracelet - Stage 2 - STR" icon="icon.dimension_bracelet_i01"
@@ -4921,47 +4921,47 @@
     <!-- Activates 3 Talisman Slots. -->
     <item id="39845" type="Armor" name="Dimensional Bracelet - Stage 3 - Basic" icon="icon.dimension_bracelet_i02"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 3 Talisman Slots. STR stat can be added or enhanced. -->
     <item id="39846" type="Armor" name="Dimensional Bracelet - Stage 3 - STR" icon="icon.dimension_bracelet_i02"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 3 Talisman Slots. DEX stat can be added or enhanced. -->
     <item id="39847" type="Armor" name="Dimensional Bracelet - Stage 3 - DEX" icon="icon.dimension_bracelet_i02"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 3 Talisman Slots. CON stat can be added or enhanced. -->
     <item id="39848" type="Armor" name="Dimensional Bracelet - Stage 3 - CON" icon="icon.dimension_bracelet_i02"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 3 Talisman Slots. INT stat can be added or enhanced. -->
     <item id="39849" type="Armor" name="Dimensional Bracelet - Stage 3 - INT" icon="icon.dimension_bracelet_i02"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 3 Talisman Slots. MEN stat can be added or enhanced. -->
     <item id="39850" type="Armor" name="Dimensional Bracelet - Stage 3 - MEN" icon="icon.dimension_bracelet_i02"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 3 Talisman Slots. WIT stat can be added or enhanced. -->
     <item id="39851" type="Armor" name="Dimensional Bracelet - Stage 3 - WIT" icon="icon.dimension_bracelet_i02"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 3 Talisman Slots. LUC stat can be added or enhanced. -->
     <item id="39852" type="Armor" name="Dimensional Bracelet - Stage 3 - LUC" icon="icon.dimension_bracelet_i02"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 3 Talisman Slots. CHA stat can be added or enhanced. -->
     <item id="39853" type="Armor" name="Dimensional Bracelet - Stage 3 - CHA" icon="icon.dimension_bracelet_i02"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 3 Talisman Slots. STR + 1. -->
     <item id="39854" type="Armor" name="Dimensional Bracelet - Stage 3 - STR" icon="icon.dimension_bracelet_i02"
@@ -5246,47 +5246,47 @@
     <!-- Activates 4 Talisman Slots. -->
     <item id="39894" type="Armor" name="Dimensional Bracelet - Stage 4 - Basic" icon="icon.dimension_bracelet_i03"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 4 Talisman Slots. STR stat can be added or enhanced. -->
     <item id="39895" type="Armor" name="Dimensional Bracelet - Stage 4 - STR" icon="icon.dimension_bracelet_i03"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 4 Talisman Slots. DEX stat can be added or enhanced. -->
     <item id="39896" type="Armor" name="Dimensional Bracelet - Stage 4 - DEX" icon="icon.dimension_bracelet_i03"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 4 Talisman Slots. CON stat can be added or enhanced. -->
     <item id="39897" type="Armor" name="Dimensional Bracelet - Stage 4 - CON" icon="icon.dimension_bracelet_i03"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 4 Talisman Slots. INT stat can be added or enhanced. -->
     <item id="39898" type="Armor" name="Dimensional Bracelet - Stage 4 - INT" icon="icon.dimension_bracelet_i03"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 4 Talisman Slots. MEN stat can be added or enhanced. -->
     <item id="39899" type="Armor" name="Dimensional Bracelet - Stage 4 - MEN" icon="icon.dimension_bracelet_i03"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 4 Talisman Slots. WIT stat can be added or enhanced. -->
     <item id="39900" type="Armor" name="Dimensional Bracelet - Stage 4 - WIT" icon="icon.dimension_bracelet_i03"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 4 Talisman Slots. LUC stat can be added or enhanced. -->
     <item id="39901" type="Armor" name="Dimensional Bracelet - Stage 4 - LUC" icon="icon.dimension_bracelet_i03"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 4 Talisman Slots. CHA stat can be added or enhanced. -->
     <item id="39902" type="Armor" name="Dimensional Bracelet - Stage 4 - CHA" icon="icon.dimension_bracelet_i03"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 4 Talisman Slots. STR + 1. -->
     <item id="39903" type="Armor" name="Dimensional Bracelet - Stage 4 - STR" icon="icon.dimension_bracelet_i03"
@@ -5571,47 +5571,47 @@
     <!-- Activates 5 Talisman Slots. -->
     <item id="39943" type="Armor" name="Dimensional Bracelet - Stage 5 - Basic" icon="icon.dimension_bracelet_i04"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 5 Talisman Slots. STR stat can be added or enhanced. -->
     <item id="39944" type="Armor" name="Dimensional Bracelet - Stage 5 - STR" icon="icon.dimension_bracelet_i04"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 5 Talisman Slots. DEX stat can be added or enhanced. -->
     <item id="39945" type="Armor" name="Dimensional Bracelet - Stage 5 - DEX" icon="icon.dimension_bracelet_i04"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 5 Talisman Slots. CON stat can be added or enhanced. -->
     <item id="39946" type="Armor" name="Dimensional Bracelet - Stage 5 - CON" icon="icon.dimension_bracelet_i04"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 5 Talisman Slots. INT stat can be added or enhanced. -->
     <item id="39947" type="Armor" name="Dimensional Bracelet - Stage 5 - INT" icon="icon.dimension_bracelet_i04"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 5 Talisman Slots. MEN stat can be added or enhanced. -->
     <item id="39948" type="Armor" name="Dimensional Bracelet - Stage 5 - MEN" icon="icon.dimension_bracelet_i04"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 5 Talisman Slots. WIT stat can be added or enhanced. -->
     <item id="39949" type="Armor" name="Dimensional Bracelet - Stage 5 - WIT" icon="icon.dimension_bracelet_i04"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 5 Talisman Slots. LUC stat can be added or enhanced. -->
     <item id="39950" type="Armor" name="Dimensional Bracelet - Stage 5 - LUC" icon="icon.dimension_bracelet_i04"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 5 Talisman Slots. CHA stat can be added or enhanced. -->
     <item id="39951" type="Armor" name="Dimensional Bracelet - Stage 5 - CHA" icon="icon.dimension_bracelet_i04"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 5 Talisman Slots. STR + 1. -->
     <item id="39952" type="Armor" name="Dimensional Bracelet - Stage 5 - STR" icon="icon.dimension_bracelet_i04"
@@ -5896,41 +5896,41 @@
     <!-- Activates 6 Talisman Slots. -->
     <item id="39992" type="Armor" name="Dimensional Bracelet - Stage 6 - Basic" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 6 Talisman Slots. STR stat can be added or enhanced. -->
     <item id="39993" type="Armor" name="Dimensional Bracelet - Stage 6 - STR" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 6 Talisman Slots. DEX stat can be added or enhanced. -->
     <item id="39994" type="Armor" name="Dimensional Bracelet - Stage 6 - DEX" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 6 Talisman Slots. CON stat can be added or enhanced. -->
     <item id="39995" type="Armor" name="Dimensional Bracelet - Stage 6 - CON" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 6 Talisman Slots. INT stat can be added or enhanced. -->
     <item id="39996" type="Armor" name="Dimensional Bracelet - Stage 6 - INT" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 6 Talisman Slots. MEN stat can be added or enhanced. -->
     <item id="39997" type="Armor" name="Dimensional Bracelet - Stage 6 - MEN" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 6 Talisman Slots. WIT stat can be added or enhanced. -->
     <item id="39998" type="Armor" name="Dimensional Bracelet - Stage 6 - WIT" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 6 Talisman Slots. LUC stat can be added or enhanced. -->
     <item id="39999" type="Armor" name="Dimensional Bracelet - Stage 6 - LUC" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
 </list>
