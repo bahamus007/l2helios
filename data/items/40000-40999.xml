@@ -3,285 +3,285 @@
     <!-- Activates 6 Talisman Slots. CHA stat can be added or enhanced. -->
     <item id="40000" type="Armor" name="Dimensional Bracelet - Stage 6 - CHA" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="shirt" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- Activates 6 Talisman Slots. STR + 1. -->
     <item id="40001" type="Armor" name="Dimensional Bracelet - Stage 6 - STR" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18058" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. STR + 2. -->
     <item id="40002" type="Armor" name="Dimensional Bracelet - Stage 6 - STR" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18059" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. STR + 3. -->
     <item id="40003" type="Armor" name="Dimensional Bracelet - Stage 6 - STR" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18060" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. STR + 4. -->
     <item id="40004" type="Armor" name="Dimensional Bracelet - Stage 6 - STR" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18061" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. STR + 5. -->
     <item id="40005" type="Armor" name="Dimensional Bracelet - Stage 6 - STR" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18062" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. DEX + 1. -->
     <item id="40006" type="Armor" name="Dimensional Bracelet - Stage 6 - DEX" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18063" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. DEX + 2. -->
     <item id="40007" type="Armor" name="Dimensional Bracelet - Stage 6 - DEX" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18064" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. DEX + 3. -->
     <item id="40008" type="Armor" name="Dimensional Bracelet - Stage 6 - DEX" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18065" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. DEX + 4. -->
     <item id="40009" type="Armor" name="Dimensional Bracelet - Stage 6 - DEX" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18066" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. DEX + 5. -->
     <item id="40010" type="Armor" name="Dimensional Bracelet - Stage 6 - DEX" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18067" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. CON + 1. -->
     <item id="40011" type="Armor" name="Dimensional Bracelet - Stage 6 - CON" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18068" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. CON + 2. -->
     <item id="40012" type="Armor" name="Dimensional Bracelet - Stage 6 - CON" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18069" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. CON + 3. -->
     <item id="40013" type="Armor" name="Dimensional Bracelet - Stage 6 - CON" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18070" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. CON + 4. -->
     <item id="40014" type="Armor" name="Dimensional Bracelet - Stage 6 - CON" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18071" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. CON + 5. -->
     <item id="40015" type="Armor" name="Dimensional Bracelet - Stage 6 - CON" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18072" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. INT + 1. -->
     <item id="40016" type="Armor" name="Dimensional Bracelet - Stage 6 - INT" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18073" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. INT + 2. -->
     <item id="40017" type="Armor" name="Dimensional Bracelet - Stage 6 - INT" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18074" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. INT + 3. -->
     <item id="40018" type="Armor" name="Dimensional Bracelet - Stage 6 - INT" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18075" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. INT + 4. -->
     <item id="40019" type="Armor" name="Dimensional Bracelet - Stage 6 - INT" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18076" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. INT + 5. -->
     <item id="40020" type="Armor" name="Dimensional Bracelet - Stage 6 - INT" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18077" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. MEN + 1. -->
     <item id="40021" type="Armor" name="Dimensional Bracelet - Stage 6 - MEN" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18078" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. MEN + 2. -->
     <item id="40022" type="Armor" name="Dimensional Bracelet - Stage 6 - MEN" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18079" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. MEN + 3. -->
     <item id="40023" type="Armor" name="Dimensional Bracelet - Stage 6 - MEN" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18080" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. MEN + 4. -->
     <item id="40024" type="Armor" name="Dimensional Bracelet - Stage 6 - MEN" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18081" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. MEN + 5. -->
     <item id="40025" type="Armor" name="Dimensional Bracelet - Stage 6 - MEN" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18082" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. WIT + 1. -->
     <item id="40026" type="Armor" name="Dimensional Bracelet - Stage 6 - WIT" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18083" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. WIT + 2. -->
     <item id="40027" type="Armor" name="Dimensional Bracelet - Stage 6 - WIT" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18084" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. WIT + 3. -->
     <item id="40028" type="Armor" name="Dimensional Bracelet - Stage 6 - WIT" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18085" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. WIT + 4. -->
     <item id="40029" type="Armor" name="Dimensional Bracelet - Stage 6 - WIT" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18086" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. WIT + 5. -->
     <item id="40030" type="Armor" name="Dimensional Bracelet - Stage 6 - WIT" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18087" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. LUC + 1. -->
     <item id="40031" type="Armor" name="Dimensional Bracelet - Stage 6 - LUC" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18088" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. LUC + 2. -->
     <item id="40032" type="Armor" name="Dimensional Bracelet - Stage 6 - LUC" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18089" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. LUC + 3. -->
     <item id="40033" type="Armor" name="Dimensional Bracelet - Stage 6 - LUC" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18090" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. LUC + 4. -->
     <item id="40034" type="Armor" name="Dimensional Bracelet - Stage 6 - LUC" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18091" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. LUC + 5. -->
     <item id="40035" type="Armor" name="Dimensional Bracelet - Stage 6 - LUC" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18092" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. CHA + 1. -->
     <item id="40036" type="Armor" name="Dimensional Bracelet - Stage 6 - CHA" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18093" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. CHA + 2. -->
     <item id="40037" type="Armor" name="Dimensional Bracelet - Stage 6 - CHA" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18094" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. CHA + 3. -->
     <item id="40038" type="Armor" name="Dimensional Bracelet - Stage 6 - CHA" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18095" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. CHA + 4. -->
     <item id="40039" type="Armor" name="Dimensional Bracelet - Stage 6 - CHA" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18096" level="1" /> <!-- Dimensional Bracelet -->
     </item>
     <!-- Activates 6 Talisman Slots. CHA + 5. -->
     <item id="40040" type="Armor" name="Dimensional Bracelet - Stage 6 - CHA" icon="icon.dimension_bracelet_i05"
           defaultAction="equip"
-          bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1">
+           bodypart="rbracelet" immediateEffect="1" crystalCount="1" crystalType="r" weight="150" enchantEnabled="1"  isTradable="false" isDropable="false" isSellable="false">
         <skill id="18057" level="1" /> <!-- Dimensional Bracelet -->
         <skill id="18097" level="1" /> <!-- Dimensional Bracelet -->
     </item>
