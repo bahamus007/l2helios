@@ -4765,7 +4765,7 @@
     <skill id="17708" levels="6" name="Greater Diamond">
         <table name="#pdef">283 567 945 1418 1986 1986</table>
         <table name="#critVuln">1 2 3 4 5 5</table>
-        <table name="#pdef">0 0 0 0 0 10</table>
+        <table name="#ppdef">0 0 0 0 0 10</table>
         <table name="#name">Diamond;Diamond;Diamond;Diamond;Diamond;Greater Diamond</table>
         <set name="name" val="#name" />
         <set name="target" val="TARGET_SELF" />
@@ -4775,7 +4775,7 @@
             <!-- <mul val="#def" order="0x30" stat="pDef" /> -->
 			<add stat="pDef" val="#pdef" /><!-- singto -->
             <subPercent stat="critVuln" val="#critVuln" />
-            <addPercent stat="pDef" val="#pdef" />
+            <addPercent stat="pDef" val="#ppdef" />
         </for>
     </skill>
     <!--
@@ -4788,7 +4788,7 @@
 	-->
     <skill id="17709" levels="6" name="Greater Pearl">
         <table name="#mdef">163 328 548 821 1150 1150</table>
-        <table name="#matk">0 0 0 0 0 10</table>
+        <table name="#pmatk">0 0 0 0 0 10</table>
         <table name="#critVuln">1 2 3 4 5 5</table>
         <table name="#name">Pearl;Pearl;Pearl;Pearl;Pearl;Greater Pearl</table>
         <set name="name" val="#name" />
@@ -4799,7 +4799,7 @@
             <!-- <mul val="#def" order="0x30" stat="mDef" /> -->
 			<add stat="mDef" val="#mdef" /><!-- singto -->
             <subPercent stat="magicCritVuln" val="#critVuln" />
-            <addPercent stat="mAtk" val="#matk"/>
+            <addPercent stat="mAtk" val="#pmatk"/>
         </for>
     </skill>
     <skill id="17710" levels="1" name="10th Anniversary Blessing Effect (Free)">
