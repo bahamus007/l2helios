@@ -5604,9 +5604,9 @@
 		Level 6: All basic stats + 3, Skill Prominence + 30%.
 	-->
     <skill id="17825" levels="6" name="Greater Emerald">
-        <table name="#conmen">1 1 1 2 3</table>
-        <table name="#strint">0 1 1 2 3</table>
-        <table name="#dexwit">0 0 1 2 3</table>
+        <table name="#conmen">1 1 1 2 3 3</table>
+        <table name="#strint">0 1 1 2 3 3</table>
+        <table name="#dexwit">0 0 1 2 3 3</table>
         <table name="#name">Emerald;Emerald;Emerald;Emerald;Emerald;Greater Emerald</table>
         <set name="name" val="#name" />
         <set name="target" val="TARGET_SELF" />
