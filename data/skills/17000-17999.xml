@@ -5938,25 +5938,25 @@
 		Level 1: Beast Soulshot damage + 1%.
 		Level 2: Beast Soulshot damage + 3.5%.
 	-->
-    <skill id="17888" levels="2" name="Ruby">
+    <skill id="17888" levels="2" name="Ruby  - Lv. 1 - 2">
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="DUMMY" />
         <set name="operateType" val="OP_ACTIVE" />
     </skill>
     <!-- Beast Soulshot damage + 7.5%. -->
-    <skill id="17889" levels="1" name="Ruby">
+    <skill id="17889" levels="1" name="Ruby  - Lv. 3">
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="DUMMY" />
         <set name="operateType" val="OP_ACTIVE" />
     </skill>
     <!-- Beast Soulshot damage + 12.5%. -->
-    <skill id="17890" levels="1" name="Ruby">
+    <skill id="17890" levels="1" name="Ruby  - Lv. 4">
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="DUMMY" />
         <set name="operateType" val="OP_ACTIVE" />
     </skill>
     <!-- Beast Soulshot damage + 20%. -->
-    <skill id="17891" levels="1" name="Ruby">
+    <skill id="17891" levels="1" name="Ruby  - Lv. 5">
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="DUMMY" />
         <set name="operateType" val="OP_ACTIVE" />

@@ -3920,6 +3920,8 @@
           bodypart="jewel"
           immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
         <skill id="18715" level="1" />
+		<skill id="18716" level="1" />
+		<skill id="18717" level="1" />
     </item>
     <!-- When equipped, increases Spiritshot and Blessed Spiritshot damage by 20% and M. Atk. By 13%. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
     <item id="47689" type="Armor" name="Greater Sapphire" icon="icon.bm_jewel_spsdmg_high_lv1_lavianrose" defaultAction="equip"

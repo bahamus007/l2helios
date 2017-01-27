@@ -6494,26 +6494,31 @@
     <item id="38855" type="Armor" name="Ruby - Lv. 1" icon="icon.etc_bm_jewel_ruby_i00" defaultAction="equip"
           bodypart="jewel"
           immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+		  <skill id="17888" level="1" />
     </item>
     <!-- When equipped, increases Soulshot and Beast Soulshot damage by 3.5%. Effect does not stack with additional jewels of the same type. -->
     <item id="38856" type="Armor" name="Ruby - Lv. 2" icon="icon.etc_bm_jewel_ruby_i00" defaultAction="equip"
           bodypart="jewel"
           immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+		  <skill id="17888" level="2" />
     </item>
     <!-- When equipped, increases Soulshot and Beast Soulshot damage by 7.5%. Effect does not stack with additional jewels of the same type. -->
     <item id="38857" type="Armor" name="Ruby - Lv. 3" icon="icon.etc_bm_jewel_ruby_i00" defaultAction="equip"
           bodypart="jewel"
           immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+		  <skill id="17889" level="1" />
     </item>
     <!-- When equipped, increases Soulshot and Beast Soulshot damage by 12.5%. Effect does not stack with additional jewels of the same type. -->
     <item id="38858" type="Armor" name="Ruby - Lv. 4" icon="icon.etc_bm_jewel_ruby_i00" defaultAction="equip"
           bodypart="jewel"
           immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+		  <skill id="17890" level="1" />
     </item>
     <!-- When equipped, increases Soulshot and Beast Soulshot damage by 20%. Effect does not stack with additional jewels of the same type. -->
     <item id="38859" type="Armor" name="Ruby - Lv. 5" icon="icon.etc_bm_jewel_ruby_i00" defaultAction="equip"
           bodypart="jewel"
-          immediateEffect="1" weight="5">
+          immediateEffect="1" weight="5" isTradable="false" isDropable="false" isSellable="false">
+		  <skill id="17891" level="1" />
     </item>
     <!-- Recovers 1500 HP/CP. -->
     <item id="38860" type="Armor" name="Emergency Recovery Jewel Lv. 1" icon="icon.etc_bm_jewel_ruby_i00"

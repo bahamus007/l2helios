@@ -3454,7 +3454,19 @@
         </for>
     </skill>
     <!-- Soulshot damage + 20% / Patk +9%. -->
-    <skill id="18715" levels="1" name="Ruby">
+    <skill id="18715" levels="1" name="Greater Ruby">
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="DUMMY" />
+        <set name="operateType" val="OP_ACTIVE" />
+    </skill>
+	 <!-- Soulshot damage + 20% / Patk +9%. -->
+    <skill id="18716" levels="1" name="Greater Ruby">
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="DUMMY" />
+        <set name="operateType" val="OP_ACTIVE" />
+    </skill>
+	 <!-- Patk +9%. -->
+    <skill id="18717" levels="1" name="Greater Ruby">
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
