@@ -3929,11 +3929,11 @@
         <skill id="18720" level="1"/>
     </item>
     <!-- When equipped, increases Attack Attribute by 120 and all Defense Attributes by 70. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
-    <item id="47691" type="Armor" name="Opal - Lv. 6" icon="icon.etc_bm_jewel_opal_i00" defaultAction="equip" defaultAction="equip" bodypart="jewel" immediateEffect="1" weight="5" isTradable="true" isDropable="false" isSellable="false">
+    <item id="47691" type="Armor" name="Opal - Lv. 6" icon="icon.etc_bm_jewel_opal_i00" defaultAction="equip" bodypart="jewel" immediateEffect="1" weight="5" isTradable="true" isDropable="false" isSellable="false">
         <skill id="17705" level="6" /> <!-- Opal -->
     </item>
     <!-- When equipped, all basic stats + 3 and Skill Prominence rate + 30%. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
-    <item id="47692" type="Armor" name="Emerald - Lv. 6" icon="icon.etc_bm_jewel_emerald_i00" defaultAction="equip" defaultAction="equip" bodypart="jewel" immediateEffect="1" weight="5" isTradable="true" isDropable="false" isSellable="false">
+    <item id="47692" type="Armor" name="Emerald - Lv. 6" icon="icon.etc_bm_jewel_emerald_i00" defaultAction="equip" bodypart="jewel" immediateEffect="1" weight="5" isTradable="true" isDropable="false" isSellable="false">
         <skill id="17825" level="6" /> <!-- Emerald -->
     </item>
     <!-- When using a skill after equipping, there is a 15% chance of recovering 136 MP, and skill cooldown is reduced by 5%. Effect does not stack with additional jewels of the same type. Equipping various Greater Jewels will grant additional effects. -->
