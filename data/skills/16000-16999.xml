@@ -5525,38 +5525,56 @@
         <set name="operateType" val="OP_ACTIVE" />
         <set name="hitTime" val="1500" />
     </skill>
-    <skill id="16748" levels="1" name="Ring of Authority">
+    <skill id="16748" levels="2" name="Ring of Authority">
+       <table name="#maxMp">43 46</table>
+        <table name="#pAtk">4 5</table>
+        <table name="#pCritDmg">15 20</table>
+        <table name="#ResAtk">25 30</table>
+        <table name="#stats">0 2</table>
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
         <for>
-            <baseAdd val="15" order="0x30" stat="pCritDmg" />
-            <baseAdd val="25" order="0x30" stat="knockDownRes" />
-            <baseAdd val="25" order="0x30" stat="paralysisRes" />
-            <baseAdd val="15" order="0x30" stat="stunRes" />
-            <mul val='1.04' order='0x30' stat='pAtk'/>
-            <mul val="1.05" order="0x10" stat="pAtk-giants" />
+			<add stat="maxMp" val="#maxMp" />
+			<addPercent stat="pAtk" val="#pAtk" />
+			<addPercent stat="pCritDmg" val="#pCritDmg" />
+			<addPercent stat="stunRes" val="#ResAtk" />
+			<addPercent stat="stunProf" val="#ResAtk" />
+			<addPercent stat="paralysisRes" val="#ResAtk" />
+			<addPercent stat="paralysisProf" val="#ResAtk" />
+			<addPercent stat="knockBackRes" val="#ResAtk" />
+            <addPercent stat="knockBackProf" val="#ResAtk" />
+			<addPercent stat="pAtk-giants" val="5" />
+            <baseAdd stat="LUC" val="#stats" />
+            <baseAdd stat="CHA" val="#stats" />
         </for>
     </skill>
-    <skill id="16749" levels="3" name="Ruler's Ring of Authority">
-        <table name="#str">0 2 0 0</table>
-        <table name="#con">0 0 0 2</table>
-        <table name="#matk">0 0 2 0</table>
+	<!-- Lv.1 Max MP +43 M. Atk +4%, M. Critical Damage +15 Stun/Paralysis/Knock Back Atk/Def. Success Rate +25%, Additional Damage to the Giant +5% -->
+
+	<!-- Lv.2 Max MP +46 M. Atk +5%, M. Critical Damage +20 LUC/CHA +2 Stun/Paralysis/Knock Back Atk/Def. Success Rate +30%, Additional Damage to the Giant +5% 3-second Knock Down when single M. Atk. Skill is used -->
+
+	<skill id="16749" levels="2" name="Ring of the Truht-Seeker">
+        <table name="#maxMp">43 46</table>
+        <table name="#mAtk">4 5</table>
+        <table name="#mCritDmg">15 20</table>
+        <table name="#ResAtk">25 30</table>
+        <table name="#stats">0 2</table>
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
         <for>
-            <baseAdd val="20" order="0x30" stat="pCritDmg" />
-            <baseAdd val="30" order="0x30" stat="knockDownRes" />
-            <baseAdd val="30" order="0x30" stat="paralysisRes" />
-            <baseAdd val="30" order="0x30" stat="stunRes" />
-            <mul val='1.05' order='0x30' stat='pAtk'/>
-            <baseAdd stat="LUC" val="2" />
-            <baseAdd stat="CHA" val="2" />
-            <baseAdd stat="STR" val="#str" />
-            <baseAdd stat="INT" val="#matk" />
-            <baseAdd stat="CON" val="#con" />
-            <mul val="1.05" order="0x10" stat="pAtk-giants" />
+			<add stat="maxMp" val="#maxMp" />
+			<addPercent stat="mAtk" val="#mAtk" />
+			<addPercent stat="mCritDmg" val="#mCritDmg" />
+			<addPercent stat="stunRes" val="#ResAtk" />
+			<addPercent stat="stunProf" val="#ResAtk" />
+			<addPercent stat="paralysisRes" val="#ResAtk" />
+			<addPercent stat="paralysisProf" val="#ResAtk" />
+			<addPercent stat="knockBackRes" val="#ResAtk" />
+            <addPercent stat="knockBackProf" val="#ResAtk" />
+			<addPercent stat="pAtk-giants" val="5" />
+            <baseAdd stat="LUC" val="#stats" />
+            <baseAdd stat="CHA" val="#stats" />
         </for>
     </skill>
     <skill id="16750" levels="1" name="Ring of the Truth">
