@@ -5845,7 +5845,10 @@
 		Level 10: P. Atk. + 1702, Atk. Spd. + 25%, Accuracy + 8, and vital spot attack success rate + 5%. STR + 2. Depending on your STR, Cooldown can be reset or abnormal status duration increases + 2 times.
 	-->
     <skill id="10501" levels="10" name="Superior Dagger Mastery">
-        <table name="#pAtk">739 856 993 1117 1266 1343 1425 1512 1604 1702</table>
+        <!--
+		<table name="#pAtk">739 856 993 1117 1266 1343 1425 1512 1604 1702</table>
+		-->
+        <table name="#pAtk">1739 1856 1993 2117 2266 2343 2425 2512 2604 2702</table>
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
@@ -5881,7 +5884,10 @@
 		Level 10: P. Atk. + 1945, Atk. Spd. + 25%, Accuracy + 8, and vital spot attack success rate + 5%. STR + 2.
 	-->
     <skill id="10502" levels="10" name="Superior Dual Dagger Mastery">
-        <table name="#pAtk">844 979 1135 1277 1447 1535 1629 1728 1833 1945</table>
+        <!--
+		<table name="#pAtk">844 979 1135 1277 1447 1535 1629 1728 1833 1945</table>
+		-->
+        <table name="#pAtk">1844 979 2135 2277 2447 2535 2629 2728 2833 2945</table>
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
@@ -5892,7 +5898,10 @@
             <addPercent stat="pAtkSpd" val="25">
                 <using kind="Dual Dagger" />
             </addPercent>
-            <add stat="accCombat" val="8">
+            <!--
+			<add stat="accCombat" val="8">
+			-->
+			<add stat="accCombat" val="18">
                 <using kind="Dual Dagger" />
             </add>
             <addPercent stat="blowRate" val="5">
@@ -5916,7 +5925,10 @@
 		Level 10: Max HP + 4880, P. Def. + 2655, P. Evasion + 20, and chance of receiving Critical Damage - 35% when equipped with Light Armor. Depending on your DEX, Spd. and P. Skill Critical Rate change. STR. + 2. Upon evasion, 10% chance of obtaining an Assassin's Reflex effect.
 	-->
     <skill id="10503" levels="10" name="Superior Light Armor Mastery">
-        <table name="#pDef">1506 1654 1817 1959 2196 2279 2365 2455 2558 2655</table>
+        <!--
+		<table name="#pDef">1506 1654 1817 1959 2196 2279 2365 2455 2558 2655</table>
+		-->
+        <table name="#pDef">3506 3654 3817 3959 4196 4279 4365 4455 4558 4655</table>
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
@@ -5934,7 +5946,10 @@
             <add stat="rEvas" val="20">
                 <using kind="Light" />
             </add>
-            <addPercent stat="critDamEvas" val="35">
+            <!--
+			<addPercent stat="critDamEvas" val="35">
+			-->
+            <addPercent stat="critDamEvas" val="45">
                 <using kind="Light" />
             </addPercent>
             <baseAdd stat="STR" val="2" />
@@ -5983,12 +5998,15 @@
 		Level 10: P. Critical Rate + 60%, P. Critical Damage + 1545, + 1000% chance of triggering skill mastery. STR + 2.
 	-->
     <skill id="10505" levels="10" name="Superior Critical Mastery">
-        <table name="#pCritDam">539 644 750 891 970 1085 1200 1315 1430 1545</table>
+        <!--
+		<table name="#pCritDam">539 644 750 891 970 1085 1200 1315 1430 1545</table>
+		-->
+        <table name="#pCritDam">1539 1644 1750 1891 1970 2085 2200 2315 2430 2545</table>
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
         <for>
-            <addPercentBase stat="rCrit" val="60" />
+            <addPercentBase stat="rCrit" val="70" /><!-- 60 -->
             <add stat="pCritDmgAdd" val="#pCritDam" />
             <baseAdd stat="STR" val="2" />
             <addPercent stat="skillMastery" val="1000" />
@@ -7686,7 +7704,10 @@
 		Level 4: Critical Damage + 10%, Speed + 5.
 	-->
     <skill id="10655" levels="4" name="Superior Critical Damage">
-        <table name="#cAtk">5 6 7 10</table>
+        <!--
+		<table name="#cAtk">5 6 7 10</table>
+		-->
+        <table name="#cAtk">5 6 7 15</table>
         <table name="#runSpd">2 3 4 5</table>
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="BUFF" />

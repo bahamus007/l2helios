@@ -9133,87 +9133,130 @@
     </skill>
     <!-- STR + 3. -->
     <skill id="12883" levels="1" name="Rabbit Ears - STR">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="STR" val="3" />
+        </for>
     </skill>
     <!-- DEX + 3. -->
     <skill id="12884" levels="1" name="Rabbit Ears - DEX">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="DEX" val="3" />
+        </for>
     </skill>
     <!-- CON + 3. -->
     <skill id="12885" levels="1" name="Raccoon Ears: CON">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="CON" val="3" />
+        </for>
     </skill>
     <!-- MEN + 3. -->
     <skill id="12886" levels="1" name="Raccoon Ears: MEN">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="MEN" val="3" />
+        </for>
     </skill>
     <!-- INT + 3. -->
     <skill id="12887" levels="1" name="Cat Ears: INT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="INT" val="3" />
+        </for>
     </skill>
     <!-- WIT + 3. -->
     <skill id="12888" levels="1" name="Cat Ears: WIT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="WIT" val="3" />
+        </for>
     </skill>
     <!-- Critical Rate + 50. -->
     <skill id="12889" levels="1" name="Romantic Chapeau - Critical Rate">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rCrit" val="50" />
+        </for>
     </skill>
     <!-- P. Critical damage + 90 and M. Critical damage + 68. -->
     <skill id="12890" levels="1" name="Romantic Chapeau - Critical Damage">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="pCritDmgAdd" val="90" />
+            <add stat="mCritDmgAdd" val="68" />
+        </for>
     </skill>
     <!-- P. Def. + 5%. -->
     <skill id="12891" levels="1" name="Angel Circlet - P. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <addPercent stat="pDef" val="5" />
+        </for>
     </skill>
     <!-- M. Def. + 5%. -->
     <skill id="12892" levels="1" name="Angel Circlet - M. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <subPercent stat="magicDamVul" val="5" />
+        </for>
     </skill>
     <!-- Evasion + 5. -->
     <skill id="12893" levels="1" name="Angel Circlet - Evasion">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Atk. + 5%. -->
     <skill id="12894" levels="1" name="Demon Circlet - P. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <addPercent stat="pAtk" val="5" />
+        </for>
     </skill>
     <!-- M. Atk. + 10%. -->
     <skill id="12895" levels="1" name="Demon Circlet - M. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <addPercent stat="mAtk" val="10" />
+        </for>
     </skill>
     <!-- Accuracy + 5. -->
     <skill id="12896" levels="1" name="Demon Circlet - Accuracy">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="accCombat" val="5" />
+        </for>
     </skill>
     <!-- For 1 hour, recovers Vitality when XP is acquired through hunting. -->
     <skill id="12897" levels="1" name="Player Commendation - Blessing">

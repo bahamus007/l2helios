@@ -181,9 +181,7 @@
     <item id="4036" type="EtcItem" name="Black Paper" icon="icon.etc_paper_red_i00" immediateEffect="1" price="1"
           isStackable="true">
     </item>
-    <item id="4037" type="EtcItem" name="Coin of Luck" icon="icon.etc_coins_gold_i00" immediateEffect="1" price="0"
-          isTradable="true"
-          isDropable="false" isSellable="true" isDepositable="true" isStackable="true">
+    <item id="4037" type="EtcItem" name="Coin of Luck" icon="icon.etc_coins_gold_i00" immediateEffect="1" price="0" isTradable="true" isDropable="false" isSellable="true" isDepositable="true" isStackable="true">
     </item>
     <!-- When the hunger gauge of a Hatchling reaches 55% or below, its food will be consumed automatically. -->
     <item id="4038" type="EtcItem" name="Hatchling Food" icon="icon.etc_pouch_yellow_i00" defaultAction="skill_reduce"

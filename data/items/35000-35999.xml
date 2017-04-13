@@ -9350,28 +9350,28 @@
     </item>
     <!-- CON + 3 when equipped. -->
     <item id="35761" type="Armor" name="Rabbit Ears - CON" icon="icon.accessory_rabbit_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
     </item>
     <!-- MEN + 3 when equipped. -->
     <item id="35762" type="Armor" name="Rabbit Ears - MEN" icon="icon.accessory_rabbit_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
     </item>
     <!-- INT + 3 when equipped. -->
     <item id="35763" type="Armor" name="Rabbit Ears - Int" icon="icon.accessory_rabbit_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
     </item>
     <!-- WIT + 3 when equipped. -->
     <item id="35764" type="Armor" name="Rabbit Ears - WIT" icon="icon.accessory_rabbit_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
@@ -9379,83 +9379,91 @@
     <!-- P. Critical Rate + 50 when equipped. -->
     <item id="35765" type="Armor" name="Rabbit Ears - Critical Rate" icon="icon.accessory_rabbit_ear_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
     </item>
     <!-- P. Critical Damage + 90 and M. Critical Damage + 68 when equipped. -->
     <item id="35766" type="Armor" name="Rabbit Ears - Critical Damage" icon="icon.accessory_rabbit_ear_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
     </item>
     <!-- P. Def. + 5% when equipped. -->
     <item id="35767" type="Armor" name="Rabbit Ears - P. Def." icon="icon.accessory_rabbit_ear_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
     </item>
     <!-- M. Def. + 5% when equipped. -->
     <item id="35768" type="Armor" name="Rabbit Ears - M. Def." icon="icon.accessory_rabbit_ear_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
     </item>
     <!-- Evasion + 5 when equipped. -->
     <item id="35769" type="Armor" name="Rabbit Ears - Evasion" icon="icon.accessory_rabbit_ear_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
     </item>
     <!-- P. Atk. + 5% when equipped. -->
     <item id="35770" type="Armor" name="Rabbit Ears - P. Atk." icon="icon.accessory_rabbit_ear_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
     </item>
     <!-- M. Atk. + 10% when equipped. -->
     <item id="35771" type="Armor" name="Rabbit Ears - M. Atk." icon="icon.accessory_rabbit_ear_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
     </item>
     <!-- Accuracy + 5 when equipped. -->
     <item id="35772" type="Armor" name="Rabbit Ears - Accuracy" icon="icon.accessory_rabbit_ear_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
     </item>
     <!-- STR + 3 when equipped. -->
     <item id="35773" type="Armor" name="Raccoon Ears - Str" icon="icon.accessory_racoon_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
     </item>
     <!-- DEX + 3 when equipped. -->
     <item id="35774" type="Armor" name="Raccoon Ears - DEX" icon="icon.accessory_racoon_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
     </item>
     <!-- INT + 3 when equipped. -->
     <item id="35775" type="Armor" name="Raccoon Ears - Int" icon="icon.accessory_racoon_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
     </item>
     <!-- WIT + 3 when equipped. -->
     <item id="35776" type="Armor" name="Raccoon Ears - WIT" icon="icon.accessory_racoon_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
@@ -9463,48 +9471,55 @@
     <!-- P. Critical Rate + 50 when equipped. -->
     <item id="35777" type="Armor" name="Raccoon Ears - Critical Rate" icon="icon.accessory_racoon_ear_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
     </item>
     <!-- P. Critical Damage + 90 and M. Critical Damage + 68 when equipped. -->
     <item id="35778" type="Armor" name="Raccoon Ears - Critical Damage" icon="icon.accessory_racoon_ear_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
     </item>
     <!-- P. Def. + 5% when equipped. -->
     <item id="35779" type="Armor" name="Raccoon Ears - P. Def." icon="icon.accessory_racoon_ear_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
     </item>
     <!-- M. Def. + 5% when equipped. -->
     <item id="35780" type="Armor" name="Raccoon Ears - M. Def." icon="icon.accessory_racoon_ear_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
     </item>
     <!-- Evasion + 5 when equipped. -->
     <item id="35781" type="Armor" name="Raccoon Ears - Evasion" icon="icon.accessory_racoon_ear_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
     </item>
     <!-- P. Atk. + 5% when equipped. -->
     <item id="35782" type="Armor" name="Raccoon Ears - P. Atk." icon="icon.accessory_racoon_ear_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
     </item>
     <!-- M. Atk. + 10% when equipped. -->
     <item id="35783" type="Armor" name="Raccoon Ears - M. Atk." icon="icon.accessory_racoon_ear_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
@@ -9512,41 +9527,43 @@
     <!-- Accuracy + 5 when equipped. -->
     <item id="35784" type="Armor" name="Raccoon Ears - Accuracy" icon="icon.accessory_racoon_ear_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
     </item>
     <!-- STR + 3 when equipped. -->
     <item id="35785" type="Armor" name="Cat Ears - Str" icon="icon.accessory_cat_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
     </item>
     <!-- DEX + 3 when equipped. -->
     <item id="35786" type="Armor" name="Cat Ears - DEX" icon="icon.accessory_cat_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
     </item>
     <!-- CON + 3 when equipped. -->
     <item id="35787" type="Armor" name="Cat Ears - CON" icon="icon.accessory_cat_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
     </item>
     <!-- MEN + 3 when equipped. -->
     <item id="35788" type="Armor" name="Cat Ears - MEN" icon="icon.accessory_cat_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
     </item>
     <!-- P. Critical Rate + 50 when equipped. -->
     <item id="35789" type="Armor" name="Cat Ears - Critical Rate" icon="icon.accessory_cat_ear_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
@@ -9554,48 +9571,55 @@
     <!-- P. Critical Damage + 90 and M. Critical Damage + 68 when equipped. -->
     <item id="35790" type="Armor" name="Cat Ears - Critical Damage" icon="icon.accessory_cat_ear_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
     </item>
     <!-- P. Def. + 5% when equipped. -->
-    <item id="35791" type="Armor" name="Cat Ears - P. Def." icon="icon.accessory_cat_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+    <item id="35791" type="Armor" name="Cat Ears - P. Def." icon="icon.accessory_cat_ear_i00" 
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
     </item>
     <!-- M. Def. + 5% when equipped. -->
-    <item id="35792" type="Armor" name="Cat Ears - M. Def." icon="icon.accessory_cat_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+    <item id="35792" type="Armor" name="Cat Ears - M. Def." icon="icon.accessory_cat_ear_i00" 
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
     </item>
     <!-- Evasion + 5 when equipped. -->
-    <item id="35793" type="Armor" name="Cat Ears - Evasion" icon="icon.accessory_cat_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+    <item id="35793" type="Armor" name="Cat Ears - Evasion" icon="icon.accessory_cat_ear_i00" 
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
     </item>
     <!-- P. Atk. + 5% when equipped. -->
-    <item id="35794" type="Armor" name="Cat Ears - P. Atk." icon="icon.accessory_cat_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+    <item id="35794" type="Armor" name="Cat Ears - P. Atk." icon="icon.accessory_cat_ear_i00" 
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
     </item>
     <!-- M. Atk. + 10% when equipped. -->
-    <item id="35795" type="Armor" name="Cat Ears - M. Atk." icon="icon.accessory_cat_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+    <item id="35795" type="Armor" name="Cat Ears - M. Atk." icon="icon.accessory_cat_ear_i00" 
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
     </item>
     <!-- Accuracy + 5 when equipped. -->
-    <item id="35796" type="Armor" name="Cat Ears - Accuracy" icon="icon.accessory_cat_ear_i00" defaultAction="equip"
-          bodypart="hairall"
+    <item id="35796" type="Armor" name="Cat Ears - Accuracy" icon="icon.accessory_cat_ear_i00" 
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
@@ -9603,125 +9627,143 @@
     <!-- STR + 3 when equipped. -->
     <item id="35797" type="Armor" name="Romantic Chapeau - Str" icon="icon.accessory_romantic_chaperon_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
     </item>
     <!-- DEX + 3 when equipped. -->
     <item id="35798" type="Armor" name="Romantic Chapeau - DEX" icon="icon.accessory_romantic_chaperon_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
     </item>
     <!-- CON + 3 when equipped. -->
     <item id="35799" type="Armor" name="Romantic Chapeau - CON" icon="icon.accessory_romantic_chaperon_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
     </item>
     <!-- MEN + 3 when equipped. -->
     <item id="35800" type="Armor" name="Romantic Chapeau - MEN" icon="icon.accessory_romantic_chaperon_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
     </item>
     <!-- INT + 3 when equipped. -->
     <item id="35801" type="Armor" name="Romantic Chapeau - Int" icon="icon.accessory_romantic_chaperon_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
     </item>
     <!-- WIT + 3 when equipped. -->
     <item id="35802" type="Armor" name="Romantic Chapeau - WIT" icon="icon.accessory_romantic_chaperon_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
     </item>
     <!-- P. Def. + 5% when equipped. -->
     <item id="35803" type="Armor" name="Romantic Chapeau - P. Def." icon="icon.accessory_romantic_chaperon_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
     </item>
     <!-- M. Def. + 5% when equipped. -->
     <item id="35804" type="Armor" name="Romantic Chapeau - M. Def." icon="icon.accessory_romantic_chaperon_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
     </item>
     <!-- Evasion + 5 when equipped. -->
     <item id="35805" type="Armor" name="Romantic Chapeau - Evasion" icon="icon.accessory_romantic_chaperon_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
     </item>
     <!-- P. Atk. + 5% when equipped. -->
     <item id="35806" type="Armor" name="Romantic Chapeau - P. Atk." icon="icon.accessory_romantic_chaperon_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
     </item>
     <!-- M. Atk. + 10% when equipped. -->
     <item id="35807" type="Armor" name="Romantic Chapeau - M. Atk." icon="icon.accessory_romantic_chaperon_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
     </item>
     <!-- Accuracy + 5 when equipped. -->
     <item id="35808" type="Armor" name="Romantic Chapeau - Accuracy" icon="icon.accessory_romantic_chaperon_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
     </item>
     <!-- STR + 3 when equipped. -->
     <item id="35809" type="Armor" name="Angel Circlet - Str" icon="icon.Accessary_angel_circlet_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
     </item>
     <!-- DEX + 3 when equipped. -->
     <item id="35810" type="Armor" name="Angel Circlet - DEX" icon="icon.Accessary_angel_circlet_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
     </item>
     <!-- CON + 3 when equipped. -->
     <item id="35811" type="Armor" name="Angel Circlet - CON" icon="icon.Accessary_angel_circlet_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
     </item>
     <!-- MEN + 3 when equipped. -->
     <item id="35812" type="Armor" name="Angel Circlet - MEN" icon="icon.Accessary_angel_circlet_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
     </item>
     <!-- INT + 3 when equipped. -->
     <item id="35813" type="Armor" name="Angel Circlet - Int" icon="icon.Accessary_angel_circlet_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
     </item>
     <!-- WIT + 3 when equipped. -->
     <item id="35814" type="Armor" name="Angel Circlet - WIT" icon="icon.Accessary_angel_circlet_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
@@ -9729,76 +9771,87 @@
     <!-- P. Critical Rate + 50 when equipped. -->
     <item id="35815" type="Armor" name="Angel Circlet - Critical Rate" icon="icon.Accessary_angel_circlet_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
     </item>
     <!-- P. Critical Damage + 90 and M. Critical Damage + 68 when equipped. -->
     <item id="35816" type="Armor" name="Angel Circlet - Critical Damage" icon="icon.Accessary_angel_circlet_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
     </item>
     <!-- P. Atk. + 5% when equipped. -->
     <item id="35817" type="Armor" name="Angel Circlet - P. Atk." icon="icon.Accessary_angel_circlet_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
     </item>
     <!-- M. Atk. + 10% when equipped. -->
     <item id="35818" type="Armor" name="Angel Circlet - M. Atk." icon="icon.Accessary_angel_circlet_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
     </item>
     <!-- Accuracy + 5 when equipped. -->
     <item id="35819" type="Armor" name="Angel Circlet - Accuracy" icon="icon.Accessary_angel_circlet_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
     </item>
     <!-- STR + 3 when equipped. -->
     <item id="35820" type="Armor" name="Demon Circlet - Str" icon="icon.Accessary_demon_circlet_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
     </item>
     <!-- DEX + 3 when equipped. -->
     <item id="35821" type="Armor" name="Demon Circlet - DEX" icon="icon.Accessary_demon_circlet_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
     </item>
     <!-- CON + 3 when equipped. -->
     <item id="35822" type="Armor" name="Demon Circlet - CON" icon="icon.Accessary_demon_circlet_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
     </item>
     <!-- MEN + 3 when equipped. -->
     <item id="35823" type="Armor" name="Demon Circlet - MEN" icon="icon.Accessary_demon_circlet_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
     </item>
     <!-- INT + 3 when equipped. -->
     <item id="35824" type="Armor" name="Demon Circlet - Int" icon="icon.Accessary_demon_circlet_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
     </item>
     <!-- WIT + 3 when equipped. -->
     <item id="35825" type="Armor" name="Demon Circlet - WIT" icon="icon.Accessary_demon_circlet_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
@@ -9806,237 +9859,271 @@
     <!-- P. Critical Rate + 50 when equipped. -->
     <item id="35826" type="Armor" name="Demon Circlet - Critical Rate" icon="icon.Accessary_demon_circlet_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
     </item>
     <!-- P. Critical Damage + 90 and M. Critical Damage + 68 when equipped. -->
     <item id="35827" type="Armor" name="Demon Circlet - Critical Damage" icon="icon.Accessary_demon_circlet_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
     </item>
     <!-- P. Def. + 5% when equipped. -->
     <item id="35828" type="Armor" name="Demon Circlet - P. Def." icon="icon.Accessary_demon_circlet_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
     </item>
     <!-- M. Def. + 5% when equipped. -->
     <item id="35829" type="Armor" name="Demon Circlet - M. Def." icon="icon.Accessary_demon_circlet_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
     </item>
     <!-- Evasion + 5 when equipped. -->
     <item id="35830" type="Armor" name="Demon Circlet - Evasion" icon="icon.Accessary_demon_circlet_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
     </item>
     <!-- CON + 3 when equipped. -->
     <item id="35831" type="Armor" name="Pirate's Eyepatch - CON" icon="icon.accessory_eye_bandage_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
     </item>
     <!-- MEN + 3 when equipped. -->
     <item id="35832" type="Armor" name="Pirate's Eyepatch - MEN" icon="icon.accessory_eye_bandage_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
     </item>
     <!-- INT + 3 when equipped. -->
     <item id="35833" type="Armor" name="Pirate's Eyepatch - Int" icon="icon.accessory_eye_bandage_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
     </item>
     <!-- WIT + 3 when equipped. -->
     <item id="35834" type="Armor" name="Pirate's Eyepatch - WIT" icon="icon.accessory_eye_bandage_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
     </item>
     <!-- P. Critical Rate + 50 when equipped. -->
     <item id="35835" type="Armor" name="Pirate's Eyepatch - Critical Rate" icon="icon.accessory_eye_bandage_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
     </item>
     <!-- P. Critical Damage + 90 and M. Critical Damage + 68 when equipped. -->
     <item id="35836" type="Armor" name="Pirate's Eyepatch - Critical Damage" icon="icon.accessory_eye_bandage_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
     </item>
     <!-- P. Def. + 5% when equipped. -->
     <item id="35837" type="Armor" name="Pirate's Eyepatch - P. Def." icon="icon.accessory_eye_bandage_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
     </item>
     <!-- M. Def. + 5% when equipped. -->
     <item id="35838" type="Armor" name="Pirate's Eyepatch - M. Def." icon="icon.accessory_eye_bandage_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
     </item>
     <!-- Evasion + 5 when equipped. -->
     <item id="35839" type="Armor" name="Pirate's Eyepatch - Evasion" icon="icon.accessory_eye_bandage_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
     </item>
     <!-- P. Atk. + 5% when equipped. -->
     <item id="35840" type="Armor" name="Pirate's Eyepatch - P. Atk." icon="icon.accessory_eye_bandage_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
     </item>
     <!-- M. Atk. + 10% when equipped. -->
     <item id="35841" type="Armor" name="Pirate's Eyepatch - M. Atk." icon="icon.accessory_eye_bandage_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
     </item>
     <!-- Accuracy + 5 when equipped. -->
     <item id="35842" type="Armor" name="Pirate's Eyepatch - Accuracy" icon="icon.accessory_eye_bandage_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
     </item>
     <!-- STR + 3 when equipped. -->
     <item id="35843" type="Armor" name="Outlaw's Eyepatch - Str" icon="icon.accessory_outlaw_eyepatch_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
     </item>
     <!-- DEX + 3 when equipped. -->
     <item id="35844" type="Armor" name="Outlaw's Eyepatch - DEX" icon="icon.accessory_outlaw_eyepatch_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
     </item>
     <!-- INT + 3 when equipped. -->
     <item id="35845" type="Armor" name="Outlaw's Eyepatch - Int" icon="icon.accessory_outlaw_eyepatch_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
     </item>
     <!-- WIT + 3 when equipped. -->
     <item id="35846" type="Armor" name="Outlaw's Eyepatch - WIT" icon="icon.accessory_outlaw_eyepatch_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
     </item>
     <!-- P. Critical Rate + 50 when equipped. -->
     <item id="35847" type="Armor" name="Outlaw's Eyepatch - Critical Rate" icon="icon.accessory_outlaw_eyepatch_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
     </item>
     <!-- P. Critical Damage + 90 and M. Critical Damage + 68 when equipped. -->
     <item id="35848" type="Armor" name="Outlaw's Eyepatch - Critical Damage" icon="icon.accessory_outlaw_eyepatch_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
     </item>
     <!-- P. Def. + 5% when equipped. -->
     <item id="35849" type="Armor" name="Outlaw's Eyepatch - P. Def." icon="icon.accessory_outlaw_eyepatch_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
     </item>
     <!-- M. Def. + 5% when equipped. -->
     <item id="35850" type="Armor" name="Outlaw's Eyepatch - M. Def." icon="icon.accessory_outlaw_eyepatch_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
     </item>
     <!-- Evasion + 5 when equipped. -->
     <item id="35851" type="Armor" name="Outlaw's Eyepatch - Evasion" icon="icon.accessory_outlaw_eyepatch_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
     </item>
     <!-- P. Atk. + 5% when equipped. -->
     <item id="35852" type="Armor" name="Outlaw's Eyepatch - P. Atk." icon="icon.accessory_outlaw_eyepatch_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
     </item>
     <!-- M. Atk. + 10% when equipped. -->
     <item id="35853" type="Armor" name="Outlaw's Eyepatch - M. Atk." icon="icon.accessory_outlaw_eyepatch_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
     </item>
     <!-- Accuracy + 5 when equipped. -->
     <item id="35854" type="Armor" name="Outlaw's Eyepatch - Accuracy" icon="icon.accessory_outlaw_eyepatch_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
     </item>
     <!-- STR + 3 when equipped. -->
-    <item id="35855" type="Armor" name="Eyepatch - Str" icon="icon.Accessary_one_eye_i00" defaultAction="equip"
-          bodypart="hairall"
+    <item id="35855" type="Armor" name="Eyepatch - Str" icon="icon.Accessary_one_eye_i00" 
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
     </item>
     <!-- DEX + 3 when equipped. -->
-    <item id="35856" type="Armor" name="Eyepatch - DEX" icon="icon.Accessary_one_eye_i00" defaultAction="equip"
-          bodypart="hairall"
+    <item id="35856" type="Armor" name="Eyepatch - DEX" icon="icon.Accessary_one_eye_i00" 
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
     </item>
     <!-- CON + 3 when equipped. -->
-    <item id="35857" type="Armor" name="Eyepatch - CON" icon="icon.Accessary_one_eye_i00" defaultAction="equip"
-          bodypart="hairall"
+    <item id="35857" type="Armor" name="Eyepatch - CON" icon="icon.Accessary_one_eye_i00"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
     </item>
     <!-- MEN + 3 when equipped. -->
-    <item id="35858" type="Armor" name="Eyepatch - MEN" icon="icon.Accessary_one_eye_i00" defaultAction="equip"
-          bodypart="hairall"
+    <item id="35858" type="Armor" name="Eyepatch - MEN" icon="icon.Accessary_one_eye_i00" 
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
     </item>
     <!-- P. Critical Rate + 50 when equipped. -->
     <item id="35859" type="Armor" name="Eyepatch - Critical Rate" icon="icon.Accessary_one_eye_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
@@ -10044,132 +10131,135 @@
     <!-- P. Critical Damage + 90 and M. Critical Damage + 68 when equipped. -->
     <item id="35860" type="Armor" name="Eyepatch - Critical Damage" icon="icon.Accessary_one_eye_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
     </item>
     <!-- P. Def. + 5% when equipped. -->
-    <item id="35861" type="Armor" name="Eyepatch - P. Def." icon="icon.Accessary_one_eye_i00" defaultAction="equip"
-          bodypart="hairall"
+    <item id="35861" type="Armor" name="Eyepatch - P. Def." icon="icon.Accessary_one_eye_i00" 
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
     </item>
     <!-- M. Def. + 5% when equipped. -->
-    <item id="35862" type="Armor" name="Eyepatch - M. Def." icon="icon.Accessary_one_eye_i00" defaultAction="equip"
-          bodypart="hairall"
+    <item id="35862" type="Armor" name="Eyepatch - M. Def." icon="icon.Accessary_one_eye_i00"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
     </item>
     <!-- Evasion + 5 when equipped. -->
     <item id="35863" type="Armor" name="Eyepatch - Evasion" icon="icon.Accessary_one_eye_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
     </item>
     <!-- P. Atk. + 5% when equipped. -->
     <item id="35864" type="Armor" name="Eyepatch - P. Atk." icon="icon.Accessary_one_eye_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
     </item>
     <!-- M. Atk. + 10% when equipped. -->
     <item id="35865" type="Armor" name="Eyepatch - M. Atk." icon="icon.Accessary_one_eye_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
     </item>
     <!-- Accuracy + 5 when equipped. -->
     <item id="35866" type="Armor" name="Eyepatch - Accuracy" icon="icon.Accessary_one_eye_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
     </item>
     <!-- STR + 3 when equipped. -->
     <item id="35867" type="Armor" name="Party Hat - Str" icon="icon.accessory_party_hat_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
     </item>
     <!-- DEX + 3 when equipped. -->
     <item id="35868" type="Armor" name="Party Hat - DEX" icon="icon.accessory_party_hat_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
     </item>
     <!-- CON + 3 when equipped. -->
     <item id="35869" type="Armor" name="Party Hat - CON" icon="icon.accessory_party_hat_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
     </item>
     <!-- MEN + 3 when equipped. -->
     <item id="35870" type="Armor" name="Party Hat - MEN" icon="icon.accessory_party_hat_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
     </item>
     <!-- INT + 3 when equipped. -->
     <item id="35871" type="Armor" name="Party Hat - Int" icon="icon.accessory_party_hat_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
     </item>
     <!-- WIT + 3 when equipped. -->
     <item id="35872" type="Armor" name="Party Hat - WIT" icon="icon.accessory_party_hat_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
     </item>
     <!-- P. Def. + 5% when equipped. -->
     <item id="35873" type="Armor" name="Party Hat - P. Def." icon="icon.accessory_party_hat_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
     </item>
     <!-- M. Def. + 5% when equipped. -->
     <item id="35874" type="Armor" name="Party Hat - M. Def." icon="icon.accessory_party_hat_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
     </item>
     <!-- Evasion + 5 when equipped. -->
     <item id="35875" type="Armor" name="Party Hat - Evasion" icon="icon.accessory_party_hat_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
     </item>
     <!-- P. Atk. + 5% when equipped. -->
     <item id="35876" type="Armor" name="Party Hat - P. Atk." icon="icon.accessory_party_hat_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
     </item>
     <!-- M. Atk. + 10% when equipped. -->
     <item id="35877" type="Armor" name="Party Hat - M. Atk." icon="icon.accessory_party_hat_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
     </item>
     <!-- Accuracy + 5 when equipped. -->
     <item id="35878" type="Armor" name="Party Hat - Accuracy" icon="icon.accessory_party_hat_i00" defaultAction="equip"
-          bodypart="hairall"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
@@ -10177,154 +10267,176 @@
     <!-- STR + 3 when equipped. -->
     <item id="35879" type="Armor" name="Refined Angel Ring - Str" icon="icon.accessory_angel_ring_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
     </item>
     <!-- DEX + 3 when equipped. -->
     <item id="35880" type="Armor" name="Refined Angel Ring - DEX" icon="icon.accessory_angel_ring_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
     </item>
     <!-- CON + 3 when equipped. -->
     <item id="35881" type="Armor" name="Refined Angel Ring - CON" icon="icon.accessory_angel_ring_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
     </item>
     <!-- MEN + 3 when equipped. -->
     <item id="35882" type="Armor" name="Refined Angel Ring - MEN" icon="icon.accessory_angel_ring_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
     </item>
     <!-- INT + 3 when equipped. -->
     <item id="35883" type="Armor" name="Refined Angel Ring - Int" icon="icon.accessory_angel_ring_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
     </item>
     <!-- WIT + 3 when equipped. -->
     <item id="35884" type="Armor" name="Refined Angel Ring - WIT" icon="icon.accessory_angel_ring_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
     </item>
     <!-- P. Critical Rate + 50 when equipped. -->
     <item id="35885" type="Armor" name="Refined Angel Ring - Critical Rate" icon="icon.accessory_angel_ring_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
     </item>
     <!-- P. Critical Damage + 90 and M. Critical Damage + 68 when equipped. -->
     <item id="35886" type="Armor" name="Refined Angel Ring - Critical Damage" icon="icon.accessory_angel_ring_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
     </item>
     <!-- P. Atk. + 5% when equipped. -->
     <item id="35887" type="Armor" name="Refined Angel Ring - P. Atk." icon="icon.accessory_angel_ring_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
     </item>
     <!-- M. Atk. + 10% when equipped. -->
     <item id="35888" type="Armor" name="Refined Angel Ring - M. Atk." icon="icon.accessory_angel_ring_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
     </item>
     <!-- Accuracy + 5 when equipped. -->
     <item id="35889" type="Armor" name="Refined Angel Ring - Accuracy" icon="icon.accessory_angel_ring_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
     </item>
     <!-- STR + 3 when equipped. -->
     <item id="35890" type="Armor" name="Refined Devil Horn - Str" icon="icon.accessory_devil_horn_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
     </item>
     <!-- DEX + 3 when equipped. -->
     <item id="35891" type="Armor" name="Refined Devil Horn - DEX" icon="icon.accessory_devil_horn_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
     </item>
     <!-- CON + 3 when equipped. -->
     <item id="35892" type="Armor" name="Refined Devil Horn - CON" icon="icon.accessory_devil_horn_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
     </item>
     <!-- MEN + 3 when equipped. -->
     <item id="35893" type="Armor" name="Refined Devil Horn - MEN" icon="icon.accessory_devil_horn_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
     </item>
     <!-- INT + 3 when equipped. -->
     <item id="35894" type="Armor" name="Refined Devil Horn - Int" icon="icon.accessory_devil_horn_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
     </item>
     <!-- WIT + 3 when equipped. -->
     <item id="35895" type="Armor" name="Refined Devil Horn - WIT" icon="icon.accessory_devil_horn_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
     </item>
     <!-- P. Critical Rate + 50 when equipped. -->
     <item id="35896" type="Armor" name="Refined Devil Horn - Critical Rate" icon="icon.accessory_devil_horn_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
     </item>
     <!-- P. Critical Damage + 90 and M. Critical Damage + 68 when equipped. -->
     <item id="35897" type="Armor" name="Refined Devil Horn - Critical Damage" icon="icon.accessory_devil_horn_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
     </item>
     <!-- P. Def. + 5% when equipped. -->
     <item id="35898" type="Armor" name="Refined Devil Horn - P. Def." icon="icon.accessory_devil_horn_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
     </item>
     <!-- M. Def. + 5% when equipped. -->
     <item id="35899" type="Armor" name="Refined Devil Horn - M. Def." icon="icon.accessory_devil_horn_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
     </item>
     <!-- Evasion + 5 when equipped. -->
     <item id="35900" type="Armor" name="Refined Devil Horn - Evasion" icon="icon.accessory_devil_horn_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
     </item>
@@ -10386,42 +10498,48 @@
     </item>
     <!-- STR + 3 when equipped. -->
     <item id="35915" type="Armor" name="Draco's Hat - STR (Event)" icon="icon.etc_ev_draco_hair_acc"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
     </item>
     <!-- DEX + 3 when equipped. -->
     <item id="35916" type="Armor" name="Draco's Hat - DEX (Event)" icon="icon.etc_ev_draco_hair_acc"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
     </item>
     <!-- CON + 3 when equipped. -->
     <item id="35917" type="Armor" name="Draco's Hat - CON (Event)" icon="icon.etc_ev_draco_hair_acc"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
     </item>
     <!-- MEN + 3 when equipped. -->
     <item id="35918" type="Armor" name="Draco's Hat - MEN (Event)" icon="icon.etc_ev_draco_hair_acc"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
     </item>
     <!-- INT + 3 when equipped. -->
     <item id="35919" type="Armor" name="Draco's Hat - INT (Event)" icon="icon.etc_ev_draco_hair_acc"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
     </item>
     <!-- WIT + 3 when equipped. -->
     <item id="35920" type="Armor" name="Draco's Hat - WIT (Event)" icon="icon.etc_ev_draco_hair_acc"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip"
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
@@ -10429,56 +10547,64 @@
     <!-- P. Critical Rate + 50 when equipped. -->
     <item id="35921" type="Armor" name="Draco's Hat - Critical Rate (Event)" icon="icon.etc_ev_draco_hair_acc"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
     </item>
     <!-- P. Critical Damage + 90 and M. Critical Damage + 68 when equipped. -->
     <item id="35922" type="Armor" name="Draco's Hat - Critical Damage (Event)" icon="icon.etc_ev_draco_hair_acc"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
     </item>
     <!-- P. Def. + 5% when equipped. -->
     <item id="35923" type="Armor" name="Draco's Hat - P. Def. (Event)" icon="icon.etc_ev_draco_hair_acc"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
     </item>
     <!-- M. Def. + 5% when equipped. -->
     <item id="35924" type="Armor" name="Draco's Hat - M. Def. (Event)" icon="icon.etc_ev_draco_hair_acc"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
     </item>
     <!-- Evasion + 5 when equipped. -->
     <item id="35925" type="Armor" name="Draco's Hat - Evasion (Event)" icon="icon.etc_ev_draco_hair_acc"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
     </item>
     <!-- P. Atk. + 5% when equipped. -->
     <item id="35926" type="Armor" name="Draco's Hat - P. Atk. (Event)" icon="icon.etc_ev_draco_hair_acc"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
     </item>
     <!-- M. Atk. + 10% when equipped. -->
     <item id="35927" type="Armor" name="Draco's Hat - M. Atk. (Event)" icon="icon.etc_ev_draco_hair_acc"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
     </item>
     <!-- Accuracy + 5 when equipped. -->
     <item id="35928" type="Armor" name="Draco's Hat - Accuracy (Event)" icon="icon.etc_ev_draco_hair_acc"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10">
+		  bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
+          immediateEffect="1" weight="10">
         <enchant stat="mDef" val="0" />
         <skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
     </item>

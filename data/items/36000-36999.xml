@@ -2523,8 +2523,14 @@
     <!-- MP + 59, Bleed Resistance + 50%, Bleed Atk. Rate + 50%. Increases Heal Amount, Vampiric Rage Effect, Stun/Mental Attack Resistance + 40%, Stun/Mental Atk. Rate + 40%. Decreases physical/magic skill MP consumption. Increases Earth/Holy defense. CON + 3, MEN + 3. Increases P. Def. and M. Def. Can use Stun canceling skills. Momentarily increases Stun Resistance + 100%. Only one effect is applied when two of the same earrings are equipped. -->
     <item id="36409" type="Armor" name="Blessed Antharas' Earring (14-day) - Event"
           icon="icon.accessory_earring_of_antaras_i00"
-          defaultAction="equip" bodypart="rear;lear" immediateEffect="1" weight="150">
+          defaultAction="equip"
+          bodypart="rear;lear" immediateEffect="1" weight="150" isTradable="false" isDropable="false"
+          isSellable="false" time="20160" isEpic="true">
         <baseAdd stat="mDef" val="170" />
+        <add stat="maxMp" val="59" />
+        <enchant stat="mDef" val="0" />
+        <skill id="13313" level="1" /> <!-- Blessed Antharas' Earring -->
+        <skill id="13314" level="1" /> <!-- Blessed Antharas' Earring -->
     </item>
     <!-- Increases HP by 625, MP by 79, Sleep Resistance by 50%, Sleep Attack Rate by 50%, Fire Resistance by 30, Dark Resistance by 20, STR by 3, INT by 3, P. Skill Power by 5%, P. Atk. by 10%, and M. Atk. by 20%. Decreases M. Skill and P. Skill cooldown, and creates a Wild Magic Effect and Damage Shield effect. Can use Cancel Hold and momentarily makes Hold Resistance 100%. -->
     <item id="36410" type="Armor" name="Blessed Valakas' Necklace (14-day) - Event"

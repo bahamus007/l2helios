@@ -1105,172 +1105,214 @@
         <skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
     </item>
     <!-- STR + 3. -->
-    <item id="38242" type="Armor" name="Party Mask - Str" icon="icon.etc_party_mask_i00" defaultAction="equip"
-          bodypart="rhand"
-          immediateEffect="1" weight="10" price="50000">
-    </item>
+    <item id="38242" type="Armor" name="Party Mask - Str" icon="icon.etc_party_mask_i00" defaultAction="equip" 
+	      bodypart="hair" crystalType="a"
+          immediateEffect="1" enchantEnabled="1" isAugmentable="true"  
+          weight="10" isTradable="true" isDropable="false" isSellable="false">    
+		  <enchant stat="mDef" val="0" />
+        <skill id="17407" level="1" /> <!-- Hair Accessory: STR + 3 -->
+   </item>
     <!-- DEX + 3. -->
     <item id="38243" type="Armor" name="Party Mask - DEX" icon="icon.etc_party_mask_i00" defaultAction="equip"
-          bodypart="rhand"
-          immediateEffect="1" weight="10" price="50000">
+	      bodypart="hair" crystalType="a"
+          immediateEffect="1" enchantEnabled="1" isAugmentable="true" 
+          weight="10" isTradable="true" isDropable="false" isSellable="false">    
+		  <enchant stat="mDef" val="0" />
+        <skill id="17408" level="1" /> <!-- Hair Accessory: DEX + 3 -->
     </item>
     <!-- CON + 3. -->
     <item id="38244" type="Armor" name="Party Mask - CON" icon="icon.etc_party_mask_i00" defaultAction="equip"
-          bodypart="rhand"
-          immediateEffect="1" weight="10" price="50000">
+	      bodypart="hair" crystalType="a"
+          immediateEffect="1" enchantEnabled="1" isAugmentable="true" 
+          weight="10" isTradable="true" isDropable="false" isSellable="false">    
+		  <enchant stat="mDef" val="0" />
+        <skill id="17409" level="1" /> <!-- Hair Accessory: CON + 3 -->
     </item>
     <!-- MEN + 3. -->
     <item id="38245" type="Armor" name="Party Mask - MEN" icon="icon.etc_party_mask_i00" defaultAction="equip"
-          bodypart="rhand"
-          immediateEffect="1" weight="10" price="50000">
+	      bodypart="hair" crystalType="a"
+          immediateEffect="1" enchantEnabled="1" isAugmentable="true" 
+          weight="10" isTradable="true" isDropable="false" isSellable="false">    
+		  <enchant stat="mDef" val="0" />
+        <skill id="17410" level="1" /> <!-- Hair Accessory: MEN + 3 -->
     </item>
     <!-- INT + 3. -->
     <item id="38246" type="Armor" name="Party Mask - Int" icon="icon.etc_party_mask_i00" defaultAction="equip"
-          bodypart="rhand"
-          immediateEffect="1" weight="10" price="50000">
+	      bodypart="hair" crystalType="a"
+          immediateEffect="1" enchantEnabled="1" isAugmentable="true" 
+          weight="10" isTradable="true" isDropable="false" isSellable="false">    
+		  <enchant stat="mDef" val="0" />
+        <skill id="17411" level="1" /> <!-- Hair Accessory: INT + 3 -->
     </item>
     <!-- WIT + 3. -->
     <item id="38247" type="Armor" name="Party Mask - WIT" icon="icon.etc_party_mask_i00" defaultAction="equip"
-          bodypart="rhand"
-          immediateEffect="1" weight="10" price="50000">
+	      bodypart="hair" crystalType="a"
+          immediateEffect="1" enchantEnabled="1" isAugmentable="true" 
+          weight="10" isTradable="true" isDropable="false" isSellable="false">    
+		  <enchant stat="mDef" val="0" />
+        <skill id="17412" level="1" /> <!-- Hair Accessory: WIT + 3 -->
     </item>
     <!-- Critical Rate + 50. -->
     <item id="38248" type="Armor" name="Party Mask - Critical Rate" icon="icon.etc_party_mask_i00" defaultAction="equip"
-          bodypart="rhand"
-          immediateEffect="1" weight="10" price="50000">
+	      bodypart="hair" crystalType="a"
+          immediateEffect="1" enchantEnabled="1" isAugmentable="true" 
+          weight="10" isTradable="true" isDropable="false" isSellable="false">    
+		  <enchant stat="mDef" val="0" />
+        <skill id="17413" level="1" /> <!-- Hair Accessory: Critical Rate + 50 -->
     </item>
     <!-- Critical Damage + 90, M. Critical Damage + 68. -->
     <item id="38249" type="Armor" name="Party Mask - Critical Damage" icon="icon.etc_party_mask_i00"
-          defaultAction="equip" bodypart="rhand"
-          immediateEffect="1" weight="10" price="50000">
+	      bodypart="hair" crystalType="a"
+          immediateEffect="1" enchantEnabled="1" isAugmentable="true" 
+          weight="10" isTradable="true" isDropable="false" isSellable="false">    
+		  <enchant stat="mDef" val="0" />
+        <skill id="17414" level="1" /> <!-- Hair Accessory: Critical Damage + 90, M. Critical Damage + 68 -->
     </item>
     <!-- P. Def. + 5%. -->
     <item id="38250" type="Armor" name="Party Mask - P. Def." icon="icon.etc_party_mask_i00" defaultAction="equip"
-          bodypart="rhand"
-          immediateEffect="1" weight="10" price="50000">
+	      bodypart="hair" crystalType="a"
+          immediateEffect="1" enchantEnabled="1" isAugmentable="true" 
+          weight="10" isTradable="true" isDropable="false" isSellable="false">    
+		  <enchant stat="mDef" val="0" />
+        <skill id="17415" level="1" /> <!-- Hair Accessory: P. Def. + 5% -->
     </item>
     <!-- M. Def. + 5%. -->
     <item id="38251" type="Armor" name="Party Mask - M. Def." icon="icon.etc_party_mask_i00" defaultAction="equip"
-          bodypart="rhand"
-          immediateEffect="1" weight="10" price="50000">
+	      bodypart="hair" crystalType="a"
+          immediateEffect="1" enchantEnabled="1" isAugmentable="true" 
+          weight="10" isTradable="true" isDropable="false" isSellable="false">    
+		  <enchant stat="mDef" val="0" />
+        <skill id="17416" level="1" /> <!-- M. Def. + 5% -->
     </item>
     <!-- Evasion + 5. -->
     <item id="38252" type="Armor" name="Party Mask - Evasion" icon="icon.etc_party_mask_i00" defaultAction="equip"
-          bodypart="rhand"
-          immediateEffect="1" weight="10" price="50000">
+	      bodypart="hair" crystalType="a"
+          immediateEffect="1" enchantEnabled="1" isAugmentable="true" 
+          weight="10" isTradable="true" isDropable="false" isSellable="false">    
+		  <enchant stat="mDef" val="0" />
+        <skill id="17417" level="1" /> <!-- Hair Accessory: Evasion + 5 -->
     </item>
     <!-- P. Atk. + 5%. -->
     <item id="38253" type="Armor" name="Party Mask - P. Atk." icon="icon.etc_party_mask_i00" defaultAction="equip"
-          bodypart="rhand"
-          immediateEffect="1" weight="10" price="50000">
+	      bodypart="hair" crystalType="a"
+          immediateEffect="1" enchantEnabled="1" isAugmentable="true" 
+          weight="10" isTradable="true" isDropable="false" isSellable="false">    
+		  <enchant stat="mDef" val="0" />
+        <skill id="17418" level="1" /> <!-- Hair Accessory: P. Atk. + 5% -->
     </item>
     <!-- M. Atk. + 10%. -->
     <item id="38254" type="Armor" name="Party Mask - M. Atk." icon="icon.etc_party_mask_i00" defaultAction="equip"
-          bodypart="rhand"
-          immediateEffect="1" weight="10" price="50000">
+	      bodypart="hair" crystalType="a"
+          immediateEffect="1" enchantEnabled="1" isAugmentable="true" 
+          weight="10" isTradable="true" isDropable="false" isSellable="false">    
+		  <enchant stat="mDef" val="0" />
+        <skill id="17419" level="1" /> <!-- Hair Accessory: M. Atk. + 10% -->
     </item>
     <!-- Accuracy + 5. -->
     <item id="38255" type="Armor" name="Party Mask - Accuracy" icon="icon.etc_party_mask_i00" defaultAction="equip"
-          bodypart="rhand"
-          immediateEffect="1" weight="10" price="50000">
+	      bodypart="hair" crystalType="a"
+          immediateEffect="1" enchantEnabled="1" isAugmentable="true" 
+          weight="10" isTradable="true" isDropable="false" isSellable="false">    
+		  <enchant stat="mDef" val="0" />
+        <skill id="17420" level="1" /> <!-- Hair Accessory: Accuracy + 5 -->
     </item>
     <!-- STR + 3. -->
     <item id="38256" type="Armor" name="Monocle - Str" icon="icon.accessory_glasses_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10" price="50000">
         <enchant stat="mDef" val="0" />
-        <skill id="9554" level="1" /> <!-- Hair Accessory: STR -->
+        <skill id="17421" level="1" /> <!-- Hair Accessory: STR -->
     </item>
     <!-- DEX + 3. -->
     <item id="38257" type="Armor" name="Monocle - DEX" icon="icon.accessory_glasses_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10" price="50000">
         <enchant stat="mDef" val="0" />
-        <skill id="9555" level="1" /> <!-- Hair Accessory: DEX -->
+        <skill id="17422" level="1" /> <!-- Hair Accessory: DEX -->
     </item>
     <!-- CON + 3. -->
     <item id="38258" type="Armor" name="Monocle - CON" icon="icon.accessory_glasses_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10" price="50000">
         <enchant stat="mDef" val="0" />
-        <skill id="9556" level="1" /> <!-- Hair Accessory: CON -->
+        <skill id="17423" level="1" /> <!-- Hair Accessory: CON -->
     </item>
     <!-- MEN + 3. -->
     <item id="38259" type="Armor" name="Monocle - MEN" icon="icon.accessory_glasses_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10" price="50000">
         <enchant stat="mDef" val="0" />
-        <skill id="9557" level="1" /> <!-- Hair Accessory: MEN -->
+        <skill id="17424" level="1" /> <!-- Hair Accessory: MEN -->
     </item>
     <!-- INT + 3. -->
     <item id="38260" type="Armor" name="Monocle - Int" icon="icon.accessory_glasses_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10" price="50000">
         <enchant stat="mDef" val="0" />
-        <skill id="9558" level="1" /> <!-- Hair Accessory: INT -->
+        <skill id="17425" level="1" /> <!-- Hair Accessory: INT -->
     </item>
     <!-- WIT + 3. -->
     <item id="38261" type="Armor" name="Monocle - WIT" icon="icon.accessory_glasses_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10" price="50000">
         <enchant stat="mDef" val="0" />
-        <skill id="9559" level="1" /> <!-- Hair Accessory: WIT -->
+        <skill id="17426" level="1" /> <!-- Hair Accessory: WIT -->
     </item>
     <!-- Critical Rate + 50. -->
     <item id="38262" type="Armor" name="Monocle - Critical Rate" icon="icon.accessory_glasses_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10" price="50000">
         <enchant stat="mDef" val="0" />
-        <skill id="9560" level="1" /> <!-- Hair Accessory: Critical Rate -->
+        <skill id="17427" level="1" /> <!-- Hair Accessory: Critical Rate -->
     </item>
     <!-- Critical Damage + 90, M. Critical Damage + 68. -->
     <item id="38263" type="Armor" name="Monocle - Critical Damage" icon="icon.accessory_glasses_i00"
-          defaultAction="equip" bodypart="hairall"
+          bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10" price="50000">
         <enchant stat="mDef" val="0" />
-        <skill id="9561" level="1" /> <!-- Hair Accessory: Critical Damage -->
+        <skill id="17428" level="1" /> <!-- Hair Accessory: Critical Damage -->
     </item>
     <!-- P. Def. + 5%. -->
     <item id="38264" type="Armor" name="Monocle - P. Def." icon="icon.accessory_glasses_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10" price="50000">
         <enchant stat="mDef" val="0" />
-        <skill id="9562" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
+        <skill id="17429" level="1" /> <!-- Hair Accessory Circlet: P. Def. -->
     </item>
     <!-- M. Def. + 5%. -->
     <item id="38265" type="Armor" name="Monocle - M. Def." icon="icon.accessory_glasses_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10" price="50000">
         <enchant stat="mDef" val="0" />
-        <skill id="9563" level="1" /> <!-- Hair Accessory: M. Def. -->
+        <skill id="17430" level="1" /> <!-- Hair Accessory: M. Def. -->
     </item>
     <!-- Evasion + 5. -->
     <item id="38266" type="Armor" name="Monocle - Evasion" icon="icon.accessory_glasses_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10" price="50000">
         <enchant stat="mDef" val="0" />
-        <skill id="9564" level="1" /> <!-- Hair Accessory: Evasion -->
+        <skill id="17431" level="1" /> <!-- Hair Accessory: Evasion -->
     </item>
     <!-- P. Atk. + 5%. -->
     <item id="38267" type="Armor" name="Monocle - P. Atk." icon="icon.accessory_glasses_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10" price="50000">
         <enchant stat="mDef" val="0" />
-        <skill id="9565" level="1" /> <!-- Hair Accessory: P. Atk. -->
+        <skill id="17432" level="1" /> <!-- Hair Accessory: P. Atk. -->
     </item>
     <!-- M. Atk. + 10%. -->
     <item id="38268" type="Armor" name="Monocle - M. Atk." icon="icon.accessory_glasses_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10" price="50000">
         <enchant stat="mDef" val="0" />
-        <skill id="9566" level="1" /> <!-- Hair Accessory: M. Atk. -->
+        <skill id="17433" level="1" /> <!-- Hair Accessory: M. Atk. -->
     </item>
     <!-- Accuracy + 5. -->
     <item id="38269" type="Armor" name="Monocle - Accuracy" icon="icon.accessory_glasses_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" enchantEnabled="1"  isAugmentable="true" crystalType="a"
           immediateEffect="1" weight="10" price="50000">
         <enchant stat="mDef" val="0" />
-        <skill id="9567" level="1" /> <!-- Hair Accessory: Accuracy -->
+        <skill id="17434" level="1" /> <!-- Hair Accessory: Accuracy -->
     </item>
     <!-- STR + 3. Female only. -->
     <item id="38270" type="Armor" name="Maiden's Hairpin - Str" icon="icon.accessory_maidens_hairpin_i00"

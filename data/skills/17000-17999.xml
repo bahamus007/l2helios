@@ -2678,843 +2678,1265 @@
     </skill>
     <!-- STR + 3. -->
     <skill id="17407" levels="1" name="Party Mask: STR">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="STR" val="3" />
+        </for>
     </skill>
     <!-- DEX + 3. -->
     <skill id="17408" levels="1" name="Party Mask: DEX">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="DEX" val="3" />
+        </for>
     </skill>
     <!-- CON + 3. -->
     <skill id="17409" levels="1" name="Party Mask: CON">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="CON" val="3" />
+        </for>
     </skill>
     <!-- MEN + 3. -->
     <skill id="17410" levels="1" name="Party Mask: MEN">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="MEN" val="3" />
+        </for>
     </skill>
     <!-- INT + 3. -->
     <skill id="17411" levels="1" name="Party Mask: INT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="INT" val="3" />
+        </for>
     </skill>
     <!-- WIT + 3. -->
     <skill id="17412" levels="1" name="Party Mask: WIT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="WIT" val="3" />
+        </for>
     </skill>
     <!-- Critical Rate + 50. -->
     <skill id="17413" levels="1" name="Party Mask: Critical Rate">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rCrit" val="50" />
+        </for>
     </skill>
     <!-- P. Critical Damage + 90/ M. Critical Damage + 68. -->
     <skill id="17414" levels="1" name="Party Mask: Critical Damage">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="pCritDmgAdd" val="90" />
+            <add stat="mCritDmgAdd" val="68" />
+        </for>
     </skill>
     <!-- P. Def. + 5%. -->
     <skill id="17415" levels="1" name="Party Mask: P. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <addPercent stat="pDef" val="5" />
+        </for>
     </skill>
     <!-- M. Def. + 5%. -->
     <skill id="17416" levels="1" name="Party Mask: M. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <subPercent stat="magicDamVul" val="5" />
+        </for>
     </skill>
     <!-- Evasion + 5. -->
     <skill id="17417" levels="1" name="Party Mask: Evasion">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Atk. + 5%. -->
     <skill id="17418" levels="1" name="Party Mask: P. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <addPercent stat="pAtk" val="5" />
+        </for>
     </skill>
     <!-- M. Atk. + 10%. -->
     <skill id="17419" levels="1" name="Party Mask: M. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <addPercent stat="mAtk" val="10" />
+        </for>
     </skill>
     <!-- Accuracy + 5. -->
     <skill id="17420" levels="1" name="Party Mask: Accuracy">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="accCombat" val="5" />
+        </for>
     </skill>
     <!-- STR + 3. -->
     <skill id="17421" levels="1" name="Monocle: STR">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="STR" val="3" />
+        </for>
     </skill>
     <!-- DEX + 3. -->
     <skill id="17422" levels="1" name="Monocle: DEX">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="DEX" val="3" />
+        </for>
     </skill>
     <!-- CON + 3. -->
     <skill id="17423" levels="1" name="Monocle: CON">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="CON" val="3" />
+        </for>
     </skill>
     <!-- MEN + 3. -->
     <skill id="17424" levels="1" name="Monocle: MEN">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="MEN" val="3" />
+        </for>
     </skill>
     <!-- INT + 3. -->
     <skill id="17425" levels="1" name="Monocle: INT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="INT" val="3" />
+        </for>
     </skill>
     <!-- WIT + 3. -->
     <skill id="17426" levels="1" name="Monocle: WIT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <baseAdd stat="WIT" val="3" />
+        </for>
     </skill>
     <!-- Critical Rate + 50. -->
     <skill id="17427" levels="1" name="Monocle: Critical Rate">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rCrit" val="50" />
+        </for>
     </skill>
     <!-- P. Critical Damage + 90/ M. Critical Damage + 68. -->
     <skill id="17428" levels="1" name="Monocle: Critical Damage">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="pCritDmgAdd" val="90" />
+            <add stat="mCritDmgAdd" val="68" />
+        </for>
     </skill>
     <!-- P. Def. + 5%. -->
     <skill id="17429" levels="1" name="Monocle: P. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <addPercent stat="pDef" val="5" />
+        </for>
     </skill>
     <!-- M. Def. + 5%. -->
     <skill id="17430" levels="1" name="Monocle: M. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <subPercent stat="magicDamVul" val="5" />
+        </for>
     </skill>
     <!-- Evasion + 5. -->
     <skill id="17431" levels="1" name="Monocle: Evasion">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Atk. + 5%. -->
     <skill id="17432" levels="1" name="Monocle: P. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <addPercent stat="pAtk" val="5" />
+        </for>
     </skill>
     <!-- M. Atk. + 10%. -->
     <skill id="17433" levels="1" name="Monocle: M. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <addPercent stat="mAtk" val="10" />
+        </for>
     </skill>
     <!-- Accuracy + 5. -->
     <skill id="17434" levels="1" name="Monocle: Accuracy">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="accCombat" val="5" />
+        </for>
     </skill>
     <!-- STR + 3. -->
     <skill id="17435" levels="1" name="Maiden's Hairpin: STR">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- DEX + 3. -->
     <skill id="17436" levels="1" name="Maiden's Hairpin: DEX">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- CON + 3. -->
     <skill id="17437" levels="1" name="Maiden's Hairpin: CON">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- MEN + 3. -->
     <skill id="17438" levels="1" name="Maiden's Hairpin: MEN">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- INT + 3. -->
     <skill id="17439" levels="1" name="Maiden's Hairpin: INT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- WIT + 3. -->
     <skill id="17440" levels="1" name="Maiden's Hairpin: WIT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Critical Rate + 50. -->
     <skill id="17441" levels="1" name="Maiden's Hairpin: Critical Rate">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Critical Damage + 90/ M. Critical Damage + 68. -->
     <skill id="17442" levels="1" name="Maiden's Hairpin: Critical Damage">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Def. + 5%. -->
     <skill id="17443" levels="1" name="Maiden's Hairpin: P. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- M. Def. + 5%. -->
     <skill id="17444" levels="1" name="Maiden's Hairpin: M. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Evasion + 5. -->
     <skill id="17445" levels="1" name="Maiden's Hairpin: Evasion">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Atk. + 5%. -->
     <skill id="17446" levels="1" name="Maiden's Hairpin: P. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- M. Atk. + 10%. -->
     <skill id="17447" levels="1" name="Maiden's Hairpin: M. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Accuracy + 5. -->
     <skill id="17448" levels="1" name="Maiden's Hairpin: Accuracy">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- STR + 3. -->
     <skill id="17449" levels="1" name="Forget-me-not Hairpin: STR">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- DEX + 3. -->
     <skill id="17450" levels="1" name="Forget-me-not Hairpin: DEX">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- CON + 3. -->
     <skill id="17451" levels="1" name="Forget-me-not Hairpin: CON">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- MEN + 3. -->
     <skill id="17452" levels="1" name="Forget-me-not Hairpin: MEN">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- INT + 3. -->
     <skill id="17453" levels="1" name="Forget-me-not Hairpin: INT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- WIT + 3. -->
     <skill id="17454" levels="1" name="Forget-me-not Hairpin: WIT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Critical Rate + 50. -->
     <skill id="17455" levels="1" name="Forget-me-not Hairpin: Critical Rate">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Critical Damage + 90/ M. Critical Damage + 68. -->
     <skill id="17456" levels="1" name="Forget-me-not Hairpin: Critical Damage">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Def. + 5%. -->
     <skill id="17457" levels="1" name="Forget-me-not Hairpin: P. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- M. Def. + 5%. -->
     <skill id="17458" levels="1" name="Forget-me-not Hairpin: M. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Evasion + 5. -->
     <skill id="17459" levels="1" name="Forget-me-not Hairpin: Evasion">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Atk. + 5%. -->
     <skill id="17460" levels="1" name="Forget-me-not Hairpin: P. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- M. Atk. + 10%. -->
     <skill id="17461" levels="1" name="Forget-me-not Hairpin: M. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Accuracy + 5. -->
     <skill id="17462" levels="1" name="Forget-me-not Hairpin: Accuracy">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- STR + 3. -->
     <skill id="17463" levels="1" name="Daisy Hairpin: STR">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- DEX + 3. -->
     <skill id="17464" levels="1" name="Daisy Hairpin: DEX">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- CON + 3. -->
     <skill id="17465" levels="1" name="Daisy Hairpin: CON">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- MEN + 3. -->
     <skill id="17466" levels="1" name="Daisy Hairpin: MEN">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- INT + 3. -->
     <skill id="17467" levels="1" name="Daisy Hairpin: INT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- WIT + 3. -->
     <skill id="17468" levels="1" name="Daisy Hairpin: WIT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Critical Rate + 50. -->
     <skill id="17469" levels="1" name="Daisy Hairpin: Critical Rate">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Critical Damage + 90/ M. Critical Damage + 68. -->
     <skill id="17470" levels="1" name="Daisy Hairpin: Critical Damage">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Def. + 5%. -->
     <skill id="17471" levels="1" name="Daisy Hairpin: P. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- M. Def. + 5%. -->
     <skill id="17472" levels="1" name="Daisy Hairpin: M. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Evasion + 5. -->
     <skill id="17473" levels="1" name="Daisy Hairpin: Evasion">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Atk. + 5%. -->
     <skill id="17474" levels="1" name="Daisy Hairpin: P. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- M. Atk. + 10%. -->
     <skill id="17475" levels="1" name="Daisy Hairpin: M. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Accuracy + 5. -->
     <skill id="17476" levels="1" name="Daisy Hairpin: Accuracy">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- STR + 3. -->
     <skill id="17477" levels="1" name="Little Angel Wings: STR">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- DEX + 3. -->
     <skill id="17478" levels="1" name="Little Angel Wings: DEX">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- CON + 3. -->
     <skill id="17479" levels="1" name="Little Angel Wings: CON">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- MEN + 3. -->
     <skill id="17480" levels="1" name="Little Angel Wings: MEN">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- INT + 3. -->
     <skill id="17481" levels="1" name="Little Angel Wings: INT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- WIT + 3. -->
     <skill id="17482" levels="1" name="Little Angel Wings: WIT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Critical Rate + 50. -->
     <skill id="17483" levels="1" name="Little Angel Wings: Critical Rate">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Critical Damage + 90/ M. Critical Damage + 68. -->
     <skill id="17484" levels="1" name="Little Angel Wings: Critical Damage">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Def. + 5%. -->
     <skill id="17485" levels="1" name="Little Angel Wings: P. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- M. Def. + 5%. -->
     <skill id="17486" levels="1" name="Little Angel Wings: M. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Evasion + 5. -->
     <skill id="17487" levels="1" name="Little Angel Wings: Evasion">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Atk. + 5%. -->
     <skill id="17488" levels="1" name="Little Angel Wings: P. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- M. Atk. + 10%. -->
     <skill id="17489" levels="1" name="Little Angel Wings: M. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Accuracy + 5. -->
     <skill id="17490" levels="1" name="Little Angel Wings: Accuracy">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- STR + 3. -->
     <skill id="17491" levels="1" name="Fairy Antennae: STR">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- DEX + 3. -->
     <skill id="17492" levels="1" name="Fairy Antennae: DEX">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- CON + 3. -->
     <skill id="17493" levels="1" name="Fairy Antennae: CON">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- MEN + 3. -->
     <skill id="17494" levels="1" name="Fairy Antennae: MEN">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- INT + 3. -->
     <skill id="17495" levels="1" name="Fairy Antennae: INT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- WIT + 3. -->
     <skill id="17496" levels="1" name="Fairy Antennae: WIT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Critical Rate + 50. -->
     <skill id="17497" levels="1" name="Fairy Antennae: Critical Rate">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Critical Damage + 90/ M. Critical Damage + 68. -->
     <skill id="17498" levels="1" name="Fairy Antennae: Critical Damage">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Def. + 5%. -->
     <skill id="17499" levels="1" name="Fairy Antennae: P. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- M. Def. + 5%. -->
     <skill id="17500" levels="1" name="Fairy Antennae: M. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Evasion + 5. -->
     <skill id="17501" levels="1" name="Fairy Antennae: Evasion">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Atk. + 5%. -->
     <skill id="17502" levels="1" name="Fairy Antennae: P. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- M. Atk. + 10%. -->
     <skill id="17503" levels="1" name="Fairy Antennae: M. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Accuracy + 5. -->
     <skill id="17504" levels="1" name="Fairy Antennae: Accuracy">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- STR + 3. -->
     <skill id="17505" levels="1" name="Chapeau: STR">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- DEX + 3. -->
     <skill id="17506" levels="1" name="Chapeau: DEX">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- CON + 3. -->
     <skill id="17507" levels="1" name="Chapeau: CON">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- MEN + 3. -->
     <skill id="17508" levels="1" name="Chapeau: MEN">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- INT + 3. -->
     <skill id="17509" levels="1" name="Chapeau: INT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- WIT + 3. -->
     <skill id="17510" levels="1" name="Chapeau: WIT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Critical Rate + 50. -->
     <skill id="17511" levels="1" name="Chapeau: Critical Rate">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Critical Damage + 90/ M. Critical Damage + 68. -->
     <skill id="17512" levels="1" name="Chapeau: Critical Damage">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Def. + 5%. -->
     <skill id="17513" levels="1" name="Chapeau: P. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- M. Def. + 5%. -->
     <skill id="17514" levels="1" name="Chapeau: M. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Evasion + 5. -->
     <skill id="17515" levels="1" name="Chapeau: Evasion">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Atk. + 5%. -->
     <skill id="17516" levels="1" name="Chapeau: P. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- M. Atk. + 10%. -->
     <skill id="17517" levels="1" name="Chapeau: M. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Accuracy + 5. -->
     <skill id="17518" levels="1" name="Chapeau: Accuracy">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- STR + 3. -->
     <skill id="17519" levels="1" name="Artisan's Goggles: STR">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- DEX + 3. -->
     <skill id="17520" levels="1" name="Artisan's Goggles: DEX">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- CON + 3. -->
     <skill id="17521" levels="1" name="Artisan's Goggles: CON">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- MEN + 3. -->
     <skill id="17522" levels="1" name="Artisan's Goggles: MEN">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- INT + 3. -->
     <skill id="17523" levels="1" name="Artisan's Goggles: INT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- WIT + 3. -->
     <skill id="17524" levels="1" name="Artisan's Goggles: WIT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Critical Rate + 50. -->
     <skill id="17525" levels="1" name="Artisan's Goggles: Critical Rate">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Critical Damage + 90/ M. Critical Damage + 68. -->
     <skill id="17526" levels="1" name="Artisan's Goggles: Critical Damage">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Def. + 5%. -->
     <skill id="17527" levels="1" name="Artisan's Goggles: P. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- M. Def. + 5%. -->
     <skill id="17528" levels="1" name="Artisan's Goggles: M. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Evasion + 5. -->
     <skill id="17529" levels="1" name="Artisan's Goggles: Evasion">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Atk. + 5%. -->
     <skill id="17530" levels="1" name="Artisan's Goggles: P. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- M. Atk. + 10%. -->
     <skill id="17531" levels="1" name="Artisan's Goggles: M. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Accuracy + 5. -->
     <skill id="17532" levels="1" name="Artisan's Goggles: Accuracy">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- STR + 3. -->
     <skill id="17533" levels="1" name="Arrow-pierced Apple: STR">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- DEX + 3. -->
     <skill id="17534" levels="1" name="Arrow-pierced Apple: DEX">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- CON + 3. -->
     <skill id="17535" levels="1" name="Arrow-pierced Apple: CON">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- MEN + 3. -->
     <skill id="17536" levels="1" name="Arrow-pierced Apple: MEN">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- INT + 3. -->
     <skill id="17537" levels="1" name="Arrow-pierced Apple: INT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- WIT + 3. -->
     <skill id="17538" levels="1" name="Arrow-pierced Apple: WIT">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Critical Rate + 50. -->
     <skill id="17539" levels="1" name="Arrow-pierced Apple: Critical Rate">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Critical Damage + 90/ M. Critical Damage + 68. -->
     <skill id="17540" levels="1" name="Arrow-pierced Apple: Critical Damage">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Def. + 5%. -->
     <skill id="17541" levels="1" name="Arrow-pierced Apple: P. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- M. Def. + 5%. -->
     <skill id="17542" levels="1" name="Arrow-pierced Apple: M. Def.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Evasion + 5. -->
     <skill id="17543" levels="1" name="Arrow-pierced Apple: Evasion">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- P. Atk. + 5%. -->
     <skill id="17544" levels="1" name="Arrow-pierced Apple: P. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- M. Atk. + 10%. -->
     <skill id="17545" levels="1" name="Arrow-pierced Apple: M. Atk.">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Accuracy + 5. -->
     <skill id="17546" levels="1" name="Arrow-pierced Apple: Accuracy">
-        <set name="target" val="TARGET_NONE" />
-        <set name="skillType" val="NOTDONE" />
+        <set name="target" val="TARGET_SELF" />
+        <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
+        <for>
+            <add stat="rEvas" val="5" />
+        </for>
     </skill>
     <!-- Teleport to the Town of Aden. -->
     <skill id="17547" levels="1" name="Agathion Teleport: Town of Aden">

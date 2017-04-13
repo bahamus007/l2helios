@@ -3412,220 +3412,910 @@
           weight="0" crystal_type="none">
     </item>
     <!-- MP + 107, Dark Resistance + 50, STR + 3, INT + 3, CON + 3, Skill Cooldown - 10%, Damage Reflect + 5%, P. Atk. + 15%, M. Atk. + 10%, Max HP + 3%, Max MP + 5%. Resistance to the following abnormal conditions: Shock + 25%, Hate + 25%, Windstorm + 25%, Exile + 25%, Disarmament + 15%, Slip + 15%. -->
-    <item id="27678" type="Weapon" name="Gran Kain's Necklace - Stage 1" icon="icon.accessory_necklace_of_valakas_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27678" type="Armor" name="Gran Kain's Necklace - Stage 1" icon="icon.accessory_necklace_of_valakas_i00"
+          defaultAction="equip" bodypart="neck"
+          immediateEffect="1" crystalCount="425" crystalType="r" weight="150" price="92622000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="292" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="107" />
+		<add stat="darkRes" val="50" />
+		<baseAdd stat="STR" val="3" />
+		<baseAdd stat="INT" val="3" />
+		<baseAdd stat="CON" val="3" />
+		<subPercent stat="mReuse" val="10" />
+		<subPercent stat="pReuse" val="10" />
+		<add stat="reflectDam" val="5" />
+		<addPercent stat="pAtk" val="15"/>
+		<addPercent stat="mAtk" val="10"/>
+		<addPercent stat="maxHp" val="3" />
+		<addPercent stat="maxMp" val="5" />
+		<addPercent stat="stunRes" val="25" /><!-- Shock -->
+		<addPercent stat="derangementRes" val="25" /><!-- Hate -->
     </item>
     <!-- MP + 114, Dark Resistance + 50, STR + 3, INT + 3, CON + 3, Skill Cooldown - 11%, Damage Reflect + 6%, P. Atk. + 16%, M. Atk. + 11%, Max HP + 3%, Max MP + 5%. Resistance to the following abnormal conditions: Shock + 26%, Hate + 26%, Windstorm + 26%, Exile + 26%, Disarmament + 16%, Slip + 16%. -->
-    <item id="27679" type="Weapon" name="Gran Kain's Necklace - Stage 2" icon="icon.accessory_necklace_of_valakas_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27679" type="Armor" name="Gran Kain's Necklace - Stage 2" icon="icon.accessory_necklace_of_valakas_i00"
+          defaultAction="equip" bodypart="neck"
+          immediateEffect="1" crystalCount="425" crystalType="r" weight="150" price="92622000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="333" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="114" />
+		<add stat="darkRes" val="50" />
+		<baseAdd stat="STR" val="3" />
+		<baseAdd stat="INT" val="3" />
+		<baseAdd stat="CON" val="3" />
+		<subPercent stat="mReuse" val="11" />
+		<subPercent stat="pReuse" val="11" />
+		<add stat="reflectDam" val="6" />
+		<addPercent stat="pAtk" val="16"/>
+		<addPercent stat="mAtk" val="11"/>
+		<addPercent stat="maxHp" val="3" />
+		<addPercent stat="maxMp" val="5" />
+		<addPercent stat="stunRes" val="26" /><!-- Shock -->
+		<addPercent stat="derangementRes" val="26" /><!-- Hate -->
     </item>
     <!-- MP + 121, Dark Resistance + 60, STR + 4, INT + 4, CON + 4, Skill Cooldown - 12%, Damage Reflect + 7%, P. Atk. + 17%, M. Atk. + 12%, Max HP + 5%, Max MP + 7%. Resistance to the following abnormal conditions: Shock + 27%, Hate + 27%, Windstorm + 27%, Exile + 27%, Disarmament + 17%, Slip + 17%. -->
-    <item id="27680" type="Weapon" name="Gran Kain's Necklace - Stage 3" icon="icon.accessory_necklace_of_valakas_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27680" type="Armor" name="Gran Kain's Necklace - Stage 3" icon="icon.accessory_necklace_of_valakas_i00"
+          defaultAction="equip" bodypart="neck"
+          immediateEffect="1" crystalCount="425" crystalType="r" weight="150" price="92622000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="374" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="121" />
+		<add stat="darkRes" val="60" />
+		<baseAdd stat="STR" val="4" />
+		<baseAdd stat="INT" val="4" />
+		<baseAdd stat="CON" val="4" />
+		<subPercent stat="mReuse" val="12" />
+		<subPercent stat="pReuse" val="12" />
+		<add stat="reflectDam" val="7" />
+		<addPercent stat="pAtk" val="17"/>
+		<addPercent stat="mAtk" val="12"/>
+		<addPercent stat="maxHp" val="5" />
+		<addPercent stat="maxMp" val="7" />
+		<addPercent stat="stunRes" val="27" /><!-- Shock -->
+		<addPercent stat="derangementRes" val="27" /><!-- Hate -->
     </item>
     <!-- MP + 126, Dark Resistance + 60, STR + 4, INT + 4, CON + 4, Skill Cooldown - 13%, Damage Reflect + 8%, P. Atk. + 18%, M. Atk. + 13%, Max HP + 5%, Max MP + 7%. Resistance to the following abnormal conditions: Shock + 28%, Hate + 28%, Windstorm + 28%, Exile + 28%, Disarmament + 18%, Slip + 18%. -->
-    <item id="27681" type="Weapon" name="Gran Kain's Necklace - Stage 4" icon="icon.accessory_necklace_of_valakas_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27681" type="Armor" name="Gran Kain's Necklace - Stage 4" icon="icon.accessory_necklace_of_valakas_i00"
+          defaultAction="equip" bodypart="neck"
+          immediateEffect="1" crystalCount="425" crystalType="r" weight="150" price="92622000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="407" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="126" />
+		<add stat="darkRes" val="60" />
+		<baseAdd stat="STR" val="4" />
+		<baseAdd stat="INT" val="4" />
+		<baseAdd stat="CON" val="4" />
+		<subPercent stat="mReuse" val="13" />
+		<subPercent stat="pReuse" val="13" />
+		<add stat="reflectDam" val="8" />
+		<addPercent stat="pAtk" val="18"/>
+		<addPercent stat="mAtk" val="13"/>
+		<addPercent stat="maxHp" val="5" />
+		<addPercent stat="maxMp" val="7" />
+		<addPercent stat="stunRes" val="28" /><!-- Shock -->
+		<addPercent stat="derangementRes" val="28" /><!-- Hate -->
     </item>
     <!-- MP + 131, Dark Resistance + 70, STR + 5, INT + 5, CON + 5, Skill Cooldown - 14%, Damage Reflect + 9%, P. Atk. + 19%, M. Atk. + 14%, Max HP + 7%, Max MP + 10%. Resistance to the following abnormal conditions: Shock + 29%, Hate + 29%, Windstorm + 29%, Exile + 29%, Disarmament + 19%, Slip + 19%. -->
-    <item id="27682" type="Weapon" name="Gran Kain's Necklace - Stage 5" icon="icon.accessory_necklace_of_valakas_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27682" type="Armor" name="Gran Kain's Necklace - Stage 5" icon="icon.accessory_necklace_of_valakas_i00"
+          defaultAction="equip" bodypart="neck"
+          immediateEffect="1" crystalCount="425" crystalType="r" weight="150" price="92622000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="437" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="131" />
+		<add stat="darkRes" val="70" />
+		<baseAdd stat="STR" val="5" />
+		<baseAdd stat="INT" val="5" />
+		<baseAdd stat="CON" val="5" />
+		<subPercent stat="mReuse" val="14" />
+		<subPercent stat="pReuse" val="14" />
+		<add stat="reflectDam" val="9" />
+		<addPercent stat="pAtk" val="19"/>
+		<addPercent stat="mAtk" val="14"/>
+		<addPercent stat="maxHp" val="7" />
+		<addPercent stat="maxMp" val="10" />
+		<addPercent stat="stunRes" val="29" /><!-- Shock -->
+		<addPercent stat="derangementRes" val="29" /><!-- Hate -->
     </item>
     <!-- MP + 136, Dark Resistance + 70, STR + 5, INT + 5, CON + 5, Skill Cooldown - 15%, Damage Reflect + 10%, P. Atk. + 20%, M. Atk. + 15%, Max HP + 7%, Max MP + 10%. Resistance to the following abnormal conditions: Shock + 30%, Hate + 30%, Windstorm + 30%, Exile + 30%, Disarmament + 20%, Slip + 20%. -->
-    <item id="27683" type="Weapon" name="Gran Kain's Necklace - Stage 6" icon="icon.accessory_necklace_of_valakas_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27683" type="Armor" name="Gran Kain's Necklace - Stage 6" icon="icon.accessory_necklace_of_valakas_i00"
+          defaultAction="equip" bodypart="neck"
+          immediateEffect="1" crystalCount="425" crystalType="r" weight="150" price="92622000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="479" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="136" />
+		<add stat="darkRes" val="70" />
+		<baseAdd stat="STR" val="5" />
+		<baseAdd stat="INT" val="5" />
+		<baseAdd stat="CON" val="5" />
+		<subPercent stat="mReuse" val="15" />
+		<subPercent stat="pReuse" val="15" />
+		<add stat="reflectDam" val="10" />
+		<addPercent stat="pAtk" val="20"/>
+		<addPercent stat="mAtk" val="15"/>
+		<addPercent stat="maxHp" val="7" />
+		<addPercent stat="maxMp" val="10" />
+		<addPercent stat="stunRes" val="30" /><!-- Shock -->
+		<addPercent stat="derangementRes" val="30" /><!-- Hate -->
     </item>
     <!-- MP + 107, Holy Resistance + 50, STR + 3, INT + 3, CON + 3, Skill Cooldown - 10%, Damage Reflect + 5%, P. Atk. + 10%, M. Atk. + 15%, Max HP + 5%, Max MP + 3%. Resistance to the following abnormal conditions: Shock + 25%, Hate + 25%, Disarmament + 25%, Slip + 25%, Windstorm + 15%, Exile + 15%. -->
-    <item id="27684" type="Weapon" name="Einhasad's Necklace - Stage 1" icon="icon.accessory_necklace_of_valakas_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27684" type="Armor" name="Einhasad's Necklace - Stage 1" icon="icon.accessory_necklace_of_valakas_i00"
+          defaultAction="equip" bodypart="neck"
+          immediateEffect="1" crystalCount="425" crystalType="r" weight="150" price="92622000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="292" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="107" />
+		<add stat="darkRes" val="50" />
+		<baseAdd stat="STR" val="3" />
+		<baseAdd stat="INT" val="3" />
+		<baseAdd stat="CON" val="3" />
+		<subPercent stat="mReuse" val="10" />
+		<subPercent stat="pReuse" val="10" />
+		<add stat="reflectDam" val="5" />
+		<addPercent stat="pAtk" val="15"/>
+		<addPercent stat="mAtk" val="10"/>
+		<addPercent stat="maxHp" val="3" />
+		<addPercent stat="maxMp" val="5" />
+		<addPercent stat="stunRes" val="25" /><!-- Shock -->
+		<addPercent stat="derangementRes" val="25" /><!-- Hate -->
     </item>
     <!-- MP + 114, Holy Resistance + 50, STR + 3, INT + 3, CON + 3, Skill Cooldown - 11%, Damage Reflect + 6%, P. Atk. + 11%, M. Atk. + 16%, Max HP + 5%, Max MP + 3%. Resistance to the following abnormal conditions: Shock + 26%, Hate + 26%, Disarmament + 26%, Slip + 26%, Windstorm + 16%, Exile + 16%. -->
-    <item id="27685" type="Weapon" name="Einhasad's Necklace - Stage 2" icon="icon.accessory_necklace_of_valakas_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27685" type="Armor" name="Einhasad's Necklace - Stage 2" icon="icon.accessory_necklace_of_valakas_i00"
+          defaultAction="equip" bodypart="neck"
+          immediateEffect="1" crystalCount="425" crystalType="r" weight="150" price="92622000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="333" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="114" />
+		<add stat="darkRes" val="50" />
+		<baseAdd stat="STR" val="3" />
+		<baseAdd stat="INT" val="3" />
+		<baseAdd stat="CON" val="3" />
+		<subPercent stat="mReuse" val="11" />
+		<subPercent stat="pReuse" val="11" />
+		<add stat="reflectDam" val="6" />
+		<addPercent stat="pAtk" val="16"/>
+		<addPercent stat="mAtk" val="11"/>
+		<addPercent stat="maxHp" val="3" />
+		<addPercent stat="maxMp" val="5" />
+		<addPercent stat="stunRes" val="26" /><!-- Shock -->
+		<addPercent stat="derangementRes" val="26" /><!-- Hate -->
     </item>
     <!-- MP + 121, Holy Resistance + 60, STR + 4, INT + 4, CON + 4, Skill Cooldown - 12%, Damage Reflect + 7%, P. Atk. + 12%, M. Atk. + 17%, Max HP + 7%, Max MP + 5%. Resistance to the following abnormal conditions: Shock + 27%, Hate + 27%, Disarmament + 27%, Slip + 27%, Windstorm + 17%, Exile + 17%. -->
-    <item id="27686" type="Weapon" name="Einhasad's Necklace - Stage 3" icon="icon.accessory_necklace_of_valakas_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27686" type="Armor" name="Einhasad's Necklace - Stage 3" icon="icon.accessory_necklace_of_valakas_i00"
+          defaultAction="equip" bodypart="neck"
+          immediateEffect="1" crystalCount="425" crystalType="r" weight="150" price="92622000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="374" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="121" />
+		<add stat="darkRes" val="60" />
+		<baseAdd stat="STR" val="4" />
+		<baseAdd stat="INT" val="4" />
+		<baseAdd stat="CON" val="4" />
+		<subPercent stat="mReuse" val="12" />
+		<subPercent stat="pReuse" val="12" />
+		<add stat="reflectDam" val="7" />
+		<addPercent stat="pAtk" val="17"/>
+		<addPercent stat="mAtk" val="12"/>
+		<addPercent stat="maxHp" val="5" />
+		<addPercent stat="maxMp" val="7" />
+		<addPercent stat="stunRes" val="27" /><!-- Shock -->
+		<addPercent stat="derangementRes" val="27" /><!-- Hate -->
     </item>
     <!-- MP + 126, Holy Resistance + 60, STR + 4, INT + 4, CON + 4, Skill Cooldown - 13%, Damage Reflect + 8%, P. Atk. + 13%, M. Atk. + 18%, Max HP + 7%, Max MP + 5%. Resistance to the following abnormal conditions: Shock + 28%, Hate + 28%, Disarmament + 28%, Slip + 28%, Windstorm + 18%, Exile + 18%. -->
-    <item id="27687" type="Weapon" name="Einhasad's Necklace - Stage 4" icon="icon.accessory_necklace_of_valakas_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27687" type="Armor" name="Einhasad's Necklace - Stage 4" icon="icon.accessory_necklace_of_valakas_i00"
+          defaultAction="equip" bodypart="neck"
+          immediateEffect="1" crystalCount="425" crystalType="r" weight="150" price="92622000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="407" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="126" />
+		<add stat="darkRes" val="60" />
+		<baseAdd stat="STR" val="4" />
+		<baseAdd stat="INT" val="4" />
+		<baseAdd stat="CON" val="4" />
+		<subPercent stat="mReuse" val="13" />
+		<subPercent stat="pReuse" val="13" />
+		<add stat="reflectDam" val="8" />
+		<addPercent stat="pAtk" val="18"/>
+		<addPercent stat="mAtk" val="13"/>
+		<addPercent stat="maxHp" val="5" />
+		<addPercent stat="maxMp" val="7" />
+		<addPercent stat="stunRes" val="28" /><!-- Shock -->
+		<addPercent stat="derangementRes" val="28" /><!-- Hate -->
     </item>
     <!-- MP + 131, Holy Resistance + 70, STR + 5, INT + 5, CON + 5, Skill Cooldown - 14%, Damage Reflect + 9%, P. Atk. + 14%, M. Atk. + 19%, Max HP + 10%, Max MP + 7%. Resistance to the following abnormal conditions: Shock + 29%, Hate + 29%, Disarmament + 29%, Slip + 29%, Windstorm + 19%, Exile + 19%. -->
-    <item id="27688" type="Weapon" name="Einhasad's Necklace - Stage 5" icon="icon.accessory_necklace_of_valakas_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27688" type="Armor" name="Einhasad's Necklace - Stage 5" icon="icon.accessory_necklace_of_valakas_i00"
+          defaultAction="equip" bodypart="neck"
+          immediateEffect="1" crystalCount="425" crystalType="r" weight="150" price="92622000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="437" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="131" />
+		<add stat="darkRes" val="70" />
+		<baseAdd stat="STR" val="5" />
+		<baseAdd stat="INT" val="5" />
+		<baseAdd stat="CON" val="5" />
+		<subPercent stat="mReuse" val="14" />
+		<subPercent stat="pReuse" val="14" />
+		<add stat="reflectDam" val="9" />
+		<addPercent stat="pAtk" val="19"/>
+		<addPercent stat="mAtk" val="14"/>
+		<addPercent stat="maxHp" val="7" />
+		<addPercent stat="maxMp" val="10" />
+		<addPercent stat="stunRes" val="29" /><!-- Shock -->
+		<addPercent stat="derangementRes" val="29" /><!-- Hate -->
     </item>
     <!-- MP + 136, Holy Resistance + 70, STR + 5, INT + 5, CON + 5, Skill Cooldown - 15%, Damage Reflect + 10%, P. Atk. + 15%, M. Atk. + 20%, Max HP + 10%, Max MP + 7%. Resistance to the following abnormal conditions: Shock + 30%, Hate + 30%, Disarmament + 30%, Slip + 30%, Windstorm + 20%, Exile + 20%. -->
-    <item id="27689" type="Weapon" name="Einhasad's Necklace - Stage 6" icon="icon.accessory_necklace_of_valakas_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27689" type="Armor" name="Einhasad's Necklace - Stage 6" icon="icon.accessory_necklace_of_valakas_i00"
+          defaultAction="equip" bodypart="neck"
+          immediateEffect="1" crystalCount="425" crystalType="r" weight="150" price="92622000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="479" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="136" />
+		<add stat="darkRes" val="70" />
+		<baseAdd stat="STR" val="5" />
+		<baseAdd stat="INT" val="5" />
+		<baseAdd stat="CON" val="5" />
+		<subPercent stat="mReuse" val="15" />
+		<subPercent stat="pReuse" val="15" />
+		<add stat="reflectDam" val="10" />
+		<addPercent stat="pAtk" val="20"/>
+		<addPercent stat="mAtk" val="15"/>
+		<addPercent stat="maxHp" val="7" />
+		<addPercent stat="maxMp" val="10" />
+		<addPercent stat="stunRes" val="30" /><!-- Shock -->
+		<addPercent stat="derangementRes" val="30" /><!-- Hate -->
     </item>
     <!-- MP + 80, Fire Resistance + 50, DEX + 3, WIT + 3, MEN + 3, Vampiric Effect 5%, MP Consumption - 5%, P. Def. + 15%, M. Def. + 10%, Received Heal Amount + 10%, Recovery Skill Power + 80. Resistance to the following abnormal conditions: Paralysis + 15%, Bluff + 15%, Mental + 15%, Slip + 15%, Aerial Yoke + 10%, Mutation + 10%. -->
-    <item id="27690" type="Weapon" name="Pa'agrio's Earring - Stage 1" icon="icon.accessory_earring_of_lind_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27690" type="Armor" name="Pa'agrio's Earring - Stage 1" icon="icon.accessory_earring_of_lind_i00"
+          defaultAction="equip"
+          bodypart="rear;lear" immediateEffect="1" crystalCount="237" crystalType="r" weight="150" price="192622000"
+          isEpic="true">
         <baseAdd stat="mDef" val="219" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="80" />
+		<add stat="fireRes" val="50" />
+		<baseAdd stat="DEX" val="3" />
+		<baseAdd stat="WIT" val="3" />
+		<baseAdd stat="MEN" val="3" />
+		<add stat="absorbDam" val="5" />
+		<subPercent stat="MagicalMpConsumeRate" val="5" />
+		<subPercent stat="PhysicalMpConsumeRate" val="5" />
+		<addPercent stat="pDef" val="15" />
+		<addPercent stat="mDef" val="10" />
+		<addPercent stat="gainHp" val="7" />
+		<add stat="giveHp" val="80">
+                <using kind="Magic" />
+         </add>
+		<addPercent stat="paralysisRes" val="15" />
+		 <addPercent stat="derangementRes" val="15" />
+		 <addPercent stat="aerialYokeRes" val="15" />
     </item>
     <!-- MP + 86, Fire Resistance + 50, DEX + 3, WIT + 3, MEN + 3, Vampiric Effect 5%, MP Consumption - 5%, P. Def. + 15%, M. Def. + 10%, Received Heal Amount + 10%, Recovery Skill Power + 88. Resistance to the following abnormal conditions: Paralysis + 16%, Bluff + 16%, Mental + 16%, Slip + 16%, Aerial Yoke + 11%, Mutation + 11%. -->
-    <item id="27691" type="Weapon" name="Pa'agrio's Earring - Stage 2" icon="icon.accessory_earring_of_lind_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27691" type="Armor" name="Pa'agrio's Earring - Stage 2" icon="icon.accessory_earring_of_lind_i00"
+          defaultAction="equip"
+          bodypart="rear;lear" immediateEffect="1" crystalCount="237" crystalType="r" weight="150" price="192622000"
+          isEpic="true">
         <baseAdd stat="mDef" val="250" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="86" />
+		<add stat="fireRes" val="50" />
+		<baseAdd stat="DEX" val="3" />
+		<baseAdd stat="WIT" val="3" />
+		<baseAdd stat="MEN" val="3" />
+		<add stat="absorbDam" val="5" />
+		<subPercent stat="MagicalMpConsumeRate" val="5" />
+		<subPercent stat="PhysicalMpConsumeRate" val="5" />
+		<addPercent stat="pDef" val="15" />
+		<addPercent stat="mDef" val="10" />
+		<addPercent stat="gainHp" val="10" />
+		<add stat="giveHp" val="88">
+                <using kind="Magic" />
+         </add>
+		<addPercent stat="paralysisRes" val="16" />
+		 <addPercent stat="derangementRes" val="16" />
+		 <addPercent stat="aerialYokeRes" val="16" />
     </item>
     <!-- MP + 91, Fire Resistance + 60, DEX + 4, WIT + 4, MEN + 4, Vampiric Effect 6%, MP Consumption - 6%, P. Def. + 16%, M. Def. + 11%, Received Heal Amount + 11%, Recovery Skill Power + 96. Resistance to the following abnormal conditions: Paralysis + 17%, Bluff + 17%, Mental + 17%, Slip + 17%, Aerial Yoke + 12%, Mutation + 12%. -->
-    <item id="27692" type="Weapon" name="Pa'agrio's Earring - Stage 3" icon="icon.accessory_earring_of_lind_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27692" type="Armor" name="Pa'agrio's Earring - Stage 3" icon="icon.accessory_earring_of_lind_i00"
+          defaultAction="equip"
+          bodypart="rear;lear" immediateEffect="1" crystalCount="237" crystalType="r" weight="150" price="192622000"
+          isEpic="true">
         <baseAdd stat="mDef" val="280" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="91" />
+		<add stat="fireRes" val="60" />
+		<baseAdd stat="DEX" val="4" />
+		<baseAdd stat="WIT" val="4" />
+		<baseAdd stat="MEN" val="4" />
+		<add stat="absorbDam" val="6" />
+		<subPercent stat="MagicalMpConsumeRate" val="6" />
+		<subPercent stat="PhysicalMpConsumeRate" val="6" />
+		<addPercent stat="pDef" val="16" />
+		<addPercent stat="mDef" val="11" />
+		<addPercent stat="gainHp" val="11" />
+		<add stat="giveHp" val="96">
+                <using kind="Magic" />
+         </add>
+		<addPercent stat="paralysisRes" val="17" />
+		 <addPercent stat="derangementRes" val="17" />
+		 <addPercent stat="aerialYokeRes" val="17" />
     </item>
     <!-- MP + 94, Fire Resistance + 60, DEX + 4, WIT + 4, MEN + 4, Vampiric Effect 6%, MP Consumption - 6%, P. Def. + 16%, M. Def. + 11%, Received Heal Amount + 11%, Recovery Skill Power + 104. Resistance to the following abnormal conditions: Paralysis + 18%, Bluff + 18%, Mental + 18%, Slip + 18%, Aerial Yoke + 13%, Mutation + 13%. -->
-    <item id="27693" type="Weapon" name="Pa'agrio's Earring - Stage 4" icon="icon.accessory_earring_of_lind_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27693" type="Armor" name="Pa'agrio's Earring - Stage 4" icon="icon.accessory_earring_of_lind_i00"
+          defaultAction="equip"
+          bodypart="rear;lear" immediateEffect="1" crystalCount="237" crystalType="r" weight="150" price="192622000"
+          isEpic="true">
         <baseAdd stat="mDef" val="300" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="94" />
+		<add stat="fireRes" val="60" />
+		<baseAdd stat="DEX" val="4" />
+		<baseAdd stat="WIT" val="4" />
+		<baseAdd stat="MEN" val="4" />
+		<add stat="absorbDam" val="6" />
+		<subPercent stat="MagicalMpConsumeRate" val="6" />
+		<subPercent stat="PhysicalMpConsumeRate" val="6" />
+		<addPercent stat="pDef" val="16" />
+		<addPercent stat="mDef" val="11" />
+		<addPercent stat="gainHp" val="11" />
+		<add stat="giveHp" val="104">
+                <using kind="Magic" />
+         </add>
+		<addPercent stat="paralysisRes" val="18" />
+		 <addPercent stat="derangementRes" val="18" />
+		 <addPercent stat="aerialYokeRes" val="18" />
     </item>
     <!-- MP + 98, Fire Resistance + 70, DEX + 5, WIT + 5, MEN + 5, Vampiric Effect 7%, MP Consumption - 7%, P. Def. + 17%, M. Def. + 12%, Received Heal Amount + 12%, Recovery Skill Power + 108. Resistance to the following abnormal conditions: Paralysis + 19%, Bluff + 19%, Mental + 19%, Slip + 19%, Aerial Yoke + 14%, Mutation + 14%. -->
-    <item id="27694" type="Weapon" name="Pa'agrio's Earring - Stage 5" icon="icon.accessory_earring_of_lind_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27694" type="Armor" name="Pa'agrio's Earring - Stage 5" icon="icon.accessory_earring_of_lind_i00"
+          defaultAction="equip"
+          bodypart="rear;lear" immediateEffect="1" crystalCount="237" crystalType="r" weight="150" price="192622000"
+          isEpic="true">
         <baseAdd stat="mDef" val="320" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="98" />
+		<add stat="fireRes" val="70" />
+		<baseAdd stat="DEX" val="5" />
+		<baseAdd stat="WIT" val="5" />
+		<baseAdd stat="MEN" val="5" />
+		<add stat="absorbDam" val="7" />
+		<subPercent stat="MagicalMpConsumeRate" val="7" />
+		<subPercent stat="PhysicalMpConsumeRate" val="7" />
+		<addPercent stat="pDef" val="17" />
+		<addPercent stat="mDef" val="12" />
+		<addPercent stat="gainHp" val="12" />
+		<add stat="giveHp" val="108">
+                <using kind="Magic" />
+         </add>
+		<addPercent stat="paralysisRes" val="19" />
+		 <addPercent stat="derangementRes" val="19" />
+		 <addPercent stat="aerialYokeRes" val="19" />
     </item>
     <!-- MP + 102, Fire Resistance + 70, DEX + 5, WIT + 5, MEN + 5, Vampiric Effect 7%, MP Consumption - 7%, P. Def. + 17%, M. Def. + 12%, Received Heal Amount + 12%, Recovery Skill Power + 112. Resistance to the following abnormal conditions: Paralysis + 20%, Bluff + 20%, Mental + 20%, Slip + 20%, Aerial Yoke + 15%, Mutation + 15%. -->
-    <item id="27695" type="Weapon" name="Pa'agrio's Earring - Stage 6" icon="icon.accessory_earring_of_lind_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27695" type="Armor" name="Pa'agrio's Earring - Stage 6" icon="icon.accessory_earring_of_lind_i00"
+          defaultAction="equip"
+          bodypart="rear;lear" immediateEffect="1" crystalCount="237" crystalType="r" weight="150" price="192622000"
+          isEpic="true">
         <baseAdd stat="mDef" val="359" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="102" />
+		<add stat="fireRes" val="70" />
+		<baseAdd stat="DEX" val="5" />
+		<baseAdd stat="WIT" val="5" />
+		<baseAdd stat="MEN" val="5" />
+		<add stat="absorbDam" val="7" />
+		<subPercent stat="MagicalMpConsumeRate" val="7" />
+		<subPercent stat="PhysicalMpConsumeRate" val="7" />
+		<addPercent stat="pDef" val="17" />
+		<addPercent stat="mDef" val="12" />
+		<addPercent stat="gainHp" val="12" />
+		<add stat="giveHp" val="112">
+                <using kind="Magic" />
+         </add>
+		<addPercent stat="paralysisRes" val="20" />
+		 <addPercent stat="derangementRes" val="20" />
+		 <addPercent stat="aerialYokeRes" val="20" />
     </item>
     <!-- MP + 80, Water Resistance + 50, DEX + 3, WIT + 3, MEN + 3, Vampiric Effect 5%, MP Consumption - 5%, P. Def. + 10%, M. Def. + 15%, Received Heal Amount + 5%, Recovery Skill Power + 160. Resistance to the following abnormal conditions: Paralysis + 15%, Bluff + 15%, Aerial Yoke + 15%, Mutation + 15%, Mental + 10%, Slip + 10%. -->
-    <item id="27696" type="Weapon" name="Eva's Earring - Stage 1" icon="icon.accessory_earring_of_lind_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27696" type="Armor" name="Eva's Earring - Stage 1" icon="icon.accessory_earring_of_lind_i00"
+          defaultAction="equip"
+          bodypart="rear;lear" immediateEffect="1" crystalCount="237" crystalType="r" weight="150" price="192622000"
+          isEpic="true">
         <baseAdd stat="mDef" val="219" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="80" />
+		<add stat="waterRes" val="50" />
+		<baseAdd stat="DEX" val="3" />
+		<baseAdd stat="WIT" val="3" />
+		<baseAdd stat="MEN" val="3" />
+		<add stat="absorbDam" val="5" />
+		<subPercent stat="MagicalMpConsumeRate" val="5" />
+		<subPercent stat="PhysicalMpConsumeRate" val="5" />
+		<addPercent stat="pDef" val="10" />
+		<addPercent stat="mDef" val="15" />
+		<addPercent stat="gainHp" val="5" />
+		<add stat="giveHp" val="160">
+                <using kind="Magic" />
+         </add>
+		<addPercent stat="paralysisRes" val="15" />
+		 <addPercent stat="derangementRes" val="15" />
+		 <addPercent stat="aerialYokeRes" val="15" />
     </item>
     <!-- MP + 86, Water Resistance + 50, DEX + 3, WIT + 3, MEN + 3, Vampiric Effect 5%, MP Consumption - 5%, P. Def. + 10%, M. Def. + 15%, Received Heal Amount + 5%, Recovery Skill Power + 168. Resistance to the following abnormal conditions: Paralysis + 16%, Bluff + 16%, Aerial Yoke + 16%, Mutation + 16%, Mental + 11%, Slip + 11%. -->
-    <item id="27697" type="Weapon" name="Eva's Earring - Stage 2" icon="icon.accessory_earring_of_lind_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27697" type="Armor" name="Eva's Earring - Stage 2" icon="icon.accessory_earring_of_lind_i00"
+          defaultAction="equip"
+          bodypart="rear;lear" immediateEffect="1" crystalCount="237" crystalType="r" weight="150" price="192622000"
+          isEpic="true">
         <baseAdd stat="mDef" val="250" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="86" />
+		<add stat="waterRes" val="50" />
+		<baseAdd stat="DEX" val="3" />
+		<baseAdd stat="WIT" val="3" />
+		<baseAdd stat="MEN" val="3" />
+		<add stat="absorbDam" val="5" />
+		<subPercent stat="MagicalMpConsumeRate" val="5" />
+		<subPercent stat="PhysicalMpConsumeRate" val="5" />
+		<addPercent stat="pDef" val="10" />
+		<addPercent stat="mDef" val="15" />
+		<addPercent stat="gainHp" val="5" />
+		<add stat="giveHp" val="168">
+                <using kind="Magic" />
+         </add>
+		<addPercent stat="paralysisRes" val="16" />
+		 <addPercent stat="derangementRes" val="16" />
+		 <addPercent stat="aerialYokeRes" val="16" />
     </item>
     <!-- MP + 91, Water Resistance + 60, DEX + 4, WIT + 4, MEN + 4, Vampiric Effect 6%, MP Consumption - 6%, P. Def. + 11%, M. Def. + 16%, Received Heal Amount + 6%, Recovery Skill Power + 176. Resistance to the following abnormal conditions: Paralysis + 17%, Bluff + 17%, Aerial Yoke + 17%, Mutation + 17%, Mental + 12%, Slip + 12%. -->
-    <item id="27698" type="Weapon" name="Eva's Earring - Stage 3" icon="icon.accessory_earring_of_lind_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27698" type="Armor" name="Eva's Earring - Stage 3" icon="icon.accessory_earring_of_lind_i00"
+          defaultAction="equip"
+          bodypart="rear;lear" immediateEffect="1" crystalCount="237" crystalType="r" weight="150" price="192622000"
+          isEpic="true">
         <baseAdd stat="mDef" val="280" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="91" />
+		<add stat="waterRes" val="60" />
+		<baseAdd stat="DEX" val="4" />
+		<baseAdd stat="WIT" val="4" />
+		<baseAdd stat="MEN" val="4" />
+		<add stat="absorbDam" val="6" />
+		<subPercent stat="MagicalMpConsumeRate" val="6" />
+		<subPercent stat="PhysicalMpConsumeRate" val="6" />
+		<addPercent stat="pDef" val="11" />
+		<addPercent stat="mDef" val="16" />
+		<addPercent stat="gainHp" val="6" />
+		<add stat="giveHp" val="176">
+                <using kind="Magic" />
+         </add>
+		<addPercent stat="paralysisRes" val="17" />
+		 <addPercent stat="derangementRes" val="17" />
+		 <addPercent stat="aerialYokeRes" val="17" />
     </item>
     <!-- MP + 94, Water Resistance + 60, DEX + 4, WIT + 4, MEN + 4, Vampiric Effect 6%, MP Consumption - 6%, P. Def. + 11%, M. Def. + 16%, Received Heal Amount + 6%, Recovery Skill Power + 184. Resistance to the following abnormal conditions: Paralysis + 18%, Bluff + 18%, Aerial Yoke + 18%, Mutation + 18%, Mental + 13%, Slip + 13%. -->
-    <item id="27699" type="Weapon" name="Eva's Earring - Stage 4" icon="icon.accessory_earring_of_lind_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27699" type="Armor" name="Eva's Earring - Stage 4" icon="icon.accessory_earring_of_lind_i00"
+          defaultAction="equip"
+          bodypart="rear;lear" immediateEffect="1" crystalCount="237" crystalType="r" weight="150" price="192622000"
+          isEpic="true">
         <baseAdd stat="mDef" val="300" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="94" />
+		<add stat="waterRes" val="60" />
+		<baseAdd stat="DEX" val="4" />
+		<baseAdd stat="WIT" val="4" />
+		<baseAdd stat="MEN" val="4" />
+		<add stat="absorbDam" val="6" />
+		<subPercent stat="MagicalMpConsumeRate" val="6" />
+		<subPercent stat="PhysicalMpConsumeRate" val="6" />
+		<addPercent stat="pDef" val="11" />
+		<addPercent stat="mDef" val="16" />
+		<addPercent stat="gainHp" val="6" />
+		<add stat="giveHp" val="184">
+                <using kind="Magic" />
+         </add>
+		<addPercent stat="paralysisRes" val="18" />
+		 <addPercent stat="derangementRes" val="18" />
+		 <addPercent stat="aerialYokeRes" val="18" />
     </item>
     <!-- MP + 98, Water Resistance + 70, DEX + 5, WIT + 5, MEN + 5, Vampiric Effect 7%, MP Consumption - 7%, P. Def. + 12%, M. Def. + 17%, Received Heal Amount + 7%, Recovery Skill Power + 188. Resistance to the following abnormal conditions: Paralysis + 19%, Bluff + 19%, Aerial Yoke + 19%, Mutation + 19%, Mental + 14%, Slip + 14%. -->
-    <item id="27700" type="Weapon" name="Eva's Earring - Stage 5" icon="icon.accessory_earring_of_lind_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27700" type="Armor" name="Eva's Earring - Stage 5" icon="icon.accessory_earring_of_lind_i00"
+          defaultAction="equip"
+          bodypart="rear;lear" immediateEffect="1" crystalCount="237" crystalType="r" weight="150" price="192622000"
+          isEpic="true">
         <baseAdd stat="mDef" val="320" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="98" />
+		<add stat="waterRes" val="70" />
+		<baseAdd stat="DEX" val="5" />
+		<baseAdd stat="WIT" val="5" />
+		<baseAdd stat="MEN" val="5" />
+		<add stat="absorbDam" val="7" />
+		<subPercent stat="MagicalMpConsumeRate" val="7" />
+		<subPercent stat="PhysicalMpConsumeRate" val="7" />
+		<addPercent stat="pDef" val="12" />
+		<addPercent stat="mDef" val="17" />
+		<addPercent stat="gainHp" val="7" />
+		<add stat="giveHp" val="188">
+                <using kind="Magic" />
+         </add>
+		<addPercent stat="paralysisRes" val="19" />
+		 <addPercent stat="derangementRes" val="19" />
+		 <addPercent stat="aerialYokeRes" val="19" />
     </item>
     <!-- MP + 102, Water Resistance + 70, DEX + 5, WIT + 5, MEN + 5, Vampiric Effect 7%, MP Consumption - 7%, P. Def. + 12%, M. Def. + 17%, Received Heal Amount + 7%, Recovery Skill Power + 192. Resistance to the following abnormal conditions: Paralysis + 20%, Bluff + 20%, Aerial Yoke + 20%, Mutation + 20%, Mental + 15%, Slip + 15%. -->
-    <item id="27701" type="Weapon" name="Eva's Earring - Stage 6" icon="icon.accessory_earring_of_lind_i00"
-          bodypart="none"
-          material="steel" weight="0" crystal_type="none">
+    <item id="27701" type="Armor" name="Eva's Earring - Stage 6" icon="icon.accessory_earring_of_lind_i00"
+          defaultAction="equip"
+          bodypart="rear;lear" immediateEffect="1" crystalCount="237" crystalType="r" weight="150" price="192622000"
+          isEpic="true">
         <baseAdd stat="mDef" val="359" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="102" />
+		<add stat="waterRes" val="70" />
+		<baseAdd stat="DEX" val="5" />
+		<baseAdd stat="WIT" val="5" />
+		<baseAdd stat="MEN" val="5" />
+		<add stat="absorbDam" val="7" />
+		<subPercent stat="MagicalMpConsumeRate" val="7" />
+		<subPercent stat="PhysicalMpConsumeRate" val="7" />
+		<addPercent stat="pDef" val="12" />
+		<addPercent stat="mDef" val="17" />
+		<addPercent stat="gainHp" val="7" />
+		<add stat="giveHp" val="192">
+                <using kind="Magic" />
+         </add>
+		<addPercent stat="paralysisRes" val="20" />
+		 <addPercent stat="derangementRes" val="20" />
+		 <addPercent stat="aerialYokeRes" val="20" />
     </item>
     <!-- MP + 53, Wind Resistance + 50, CHA + 3, LUC + 3, P. Critical Damage + 20%, Atk. Spd. + 6%, Casting Spd. + 6%, PvP Damage + 8%, Received PvP Damage - 5%, P. Skill Critical Damage + 10%, M. Skill Critical Damage + 5%. Resistance to the following abnormal conditions: Shock + 15%, Pull + 15%, Knock Back/Knock Down + 15%, Hold + 15%, Seduction + 10%, Petrification + 10%. -->
-    <item id="27702" type="Weapon" name="Sayha's Ring - Stage 1" icon="icon.ring_earthworm_heart" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="27702" type="Armor" name="Sayha's Ring - Stage 1" icon="icon.ring_earthworm_heart"  defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" crystalCount="212" crystalType="r" weight="150"
+          price="46311000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="146" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="53" />
+		<add stat="windRes" val="50" />
+		<baseAdd stat="CHA" val="3" />
+		<baseAdd stat="LUC" val="3" />
+		<addPercent stat="pCritDmg" val="20" />
+		<addPercent stat="pAtkSpd" val="6" />
+		<addPercent stat="mAtkSpd" val="6" />
+		<addPercent stat="pvpPhysDmg" val="8" />
+		<addPercent stat="pvpMagicalDmg" val="8" />
+		<addPercent stat="pvpPhysSkillsDmg" val="8" />
+		<addPercent stat="pvpPhysDef" val="5" />
+		<addPercent stat="pvpMagicalDef" val="5" />
+		<addPercent stat="pvpPhysSkillsDef" val="5" />
+		<addPercent stat="pSkillCritDmg" val="10" />
+		<addPercent stat="mCritDmg" val="5" />
+		<addPercent stat="stunRes" val="15" /><!-- Shock -->
+		<subPercent stat="pullRes" val="15" />
+		<subPercent stat="knockDownRes" val="15" />
+		<subPercent stat="knockBackRes" val="15" />
+		<addPercent stat="holdRes" val="15" />
+		<addPercent stat="paralysisRes" val="10" />
     </item>
     <!-- MP + 57, Wind Resistance + 50, CHA + 3, LUC + 3, P. Critical Damage + 20%, Atk. Spd. + 6%, Casting Spd. + 6%, PvP Damage + 8%, Received PvP Damage - 5%, P. Skill Critical Damage + 10%, M. Skill Critical Damage + 5%. Resistance to the following abnormal conditions: Shock + 16%, Pull + 16%, Knock Back/Knock Down + 16%, Hold + 16%, Seduction + 11%, Petrification + 11%. -->
-    <item id="27703" type="Weapon" name="Sayha's Ring - Stage 2" icon="icon.ring_earthworm_heart" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="27703" type="Armor" name="Sayha's Ring - Stage 2" icon="icon.ring_earthworm_heart"  defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" crystalCount="212" crystalType="r" weight="150"
+          price="46311000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="167" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="57" />
+		<add stat="windRes" val="50" />
+		<baseAdd stat="CHA" val="3" />
+		<baseAdd stat="LUC" val="3" />
+		<addPercent stat="pCritDmg" val="20" />
+		<addPercent stat="pAtkSpd" val="6" />
+		<addPercent stat="mAtkSpd" val="6" />
+		<addPercent stat="pvpPhysDmg" val="8" />
+		<addPercent stat="pvpMagicalDmg" val="8" />
+		<addPercent stat="pvpPhysSkillsDmg" val="8" />
+		<addPercent stat="pvpPhysDef" val="5" />
+		<addPercent stat="pvpMagicalDef" val="5" />
+		<addPercent stat="pvpPhysSkillsDef" val="5" />
+		<addPercent stat="pSkillCritDmg" val="10" />
+		<addPercent stat="mCritDmg" val="5" />
+		<addPercent stat="stunRes" val="16" /><!-- Shock -->
+		<subPercent stat="pullRes" val="16" />
+		<subPercent stat="knockDownRes" val="16" />
+		<subPercent stat="knockBackRes" val="16" />
+		<addPercent stat="holdRes" val="16" />
+		<addPercent stat="paralysisRes" val="11" />
     </item>
     <!-- MP + 60, Wind Resistance + 60, CHA + 4, LUC + 4, P. Critical Damage + 21%, Atk. Spd. + 7%, Casting Spd. + 7%, PvP Damage + 9%, Received PvP Damage - 6%, P. Skill Critical Damage + 11%, M. Skill Critical Damage + 6%. Resistance to the following abnormal conditions: Shock + 17%, Pull + 17%, Knock Back/Knock Down + 17%, Hold + 17%, Seduction + 12%, Petrification + 12%. -->
-    <item id="27704" type="Weapon" name="Sayha's Ring - Stage 3" icon="icon.ring_earthworm_heart" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="27704" type="Armor" name="Sayha's Ring - Stage 3" icon="icon.ring_earthworm_heart"  defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" crystalCount="212" crystalType="r" weight="150"
+          price="46311000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="187" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="60" />
+		<add stat="windRes" val="60" />
+		<baseAdd stat="CHA" val="4" />
+		<baseAdd stat="LUC" val="4" />
+		<addPercent stat="pCritDmg" val="21" />
+		<addPercent stat="pAtkSpd" val="7" />
+		<addPercent stat="mAtkSpd" val="7" />
+		<addPercent stat="pvpPhysDmg" val="8" />
+		<addPercent stat="pvpMagicalDmg" val="8" />
+		<addPercent stat="pvpPhysSkillsDmg" val="8" />
+		<addPercent stat="pvpPhysDef" val="6" />
+		<addPercent stat="pvpMagicalDef" val="6" />
+		<addPercent stat="pvpPhysSkillsDef" val="6" />
+		<addPercent stat="pSkillCritDmg" val="11" />
+		<addPercent stat="mCritDmg" val="6" />
+		<addPercent stat="stunRes" val="17" /><!-- Shock -->
+		<subPercent stat="pullRes" val="17" />
+		<subPercent stat="knockDownRes" val="17" />
+		<subPercent stat="knockBackRes" val="17" />
+		<addPercent stat="holdRes" val="17" />
+		<addPercent stat="paralysisRes" val="12" />
     </item>
     <!-- MP + 62, Wind Resistance + 60, CHA + 4, LUC + 4, P. Critical Damage + 21%, Atk. Spd. + 7%, Casting Spd. + 7%, PvP Damage + 9%, Received PvP Damage - 6%, P. Skill Critical Damage + 11%, M. Skill Critical Damage + 6%. Resistance to the following abnormal conditions: Shock + 18%, Pull + 18%, Knock Back/Knock Down + 18%, Hold + 18%, Seduction + 13%, Petrification + 13%. -->
-    <item id="27705" type="Weapon" name="Sayha's Ring - Stage 4" icon="icon.ring_earthworm_heart" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="27705" type="Armor" name="Sayha's Ring - Stage 4" icon="icon.ring_earthworm_heart"  defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" crystalCount="212" crystalType="r" weight="150"
+          price="46311000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="206" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="62" />
+		<add stat="windRes" val="60" />
+		<baseAdd stat="CHA" val="4" />
+		<baseAdd stat="LUC" val="4" />
+		<addPercent stat="pCritDmg" val="21" />
+		<addPercent stat="pAtkSpd" val="7" />
+		<addPercent stat="mAtkSpd" val="7" />
+		<addPercent stat="pvpPhysDmg" val="9" />
+		<addPercent stat="pvpMagicalDmg" val="9" />
+		<addPercent stat="pvpPhysSkillsDmg" val="9" />
+		<addPercent stat="pvpPhysDef" val="6" />
+		<addPercent stat="pvpMagicalDef" val="6" />
+		<addPercent stat="pvpPhysSkillsDef" val="6" />
+		<addPercent stat="pSkillCritDmg" val="11" />
+		<addPercent stat="mCritDmg" val="6" />
+		<addPercent stat="stunRes" val="18" /><!-- Shock -->
+		<subPercent stat="pullRes" val="18" />
+		<subPercent stat="knockDownRes" val="18" />
+		<subPercent stat="knockBackRes" val="18" />
+		<addPercent stat="holdRes" val="18" />
+		<addPercent stat="paralysisRes" val="13" />
     </item>
     <!-- MP + 64, Wind Resistance + 70, CHA + 5, LUC + 5, P. Critical Damage + 22%, Atk. Spd. + 8%, Casting Spd. + 8%, PvP Damage + 10%, Received PvP Damage - 7%, P. Skill Critical Damage + 12%, M. Skill Critical Damage + 7%. Resistance to the following abnormal conditions: Shock + 19%, Pull + 19%, Knock Back/Knock Down + 19%, Hold + 19%, Seduction + 14%, Petrification + 14%. -->
-    <item id="27706" type="Weapon" name="Sayha's Ring - Stage 5" icon="icon.ring_earthworm_heart" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="27706" type="Armor" name="Sayha's Ring - Stage 5" icon="icon.ring_earthworm_heart" defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" crystalCount="212" crystalType="r" weight="150"
+          price="46311000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="225" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="64" />
+		<add stat="windRes" val="70" />
+		<baseAdd stat="CHA" val="5" />
+		<baseAdd stat="LUC" val="5" />
+		<addPercent stat="pCritDmg" val="22" />
+		<addPercent stat="pAtkSpd" val="8" />
+		<addPercent stat="mAtkSpd" val="8" />
+		<addPercent stat="pvpPhysDmg" val="10" />
+		<addPercent stat="pvpMagicalDmg" val="10" />
+		<addPercent stat="pvpPhysSkillsDmg" val="10" />
+		<addPercent stat="pvpPhysDef" val="7" />
+		<addPercent stat="pvpMagicalDef" val="7" />
+		<addPercent stat="pvpPhysSkillsDef" val="7" />
+		<addPercent stat="pSkillCritDmg" val="12" />
+		<addPercent stat="mCritDmg" val="7" />
+		<addPercent stat="stunRes" val="19" /><!-- Shock -->
+		<subPercent stat="pullRes" val="19" />
+		<subPercent stat="knockDownRes" val="19" />
+		<subPercent stat="knockBackRes" val="19" />
+		<addPercent stat="holdRes" val="19" />
+		<addPercent stat="paralysisRes" val="14" />
     </item>
     <!-- MP + 68, Wind Resistance + 70, CHA + 5, LUC + 5, P. Critical Damage + 22%, Atk. Spd. + 8%, Casting Spd. + 8%, PvP Damage + 10%, Received PvP Damage - 7%, P. Skill Critical Damage + 12%, M. Skill Critical Damage + 7%. Resistance to the following abnormal conditions: Shock + 20%, Pull + 20%, Knock Back/Knock Down + 20%, Hold + 20%, Seduction + 15%, Petrification + 15%. -->
-    <item id="27707" type="Weapon" name="Sayha's Ring - Stage 6" icon="icon.ring_earthworm_heart" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="27707" type="Armor" name="Sayha's Ring - Stage 6" icon="icon.ring_earthworm_heart" defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" crystalCount="212" crystalType="r" weight="150"
+          price="46311000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="239" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="68" />
+		<add stat="windRes" val="70" />
+		<baseAdd stat="CHA" val="5" />
+		<baseAdd stat="LUC" val="5" />
+		<addPercent stat="pCritDmg" val="22" />
+		<addPercent stat="pAtkSpd" val="8" />
+		<addPercent stat="mAtkSpd" val="8" />
+		<addPercent stat="pvpPhysDmg" val="10" />
+		<addPercent stat="pvpMagicalDmg" val="10" />
+		<addPercent stat="pvpPhysSkillsDmg" val="10" />
+		<addPercent stat="pvpPhysDef" val="7" />
+		<addPercent stat="pvpMagicalDef" val="7" />
+		<addPercent stat="pvpPhysSkillsDef" val="7" />
+		<addPercent stat="pSkillCritDmg" val="12" />
+		<addPercent stat="mCritDmg" val="7" />
+		<addPercent stat="stunRes" val="20" /><!-- Shock -->
+		<subPercent stat="pullRes" val="20" />
+		<subPercent stat="knockDownRes" val="20" />
+		<subPercent stat="knockBackRes" val="20" />
+		<addPercent stat="holdRes" val="20" />
+		<addPercent stat="paralysisRes" val="15" />
     </item>
     <!-- MP + 53, Earth Resistance + 50, CHA + 3, LUC + 3, P. Critical Damage + 20%, Atk. Spd. + 6%, Casting Spd. + 6%, PvP Damage + 5%, Received PvP Damage - 8%, P. Skill Critical Damage + 5%, M. Skill Critical Damage + 10%. Resistance to the following abnormal conditions: Shock + 15%, Pull + 15%, Seduction + 15%, Petrification + 15%, Knock Back/Knock Down + 10%, Hold + 10%. -->
-    <item id="27708" type="Weapon" name="Maphr's Ring - Stage 1" icon="icon.ring_earthworm_heart" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="27708" type="Armor" name="Maphr's Ring - Stage 1" icon="icon.ring_earthworm_heart"  defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" crystalCount="212" crystalType="r" weight="150"
+          price="46311000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="146" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="53" />
+		<add stat="earthRes" val="50" />
+		<baseAdd stat="CHA" val="3" />
+		<baseAdd stat="LUC" val="3" />
+		<addPercent stat="pCritDmg" val="20" />
+		<addPercent stat="pAtkSpd" val="6" />
+		<addPercent stat="mAtkSpd" val="6" />
+		<addPercent stat="pvpPhysDmg" val="5" />
+		<addPercent stat="pvpMagicalDmg" val="5" />
+		<addPercent stat="pvpPhysSkillsDmg" val="5" />
+		<addPercent stat="pvpPhysDef" val="8" />
+		<addPercent stat="pvpMagicalDef" val="8" />
+		<addPercent stat="pvpPhysSkillsDef" val="8" />
+		<addPercent stat="pSkillCritDmg" val="5" />
+		<addPercent stat="mCritDmg" val="10" />
+		<addPercent stat="stunRes" val="15" /><!-- Shock -->
+		<subPercent stat="pullRes" val="15" />
+		<subPercent stat="knockDownRes" val="10" />
+		<subPercent stat="knockBackRes" val="10" />
+		<addPercent stat="holdRes" val="10" />
     </item>
     <!-- MP + 57, Earth Resistance + 50, CHA + 3, LUC + 3, P. Critical Damage + 20%, Atk. Spd. + 6%, Casting Spd. + 6%, PvP Damage + 5%, Received PvP Damage - 8%, P. Skill Critical Damage + 5%, M. Skill Critical Damage + 10%. Resistance to the following abnormal conditions: Shock + 16%, Pull + 16%, Seduction + 16%, Petrification + 16%, Knock Back/Knock Down + 11%, Hold + 11%. -->
-    <item id="27709" type="Weapon" name="Maphr's Ring - Stage 2" icon="icon.ring_earthworm_heart" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="27709" type="Armor" name="Maphr's Ring - Stage 2" icon="icon.ring_earthworm_heart" defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" crystalCount="212" crystalType="r" weight="150"
+          price="46311000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="167" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="57" />
+		<add stat="earthRes" val="50" />
+		<baseAdd stat="CHA" val="3" />
+		<baseAdd stat="LUC" val="3" />
+		<addPercent stat="pCritDmg" val="20" />
+		<addPercent stat="pAtkSpd" val="6" />
+		<addPercent stat="mAtkSpd" val="6" />
+		<addPercent stat="pvpPhysDmg" val="5" />
+		<addPercent stat="pvpMagicalDmg" val="5" />
+		<addPercent stat="pvpPhysSkillsDmg" val="5" />
+		<addPercent stat="pvpPhysDef" val="8" />
+		<addPercent stat="pvpMagicalDef" val="8" />
+		<addPercent stat="pvpPhysSkillsDef" val="8" />
+		<addPercent stat="pSkillCritDmg" val="5" />
+		<addPercent stat="mCritDmg" val="10" />
+		<addPercent stat="stunRes" val="16" /><!-- Shock -->
+		<subPercent stat="pullRes" val="16" />
+		<subPercent stat="knockDownRes" val="11" />
+		<subPercent stat="knockBackRes" val="11" />
+		<addPercent stat="holdRes" val="11" />
     </item>
     <!-- MP + 60, Earth Resistance + 60, CHA + 4, LUC + 4, P. Critical Damage + 21%, Atk. Spd. + 7%, Casting Spd. + 7%, PvP Damage + 6%, Received PvP Damage - 9%, P. Skill Critical Damage + 6%, M. Skill Critical Damage + 11%. Resistance to the following abnormal conditions: Shock + 17%, Pull + 17%, Seduction + 17%, Petrification + 17%, Knock Back/Knock Down + 12%, Hold + 12%. -->
-    <item id="27710" type="Weapon" name="Maphr's Ring - Stage 3" icon="icon.ring_earthworm_heart" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="27710" type="Armor" name="Maphr's Ring - Stage 3" icon="icon.ring_earthworm_heart"  defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" crystalCount="212" crystalType="r" weight="150"
+          price="46311000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="187" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="60" />
+		<add stat="earthRes" val="60" />
+		<baseAdd stat="CHA" val="4" />
+		<baseAdd stat="LUC" val="4" />
+		<addPercent stat="pCritDmg" val="21" />
+		<addPercent stat="pAtkSpd" val="7" />
+		<addPercent stat="mAtkSpd" val="7" />
+		<addPercent stat="pvpPhysDmg" val="6" />
+		<addPercent stat="pvpMagicalDmg" val="6" />
+		<addPercent stat="pvpPhysSkillsDmg" val="6" />
+		<addPercent stat="pvpPhysDef" val="9" />
+		<addPercent stat="pvpMagicalDef" val="9" />
+		<addPercent stat="pvpPhysSkillsDef" val="9" />
+		<addPercent stat="pSkillCritDmg" val="6" />
+		<addPercent stat="mCritDmg" val="11" />
+		<addPercent stat="stunRes" val="17" /><!-- Shock -->
+		<subPercent stat="pullRes" val="17" />
+		<subPercent stat="knockDownRes" val="12" />
+		<subPercent stat="knockBackRes" val="12" />
+		<addPercent stat="holdRes" val="12" />
     </item>
     <!-- MP + 62, Earth Resistance + 60, CHA + 4, LUC + 4, P. Critical Damage + 21%, Atk. Spd. + 7%, Casting Spd. + 7%, PvP Damage + 6%, Received PvP Damage - 9%, P. Skill Critical Damage + 6%, M. Skill Critical Damage + 11%. Resistance to the following abnormal conditions: Shock + 18%, Pull + 18%, Seduction + 18%, Petrification + 18%, Knock Back/Knock Down + 13%, Hold + 13%. -->
-    <item id="27711" type="Weapon" name="Maphr's Ring - Stage 4" icon="icon.ring_earthworm_heart" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="27711" type="Armor" name="Maphr's Ring - Stage 4" icon="icon.ring_earthworm_heart"  defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" crystalCount="212" crystalType="r" weight="150"
+          price="46311000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="206" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="62" />
+		<add stat="earthRes" val="60" />
+		<baseAdd stat="CHA" val="4" />
+		<baseAdd stat="LUC" val="4" />
+		<addPercent stat="pCritDmg" val="21" />
+		<addPercent stat="pAtkSpd" val="7" />
+		<addPercent stat="mAtkSpd" val="7" />
+		<addPercent stat="pvpPhysDmg" val="6" />
+		<addPercent stat="pvpMagicalDmg" val="6" />
+		<addPercent stat="pvpPhysSkillsDmg" val="6" />
+		<addPercent stat="pvpPhysDef" val="9" />
+		<addPercent stat="pvpMagicalDef" val="9" />
+		<addPercent stat="pvpPhysSkillsDef" val="9" />
+		<addPercent stat="pSkillCritDmg" val="6" />
+		<addPercent stat="mCritDmg" val="11" />
+		<addPercent stat="stunRes" val="18" /><!-- Shock -->
+		<subPercent stat="pullRes" val="18" />
+		<subPercent stat="knockDownRes" val="13" />
+		<subPercent stat="knockBackRes" val="13" />
+		<addPercent stat="holdRes" val="13" />
     </item>
     <!-- MP + 64, Earth Resistance + 70, CHA + 5, LUC + 5, P. Critical Damage + 22%, Atk. Spd. + 8%, Casting Spd. + 8%, PvP Damage + 7%, Received PvP Damage - 10%, P. Skill Critical Damage + 7%, M. Skill Critical Damage + 12%. Resistance to the following abnormal conditions: Shock + 19%, Pull + 19%, Seduction + 19%, Petrification + 19%, Knock Back/Knock Down + 14%, Hold + 14%. -->
-    <item id="27712" type="Weapon" name="Maphr's Ring - Stage 5" icon="icon.ring_earthworm_heart" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="27712" type="Armor" name="Maphr's Ring - Stage 5" icon="icon.ring_earthworm_heart" defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" crystalCount="212" crystalType="r" weight="150"
+          price="46311000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="225" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="64" />
+		<add stat="earthRes" val="70" />
+		<baseAdd stat="CHA" val="5" />
+		<baseAdd stat="LUC" val="5" />
+		<addPercent stat="pCritDmg" val="22" />
+		<addPercent stat="pAtkSpd" val="8" />
+		<addPercent stat="mAtkSpd" val="8" />
+		<addPercent stat="pvpPhysDmg" val="7" />
+		<addPercent stat="pvpMagicalDmg" val="7" />
+		<addPercent stat="pvpPhysSkillsDmg" val="7" />
+		<addPercent stat="pvpPhysDef" val="10" />
+		<addPercent stat="pvpMagicalDef" val="10" />
+		<addPercent stat="pvpPhysSkillsDef" val="10" />
+		<addPercent stat="pSkillCritDmg" val="7" />
+		<addPercent stat="mCritDmg" val="12" />
+		<addPercent stat="stunRes" val="19" /><!-- Shock -->
+		<subPercent stat="pullRes" val="19" />
+		<subPercent stat="knockDownRes" val="14" />
+		<subPercent stat="knockBackRes" val="14" />
+		<addPercent stat="holdRes" val="14" />
     </item>
     <!-- MP + 68, Earth Resistance + 70, CHA + 5, LUC + 5, P. Critical Damage + 22%, Atk. Spd. + 8%, Casting Spd. + 8%, PvP Damage + 7%, Received PvP Damage - 10%, P. Skill Critical Damage + 7%, M. Skill Critical Damage + 12%. Resistance to the following abnormal conditions: Shock + 20%, Pull + 20%, Seduction + 20%, Petrification + 20%, Knock Back/Knock Down + 15%, Hold + 15%. -->
-    <item id="27713" type="Weapon" name="Maphr's Ring - Stage 6" icon="icon.ring_earthworm_heart" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="27713" type="Armor" name="Maphr's Ring - Stage 6" icon="icon.ring_earthworm_heart" defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" crystalCount="212" crystalType="r" weight="150"
+          price="46311000" enchantEnabled="1"
+          isEpic="true">
         <baseAdd stat="mDef" val="239" />
+		<enchant stat="mDef" val="0" />
+		<add stat="maxMp" val="68" />
+		<add stat="earthRes" val="70" />
+		<baseAdd stat="CHA" val="5" />
+		<baseAdd stat="LUC" val="5" />
+		<addPercent stat="pCritDmg" val="22" />
+		<addPercent stat="pAtkSpd" val="8" />
+		<addPercent stat="mAtkSpd" val="8" />
+		<addPercent stat="pvpPhysDmg" val="7" />
+		<addPercent stat="pvpMagicalDmg" val="7" />
+		<addPercent stat="pvpPhysSkillsDmg" val="7" />
+		<addPercent stat="pvpPhysDef" val="10" />
+		<addPercent stat="pvpMagicalDef" val="10" />
+		<addPercent stat="pvpPhysSkillsDef" val="10" />
+		<addPercent stat="pSkillCritDmg" val="7" />
+		<addPercent stat="mCritDmg" val="12" />
+		<addPercent stat="stunRes" val="20" /><!-- Shock -->
+		<subPercent stat="pullRes" val="20" />
+		<subPercent stat="knockDownRes" val="15" />
+		<subPercent stat="knockBackRes" val="15" />
+		<addPercent stat="holdRes" val="15" />
     </item>
     <!-- Luminous bottle containing the soul of a god. Can be used to craft Grankain's Necklace or Einhasad's Necklace. -->
     <item id="27714" type="Weapon" name="Bottle of Luminous God's Soul" icon="icon.etc_fruit_juice_glass_bottle_i09"
@@ -3878,908 +4568,292 @@
           weight="0" crystal_type="none">
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 3%. Bestows an attack or defense type set option. Tyrr Warriors, Sigel Knights and Iss Enchanters only. -->
-    <item id="27764" type="Armor" name="Ultimate Eternal Helmet - Heavy Armor / Lv1"
+    <item id="27764" type="Weapon" name="Ultimate Eternal Helmet - Heavy Armor / Lv1"
           icon="BranchIcon.icon.armor_helmet_i01"
-          defaultAction="equip"
-          bodypart="head" immediateEffect="1" crystalCount="3378" crystalType="r99" weight="530" price="158359000"
-          enchantEnabled="1"
-          isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Tyrr, Sigel, Iss" />
-        </cond>
-        <baseAdd stat="pDef" val="162" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rEvas" val="0.3" />
-        <enchant stat="mEvasRate" val="0.3" />
-        <skill id="8805" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="3" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="26.431" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="13" chance="97.449" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="31.672" /> <!-- Elcyum Crystal -->
+          bodypart="none" material="steel" weight="0" crystal_type="none">
+        <baseAdd stat="pDef" val="169" />
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 8%. Bestows an attack or defense type set option. When enchanted to + 4, decreases P. Critical Damage and additionally increases P. Def. Tyrr Warriors, Sigel Knights and Iss Enchanters only. -->
-    <item id="27765" type="Armor" name="Ultimate Eternal Breatplate - Heavy Armor / Lv1"
+    <item id="27765" type="Weapon" name="Ultimate Eternal Breatplate - Heavy Armor / Lv1"
           icon="BranchIcon.icon.armor_t811_u_i01"
-          defaultAction="equip"
-          armorType="heavy" bodypart="chest" immediateEffect="1" crystalCount="9008" crystalType="r99" weight="7520"
-          price="422292000"
-          enchantEnabled="1" enchant4Skill="13310-3" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Tyrr, Sigel, Iss" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="451" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="pAtk" val="3" />
-        <enchant stat="mAtk" val="2" />
-        <skill id="8806" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="6" chance="97.805" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="70.482" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="34" chance="99.359" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="84.457" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 5%. Bestows an attack or defense type set option. Tyrr Warriors, Sigel Knights and Iss Enchanters only. -->
-    <item id="27766" type="Armor" name="Ultimate Eternal Gaiters - Heavy Armor / Lv1"
+    <item id="27766" type="Weapon" name="Ultimate Eternal Gaiters - Heavy Armor / Lv1"
           icon="BranchIcon.icon.armor_t811_l_i01"
-          defaultAction="equip"
-          armorType="heavy" bodypart="legs" immediateEffect="1" crystalCount="5630" crystalType="r99" weight="3170"
-          price="263933000"
-          enchantEnabled="1" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Tyrr, Sigel, Iss" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="282" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rCrit" val="0.5" />
-        <enchant stat="mCritRate" val="0.5" />
-        <skill id="8807" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="4" chance="91.692" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="44.051" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="22" chance="95.972" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="52.786" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%. Bestows an attack or defense type set option. Tyrr Warriors, Sigel Knights and Iss Enchanters only. -->
-    <item id="27767" type="Armor" name="Ultimate Eternal Gauntlets - Heavy Armor / Lv1"
+    <item id="27767" type="Weapon" name="Ultimate Eternal Gauntlets - Heavy Armor / Lv1"
           icon="BranchIcon.icon.armor_t811_g_i01"
-          defaultAction="equip"
-          bodypart="gloves" immediateEffect="1" crystalCount="2252" crystalType="r99" weight="510" price="105573000"
-          enchantEnabled="1"
-          isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Tyrr, Sigel, Iss" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="accCombat" val="0.3" />
-        <enchant stat="accMagic" val="0.3" />
-        <skill id="8808" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%. Bestows an attack or defense type set option. Tyrr Warriors, Sigel Knights and Iss Enchanters only. -->
-    <item id="27768" type="Armor" name="Ultimate Eternal Boots - Heavy Armor / Lv1"
+    <item id="27768" type="Weapon" name="Ultimate Eternal Boots - Heavy Armor / Lv1"
           icon="BranchIcon.icon.armor_t811_b_i01"
-          bodypart="feet" immediateEffect="1" crystalCount="2252" crystalType="r99" weight="1070" price="105573000"
-          enchantEnabled="1"
-          isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Tyrr, Sigel, Iss" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="runSpd" val="1.0" />
-        <skill id="8809" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 3%. Bestows an assassin or enchant type set option. Othell Rogues, Yul Archers, Iss Enchanters, Aeore Healers, Wynn Summoners, Tyrr Warriors, and Eviscerators only. -->
-    <item id="27769" type="Armor" name="Ultimate Eternal Leather Helmet - Light Armor / Lv1"
+    <item id="27769" type="Weapon" name="Ultimate Eternal Leather Helmet - Light Armor / Lv1"
           icon="BranchIcon.icon.armor_leather_helmet_i01"
-          defaultAction="equip"
-          bodypart="head" immediateEffect="1" crystalCount="3378" crystalType="r99" weight="530" price="158359000"
-          enchantEnabled="1"
-          isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Othell, Yul, Iss, Aeore, Wynn, Tyrr, Eviscerator" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="169" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rEvas" val="0.3" />
-        <enchant stat="mEvasRate" val="0.3" />
-        <skill id="8810" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="3" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="26.431" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="13" chance="97.449" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="31.672" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 8%. Bestows an assassin or enchant type set option. When enchanted to + 4, increases Evasion, Speed and Physical Attack Resistance, and decreases the chance of receiving P. Critical Hit. Othell Rogues, Yul Archers, Iss Enchanters, Aeore Healers, Wynn Summoners, Tyrr Warriors, and Eviscerators only. -->
-    <item id="27770" type="Armor" name="Ultimate Eternal Leather Armor - Light Armor / Lv1"
+    <item id="27770" type="Weapon" name="Ultimate Eternal Leather Armor - Light Armor / Lv1"
           icon="BranchIcon.icon.armor_t812_u_i01"
-          defaultAction="equip"
-          armorType="light" bodypart="chest" immediateEffect="1" crystalCount="9008" crystalType="r99" weight="4140"
-          price="422292000"
-          enchantEnabled="1" enchant4Skill="13311-3" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Othell, Yul, Iss, Aeore, Wynn, Tyrr, Eviscerator" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="361" />
         <baseAdd stat="rEvas" val="5" />
         <baseAdd stat="mEvasRate" val="5" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="pAtk" val="3" />
-        <enchant stat="mAtk" val="2" />
-        <skill id="8811" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="6" chance="97.805" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="70.482" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="34" chance="99.359" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="84.457" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 5%. Bestows an assassin or enchant type set option. Othell Rogues, Yul Archers, Iss Enchanters, Aeore Healers, Wynn Summoners, Tyrr Warriors, and Eviscerators only. -->
-    <item id="27771" type="Armor" name="Ultimate Eternal Leather Leggings - Light Armor / Lv1"
+    <item id="27771" type="Weapon" name="Ultimate Eternal Leather Leggings - Light Armor / Lv1"
           icon="BranchIcon.icon.armor_t812_l_i01"
-          defaultAction="equip"
-          armorType="light" bodypart="legs" immediateEffect="1" crystalCount="5630" crystalType="r99" weight="1320"
-          price="263933000"
-          enchantEnabled="1" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Othell, Yul, Iss, Aeore, Wynn, Tyrr, Eviscerator" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="226" />
         <baseAdd stat="rEvas" val="3" />
         <baseAdd stat="mEvasRate" val="3" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rCrit" val="0.5" />
-        <enchant stat="mCritRate" val="0.5" />
-        <skill id="8812" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="4" chance="91.692" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="44.051" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="22" chance="95.972" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="52.786" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%. Bestows an assassin or enchant type set option. Othell Rogues, Yul Archers, Iss Enchanters, Aeore Healers, Wynn Summoners, Tyrr Warriors, and Eviscerators only. -->
-    <item id="27772" type="Armor" name="Ultimate Eternal Leather Gloves - Light Armor / Lv1"
+    <item id="27772" type="Weapon" name="Ultimate Eternal Leather Gloves - Light Armor / Lv1"
           icon="BranchIcon.icon.armor_t812_g_i01"
-          defaultAction="equip"
-          bodypart="gloves" immediateEffect="1" crystalCount="2252" crystalType="r99" weight="510" price="105573000"
-          enchantEnabled="1"
-          isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Othell, Yul, Iss, Aeore, Wynn, Tyrr, Eviscerator" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="accCombat" val="0.3" />
-        <enchant stat="accMagic" val="0.3" />
-        <skill id="8813" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%. Bestows an assassin or enchant type set option. Othell Rogues, Yul Archers, Iss Enchanters, Aeore Healers, Wynn Summoners, Tyrr Warriors, and Eviscerators only. -->
-    <item id="27773" type="Armor" name="Ultimate Eternal Leather Boots - Light Armor / Lv1"
+    <item id="27773" type="Weapon" name="Ultimate Eternal Leather Boots - Light Armor / Lv1"
           icon="BranchIcon.icon.armor_t812_b_i01"
-          defaultAction="equip"
-          bodypart="feet" immediateEffect="1" crystalCount="2252" crystalType="r99" weight="1070" price="105573000"
-          enchantEnabled="1"
-          isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Othell, Yul, Iss, Aeore, Wynn, Tyrr, Eviscerator" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="runSpd" val="1.0" />
-        <skill id="8809" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 3%. Bestows a magic or recovery type set option. Aeore Healers, Feoh Wizards, Wynn Summoners, Iss Enchanters, and Sayha's Seers only. -->
-    <item id="27774" type="Armor" name="Ultimate Eternal Circlet - Robe / Lv1" icon="BranchIcon.icon.armor_circlet_i01" defaultAction="equip"
-          bodypart="head"
-          immediateEffect="1" crystalCount="3378" crystalType="r99" weight="530" price="158359000" enchantEnabled="1"
-          isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Aeore, Feoh, Wynn, Iss, Sayha's" />
-        </cond>
-        <baseAdd stat="pDef" val="162" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rEvas" val="0.3" />
-        <enchant stat="mEvasRate" val="0.3" />
-        <skill id="8815" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="3" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="26.431" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="13" chance="97.449" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="31.672" /> <!-- Elcyum Crystal -->
+    <item id="27774" type="Weapon" name="Ultimate Eternal Circlet - Robe / Lv1" icon="BranchIcon.icon.armor_circlet_i01"
+          bodypart="none"
+          material="steel" weight="0" crystal_type="none">
+        <baseAdd stat="pDef" val="169" />
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 8%. Bestows a magic or recovery type set option.When enchanted to + 4, increases M. Evasion and Mentall Attack Resistance, and decreases P. Critical Damage and the chance of receiving P. Critical Hit. Aeore Healers, Feoh Wizards, Wynn Summoners, Iss Enchanters, and Sayha's Seers only. -->
-    <item id="27775" type="Armor" name="Ultimate Eternal Tunic - Robe / Lv1" icon="BranchIcon.icon.armor_t813_u_i01" defaultAction="equip"
-          armorType="magic"
-          bodypart="chest" immediateEffect="1" crystalCount="9008" crystalType="r99" weight="1750" price="422292000"
-          enchantEnabled="1"
-          enchant4Skill="13312-3" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Aeore, Feoh, Wynn, Iss, Sayha's" />
-        </cond>
-        <baseAdd stat="mDef" val="56" />
+    <item id="27775" type="Weapon" name="Ultimate Eternal Tunic - Robe / Lv1" icon="BranchIcon.icon.armor_t813_u_i01"
+          bodypart="none"
+          material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="248" />
-        <add stat="maxMp" val="649" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="pAtk" val="3" />
-        <enchant stat="mAtk" val="2" />
-        <skill id="8816" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="6" chance="97.805" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="70.482" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="34" chance="99.359" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="84.457" /> <!-- Elcyum Crystal -->
+        <baseAdd stat="mDef" val="56" />
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 5%. Bestows a magic or recovery type set option. Aeore Healers, Feoh Wizards, Wynn Summoners, Iss Enchanters, and Sayha's Seers only. -->
-    <item id="27776" type="Armor" name="Ultimate Eternal Stockings - Robe / Lv1"
-          icon="BranchIcon.icon.armor_t813_l_i01"           defaultAction="equip" armorType="magic"
-          bodypart="legs" immediateEffect="1" crystalCount="5630" crystalType="r99" weight="850" price="263933000"
-          enchantEnabled="1"
-          isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Aeore, Feoh, Wynn, Iss, Sayha's" />
-        </cond>
-        <baseAdd stat="mDef" val="37" />
+    <item id="27776" type="Weapon" name="Ultimate Eternal Stockings - Robe / Lv1"
+          icon="BranchIcon.icon.armor_t813_l_i01" bodypart="none"
+          material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="155" />
-        <add stat="maxMp" val="427" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rCrit" val="0.5" />
-        <enchant stat="mCritRate" val="0.5" />
-        <skill id="8817" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="4" chance="91.692" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="44.051" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="22" chance="95.972" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="52.786" /> <!-- Elcyum Crystal -->
+        <baseAdd stat="mDef" val="37" />
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%. Bestows a magic or recovery type set option. Aeore Healers, Feoh Wizards, Wynn Summoners, Iss Enchanters, and Sayha's Seers only. -->
-    <item id="27777" type="Armor" name="Ultimate Eternal Gloves - Robe / Lv1" icon="BranchIcon.icon.armor_t813_g_i01"
-          defaultAction="equip"
-          bodypart="gloves"
-          immediateEffect="1" crystalCount="2252" crystalType="r99" weight="510" price="105573000" enchantEnabled="1"
-          isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Aeore, Feoh, Wynn, Iss, Sayha's" />
-        </cond>
+    <item id="27777" type="Weapon" name="Ultimate Eternal Gloves - Robe / Lv1" icon="BranchIcon.icon.armor_t813_g_i01"
+          bodypart="none"
+          material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="accCombat" val="0.3" />
-        <enchant stat="accMagic" val="0.3" />
-        <skill id="8818" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%. Bestows a magic or recovery type set option. Aeore Healers, Feoh Wizards, Wynn Summoners, Iss Enchanters, and Sayha's Seers only. -->
-    <item id="27778" type="Armor" name="Ultimate Eternal Shoes - Robe / Lv1" icon="BranchIcon.icon.armor_t813_b_i01"
-          defaultAction="equip"
-          bodypart="feet"
-          immediateEffect="1" crystalCount="2252" crystalType="r99" weight="1070" price="105573000" enchantEnabled="1"
-          isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Aeore, Feoh, Wynn, Iss, Sayha's" />
-        </cond>
+    <item id="27778" type="Weapon" name="Ultimate Eternal Shoes - Robe / Lv1" icon="BranchIcon.icon.armor_t813_b_i01"
+          bodypart="none"
+          material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="runSpd" val="1.0" />
-        <skill id="8819" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 3%.  Tyrr Warriors, Sigel Knights and Iss Enchanters only. -->
-    <item id="27779" type="Armor" name="Ultimate Eternal Helmet - Attack Type / Heavy Armor / Lv1"
+    <item id="27779" type="Weapon" name="Ultimate Eternal Helmet - Attack Type / Heavy Armor / Lv1"
           icon="BranchIcon.icon.armor_helmet_i01"
-          defaultAction="equip"
-          bodypart="head" immediateEffect="1" crystalCount="3378" crystalType="r99" weight="530" price="158359000"
-          enchantEnabled="1"
-          armorSet="19571" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Tyrr, Sigel, Iss" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="169" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rEvas" val="0.3" />
-        <enchant stat="mEvasRate" val="0.3" />
-        <skill id="8805" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="3" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="26.431" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="13" chance="97.449" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="31.672" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 8%. When enchanted to + 4, decreases P. Critical Damage and additionally increases P. Def. Tyrr Warriors, Sigel Knights and Iss Enchanters only. -->
-    <item id="27780" type="Armor" name="Ultimate Eternal Breatplate - Attack Type / Heavy Armor / Lv1"
+    <item id="27780" type="Weapon" name="Ultimate Eternal Breatplate - Attack Type / Heavy Armor / Lv1"
           icon="BranchIcon.icon.armor_t811_u_i01"
-          defaultAction="equip"
-          armorType="heavy" bodypart="chest" immediateEffect="1" crystalCount="9008" crystalType="r99" weight="7520"
-          price="422292000"
-          enchantEnabled="1" enchant4Skill="13310-3" armorSet="19571" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Tyrr, Sigel, Iss" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="451" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="pAtk" val="3" />
-        <enchant stat="mAtk" val="2" />
-        <skill id="8806" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="6" chance="97.805" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="70.482" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="34" chance="99.359" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="84.457" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 5%.  Tyrr Warriors, Sigel Knights and Iss Enchanters only. -->
-    <item id="27781" type="Armor" name="Ultimate Eternal Gaiters - Attack Type / Heavy Armor / Lv1"
+    <item id="27781" type="Weapon" name="Ultimate Eternal Gaiters - Attack Type / Heavy Armor / Lv1"
           icon="BranchIcon.icon.armor_t811_l_i01"
-          defaultAction="equip"
-          armorType="heavy" bodypart="legs" immediateEffect="1" crystalCount="5630" crystalType="r99" weight="3170"
-          price="263933000"
-          enchantEnabled="1" armorSet="19571" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Tyrr, Sigel, Iss" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="282" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rCrit" val="0.5" />
-        <enchant stat="mCritRate" val="0.5" />
-        <skill id="8807" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="4" chance="91.692" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="44.051" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="22" chance="95.972" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="52.786" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%.  Tyrr Warriors, Sigel Knights and Iss Enchanters only. -->
-    <item id="27782" type="Armor" name="Ultimate Eternal Gauntlets - Attack Type / Heavy Armor / Lv1"
+    <item id="27782" type="Weapon" name="Ultimate Eternal Gauntlets - Attack Type / Heavy Armor / Lv1"
           icon="BranchIcon.icon.armor_t811_g_i01"
-          defaultAction="equip"
-          bodypart="gloves" immediateEffect="1" crystalCount="2252" crystalType="r99" weight="510" price="105573000"
-          enchantEnabled="1"
-          armorSet="19571" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Tyrr, Sigel, Iss" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="accCombat" val="0.3" />
-        <enchant stat="accMagic" val="0.3" />
-        <skill id="8808" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%.  Tyrr Warriors, Sigel Knights and Iss Enchanters only. -->
-    <item id="27783" type="Armor" name="Ultimate Eternal Boots - Attack Type / Heavy Armor / Lv1"
+    <item id="27783" type="Weapon" name="Ultimate Eternal Boots - Attack Type / Heavy Armor / Lv1"
           icon="BranchIcon.icon.armor_t811_b_i01"
-          defaultAction="equip"
-          bodypart="feet" immediateEffect="1" crystalCount="2252" crystalType="r99" weight="1070" price="105573000"
-          enchantEnabled="1"
-          armorSet="19571" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Tyrr, Sigel, Iss" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="runSpd" val="1.0" />
-        <skill id="8809" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 3%. Othell Rogues and Yul Archers only. -->
-    <item id="27784" type="Armor" name="Ultimate Eternal Leather Helmet - Assassin Type / Light Armor / Lv1"
+    <item id="27784" type="Weapon" name="Ultimate Eternal Leather Helmet - Assassin Type / Light Armor / Lv1"
           icon="BranchIcon.icon.armor_leather_helmet_i01"
-          defaultAction="equip" bodypart="head" immediateEffect="1" crystalCount="3378" crystalType="r99" weight="530"
-          price="158359000"
-          enchantEnabled="1" armorSet="19577" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Othell, Yul" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="169" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rEvas" val="0.3" />
-        <enchant stat="mEvasRate" val="0.3" />
-        <skill id="8810" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="3" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="26.431" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="13" chance="97.449" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="31.672" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 8%. When enchanted to + 4, increases Evasion, Speed and Physical Attack Resistance, and decreases the chance of receiving P. Critical Hit. Othell Rogues and Yul Archers only. -->
-    <item id="27785" type="Armor" name="Ultimate Eternal Leather Armor - Assassin Type / Light Armor / Lv1"
+    <item id="27785" type="Weapon" name="Ultimate Eternal Leather Armor - Assassin Type / Light Armor / Lv1"
           icon="BranchIcon.icon.armor_t812_u_i01"
-          defaultAction="equip"
-          armorType="light" bodypart="chest" immediateEffect="1" crystalCount="9008" crystalType="r99" weight="4140"
-          price="422292000"
-          enchantEnabled="1" enchant4Skill="13311-3" armorSet="19577" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Othell, Yul" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="361" />
         <baseAdd stat="rEvas" val="5" />
         <baseAdd stat="mEvasRate" val="5" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="pAtk" val="3" />
-        <enchant stat="mAtk" val="2" />
-        <skill id="8811" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="6" chance="97.805" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="70.482" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="34" chance="99.359" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="84.457" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 5%. Othell Rogues and Yul Archers only. -->
-    <item id="27786" type="Armor" name="Ultimate Eternal Leather Leggings - Assassin Type / Light Armor / Lv1"
+    <item id="27786" type="Weapon" name="Ultimate Eternal Leather Leggings - Assassin Type / Light Armor / Lv1"
           icon="BranchIcon.icon.armor_t812_l_i01"
-          defaultAction="equip" armorType="light" bodypart="legs" immediateEffect="1" crystalCount="5630"
-          crystalType="r99" weight="1320"
-          price="263933000" enchantEnabled="1" armorSet="19577" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Othell, Yul" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="226" />
         <baseAdd stat="rEvas" val="3" />
         <baseAdd stat="mEvasRate" val="3" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rCrit" val="0.5" />
-        <enchant stat="mCritRate" val="0.5" />
-        <skill id="8812" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="4" chance="91.692" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="44.051" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="22" chance="95.972" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="52.786" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%. Othell Rogues and Yul Archers only. -->
-    <item id="27787" type="Armor" name="Ultimate Eternal Leather Gloves - Assassin Type / Light Armor / Lv1"
+    <item id="27787" type="Weapon" name="Ultimate Eternal Leather Gloves - Assassin Type / Light Armor / Lv1"
           icon="BranchIcon.icon.armor_t812_g_i01"
-          defaultAction="equip"
-          bodypart="gloves" immediateEffect="1" crystalCount="2252" crystalType="r99" weight="510" price="105573000"
-          enchantEnabled="1"
-          armorSet="19577" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Othell, Yul" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="accCombat" val="0.3" />
-        <enchant stat="accMagic" val="0.3" />
-        <skill id="8813" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%. Othell Rogues and Yul Archers only. -->
-    <item id="27788" type="Armor" name="Ultimate Eternal Leather Boots - Assassin Type / Light Armor / Lv1"
+    <item id="27788" type="Weapon" name="Ultimate Eternal Leather Boots - Assassin Type / Light Armor / Lv1"
           icon="BranchIcon.icon.armor_t812_b_i01"
-          defaultAction="equip"
-          bodypart="feet" immediateEffect="1" crystalCount="2252" crystalType="r99" weight="1070" price="105573000"
-          enchantEnabled="1"
-          armorSet="19577" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Othell, Yul" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="runSpd" val="1.0" />
-        <skill id="8809" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 3%. Aeore Healers, Feoh Wizards, Wynn Summoners, Iss Enchanters, and Sayha's Seers only. -->
-    <item id="27789" type="Armor" name="Ultimate Eternal Circlet - Magic Type / Robe / Lv1"
+    <item id="27789" type="Weapon" name="Ultimate Eternal Circlet - Magic Type / Robe / Lv1"
           icon="BranchIcon.icon.armor_circlet_i01"
-          defaultAction="equip"
-          bodypart="head" immediateEffect="1" crystalCount="3378" crystalType="r99" weight="530" price="158359000"
-          enchantEnabled="1"
-          armorSet="19582" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Aeore, Feoh, Wynn, Iss, Sayha's" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="169" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rEvas" val="0.3" />
-        <enchant stat="mEvasRate" val="0.3" />
-        <skill id="8815" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="3" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="26.431" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="13" chance="97.449" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="31.672" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 8%.When enchanted to + 4, increases M. Evasion and Mentall Attack Resistance, and decreases P. Critical Damage and the chance of receiving P. Critical Hit. Aeore Healers, Feoh Wizards, Wynn Summoners, Iss Enchanters, and Sayha's Seers only. -->
-    <item id="27790" type="Armor" name="Ultimate Eternal Tunic - Magic Type / Robe / Lv1"
+    <item id="27790" type="Weapon" name="Ultimate Eternal Tunic - Magic Type / Robe / Lv1"
           icon="BranchIcon.icon.armor_t813_u_i01"
-          defaultAction="equip"
-          armorType="magic" bodypart="chest" immediateEffect="1" crystalCount="9008" crystalType="r99" weight="1750"
-          price="422292000"
-          enchantEnabled="1" enchant4Skill="13312-3" armorSet="19582" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Aeore, Feoh, Wynn, Iss, Sayha's" />
-        </cond>
-        <baseAdd stat="mDef" val="56" />
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="248" />
-        <add stat="maxMp" val="649" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="pAtk" val="3" />
-        <enchant stat="mAtk" val="2" />
-        <skill id="8816" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="6" chance="97.805" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="70.482" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="34" chance="99.359" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="84.457" /> <!-- Elcyum Crystal -->
+        <baseAdd stat="mDef" val="56" />
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 5%. Aeore Healers, Feoh Wizards, Wynn Summoners, Iss Enchanters, and Sayha's Seers only. -->
-    <item id="27791" type="Armor" name="Ultimate Eternal Stockings - Magic Type / Robe / Lv1"
+    <item id="27791" type="Weapon" name="Ultimate Eternal Stockings - Magic Type / Robe / Lv1"
           icon="BranchIcon.icon.armor_t813_l_i01"
-          defaultAction="equip"
-          armorType="magic" bodypart="legs" immediateEffect="1" crystalCount="5630" crystalType="r99" weight="850"
-          price="263933000"
-          enchantEnabled="1" armorSet="19582" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Aeore, Feoh, Wynn, Iss, Sayha's" />
-        </cond>
-        <baseAdd stat="mDef" val="37" />
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="155" />
-        <add stat="maxMp" val="427" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rCrit" val="0.5" />
-        <enchant stat="mCritRate" val="0.5" />
-        <skill id="8817" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="4" chance="91.692" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="44.051" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="22" chance="95.972" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="52.786" /> <!-- Elcyum Crystal -->
+        <baseAdd stat="mDef" val="37" />
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%. Aeore Healers, Feoh Wizards, Wynn Summoners, Iss Enchanters, and Sayha's Seers only. -->
-    <item id="27792" type="Armor" name="Ultimate Eternal Gloves - Magic Type / Robe / Lv1"
+    <item id="27792" type="Weapon" name="Ultimate Eternal Gloves - Magic Type / Robe / Lv1"
           icon="BranchIcon.icon.armor_t813_g_i01"
-          defaultAction="equip"
-          bodypart="gloves" immediateEffect="1" crystalCount="2252" crystalType="r99" weight="510" price="105573000"
-          enchantEnabled="1"
-          armorSet="19582" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Aeore, Feoh, Wynn, Iss, Sayha's" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="accCombat" val="0.3" />
-        <enchant stat="accMagic" val="0.3" />
-        <skill id="8818" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%. Aeore Healers, Feoh Wizards, Wynn Summoners, Iss Enchanters, and Sayha's Seers only. -->
-    <item id="27793" type="Armor" name="Ultimate Eternal Shoes - Magic Type / Robe / Lv1"
+    <item id="27793" type="Weapon" name="Ultimate Eternal Shoes - Magic Type / Robe / Lv1"
           icon="BranchIcon.icon.armor_t813_b_i01"
-          defaultAction="equip"
-          bodypart="feet" immediateEffect="1" crystalCount="2252" crystalType="r99" weight="1070" price="105573000"
-          enchantEnabled="1"
-          armorSet="19582" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Aeore, Feoh, Wynn, Iss, Sayha's" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="runSpd" val="1.0" />
-        <skill id="8819" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 3%. Sigel Knights only. -->
     <item id="27794" type="Weapon" name="Ultimate Eternal Helmet - Defense Type / Heavy Armor / Lv1"
           icon="BranchIcon.icon.armor_helmet_i01"
-          defaultAction="equip"
-          bodypart="head" immediateEffect="1" crystalCount="3378" crystalType="r99" weight="530" price="158359000"
-          enchantEnabled="1"
-          armorSet="19779" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Sigel" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="169" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rEvas" val="0.3" />
-        <enchant stat="mEvasRate" val="0.3" />
-        <skill id="8805" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="3" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="26.431" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="13" chance="97.449" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="31.672" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 8%. When enchanted to + 4, decreases P. Critical Damage and additionally increases P. Def.Sigel Knights only. -->
-    <item id="27795" type="Armor" name="Ultimate Eternal Breatplate - Defense Type / Heavy Armor / Lv1"
+    <item id="27795" type="Weapon" name="Ultimate Eternal Breatplate - Defense Type / Heavy Armor / Lv1"
           icon="BranchIcon.icon.armor_t811_u_i01"
-          defaultAction="equip"
-          armorType="heavy" bodypart="chest" immediateEffect="1" crystalCount="9008" crystalType="r99" weight="7520"
-          price="422292000"
-          enchantEnabled="1" enchant4Skill="13310-3" armorSet="19779" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Sigel" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="451" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="pAtk" val="3" />
-        <enchant stat="mAtk" val="2" />
-        <skill id="8806" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="6" chance="97.805" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="70.482" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="34" chance="99.359" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="84.457" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 5%. Sigel Knights only. -->
-    <item id="27796" type="Armor" name="Ultimate Eternal Gaiters - Defense Type / Heavy Armor / Lv1"
+    <item id="27796" type="Weapon" name="Ultimate Eternal Gaiters - Defense Type / Heavy Armor / Lv1"
           icon="BranchIcon.icon.armor_t811_l_i01"
-          defaultAction="equip"
-          armorType="heavy" bodypart="legs" immediateEffect="1" crystalCount="5630" crystalType="r99" weight="3170"
-          price="263933000"
-          enchantEnabled="1" armorSet="19779" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Sigel" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="282" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rCrit" val="0.5" />
-        <enchant stat="mCritRate" val="0.5" />
-        <skill id="8807" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="4" chance="91.692" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="44.051" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="22" chance="95.972" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="52.786" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%. Sigel Knights only. -->
-    <item id="27797" type="Armor" name="Ultimate Eternal Gauntlets - Defense Type / Heavy Armor / Lv1"
+    <item id="27797" type="Weapon" name="Ultimate Eternal Gauntlets - Defense Type / Heavy Armor / Lv1"
           icon="BranchIcon.icon.armor_t811_g_i01"
-          defaultAction="equip"
-          bodypart="gloves" immediateEffect="1" crystalCount="2252" crystalType="r99" weight="510" price="105573000"
-          enchantEnabled="1"
-          armorSet="19779" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Sigel" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="accCombat" val="0.3" />
-        <enchant stat="accMagic" val="0.3" />
-        <skill id="8808" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%. Sigel Knights only. -->
-    <item id="27798" type="Armor" name="Ultimate Eternal Boots - Defense Type / Heavy Armor / Lv1"
+    <item id="27798" type="Weapon" name="Ultimate Eternal Boots - Defense Type / Heavy Armor / Lv1"
           icon="BranchIcon.icon.armor_t811_b_i01"
-          defaultAction="equip"
-          bodypart="feet" immediateEffect="1" crystalCount="2252" crystalType="r99" weight="1070" price="105573000"
-          enchantEnabled="1"
-          armorSet="19779" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Sigel" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="runSpd" val="1.0" />
-        <skill id="8809" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 3%. Othell Rogues, Yul Archers, Iss Enchanters, Aeore Healers, Wynn Summoners, Tyrr Warriors, and Eviscerators only. -->
-    <item id="27799" type="Armor" name="Ultimate Eternal Leather Helmet - Enchant Type / Light Armor / Lv1"
+    <item id="27799" type="Weapon" name="Ultimate Eternal Leather Helmet - Enchant Type / Light Armor / Lv1"
           icon="BranchIcon.icon.armor_leather_helmet_i01"
-          defaultAction="equip" bodypart="head" immediateEffect="1" crystalCount="3378" crystalType="r99" weight="530"
-          price="158359000"
-          enchantEnabled="1" armorSet="19785" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Othell, Yul, Iss, Aeore, Wynn, Tyrr, Eviscerator" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="169" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rEvas" val="0.3" />
-        <enchant stat="mEvasRate" val="0.3" />
-        <skill id="8810" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="3" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="26.431" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="13" chance="97.449" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="31.672" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 8%. When enchanted to + 4, increases Evasion, Speed and Physical Attack Resistance, and decreases the chance of receiving P. Critical Hit. Othell Rogues, Yul Archers, Iss Enchanters, Aeore Healers, Wynn Summoners, Tyrr Warriors, and Eviscerators only. -->
-    <item id="27800" type="Armor" name="Ultimate Eternal Leather Armor - Enchant Type / Light Armor / Lv1"
+    <item id="27800" type="Weapon" name="Ultimate Eternal Leather Armor - Enchant Type / Light Armor / Lv1"
           icon="BranchIcon.icon.armor_t812_u_i01"
-          defaultAction="equip"
-          armorType="light" bodypart="chest" immediateEffect="1" crystalCount="9008" crystalType="r99" weight="4140"
-          price="422292000"
-          enchantEnabled="1" enchant4Skill="13311-3" armorSet="19785" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Othell, Yul, Iss, Aeore, Wynn, Tyrr, Eviscerator" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="361" />
         <baseAdd stat="rEvas" val="5" />
         <baseAdd stat="mEvasRate" val="5" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="pAtk" val="3" />
-        <enchant stat="mAtk" val="2" />
-        <skill id="8811" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="6" chance="97.805" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="70.482" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="34" chance="99.359" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="84.457" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 5%. Othell Rogues, Yul Archers, Iss Enchanters, Aeore Healers, Wynn Summoners, Tyrr Warriors, and Eviscerators only. -->
-    <item id="27801" type="Armor" name="Ultimate Eternal Leather Leggings - Enchant Type / Light Armor / Lv1"
+    <item id="27801" type="Weapon" name="Ultimate Eternal Leather Leggings - Enchant Type / Light Armor / Lv1"
           icon="BranchIcon.icon.armor_t812_l_i01"
-          defaultAction="equip"
-          armorType="light" bodypart="legs" immediateEffect="1" crystalCount="5630" crystalType="r99" weight="1320"
-          price="263933000"
-          enchantEnabled="1" armorSet="19785" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Othell, Yul, Iss, Aeore, Wynn, Tyrr, Eviscerator" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="226" />
         <baseAdd stat="rEvas" val="3" />
         <baseAdd stat="mEvasRate" val="3" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rCrit" val="0.5" />
-        <enchant stat="mCritRate" val="0.5" />
-        <skill id="8812" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="4" chance="91.692" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="44.051" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="22" chance="95.972" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="52.786" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%. Othell Rogues, Yul Archers, Iss Enchanters, Aeore Healers, Wynn Summoners, Tyrr Warriors, and Eviscerators only. -->
-    <item id="27802" type="Armor" name="Ultimate Eternal Leather Gloves - Enchant Type / Light Armor / Lv1"
+    <item id="27802" type="Weapon" name="Ultimate Eternal Leather Gloves - Enchant Type / Light Armor / Lv1"
           icon="BranchIcon.icon.armor_t812_g_i01"
-          defaultAction="equip"
-          bodypart="gloves" immediateEffect="1" crystalCount="2252" crystalType="r99" weight="510" price="105573000"
-          enchantEnabled="1"
-          armorSet="19785" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Othell, Yul, Iss, Aeore, Wynn, Tyrr, Eviscerator" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="accCombat" val="0.3" />
-        <enchant stat="accMagic" val="0.3" />
-        <skill id="8813" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%. Othell Rogues, Yul Archers, Iss Enchanters, Aeore Healers, Wynn Summoners, Tyrr Warriors, and Eviscerators only. -->
-    <item id="27803" type="Armor" name="Ultimate Eternal Leather Boots - Enchant Type / Light Armor / Lv1"
+    <item id="27803" type="Weapon" name="Ultimate Eternal Leather Boots - Enchant Type / Light Armor / Lv1"
           icon="BranchIcon.icon.armor_t812_b_i01"
-          defaultAction="equip"
-          bodypart="feet" immediateEffect="1" crystalCount="2252" crystalType="r99" weight="1070" price="105573000"
-          enchantEnabled="1"
-          armorSet="19785" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Othell, Yul, Iss, Aeore, Wynn, Tyrr, Eviscerator" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="runSpd" val="1.0" />
-        <skill id="8809" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 3%. Aeore Healers only. -->
-    <item id="27804" type="Armor" name="Ultimate Eternal Circlet - Recovery Type / Robe / Lv1"
+    <item id="27804" type="Weapon" name="Ultimate Eternal Circlet - Recovery Type / Robe / Lv1"
           icon="BranchIcon.icon.armor_circlet_i01"
-          defaultAction="equip"
-          bodypart="head" immediateEffect="1" crystalCount="3378" crystalType="r99" weight="530" price="158359000"
-          enchantEnabled="1"
-          armorSet="19790" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Aeore" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="169" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rEvas" val="0.3" />
-        <enchant stat="mEvasRate" val="0.3" />
-        <skill id="8815" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="3" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="26.431" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="13" chance="97.449" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="31.672" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 8%.When enchanted to + 4, increases M. Evasion and Mentall Attack Resistance, and decreases P. Critical Damage and the chance of receiving P. Critical Hit. Aeore Healers only. -->
-    <item id="27805" type="Armor" name="Ultimate Eternal Tunic - Recovery Type / Robe / Lv1"
+    <item id="27805" type="Weapon" name="Ultimate Eternal Tunic - Recovery Type / Robe / Lv1"
           icon="BranchIcon.icon.armor_t813_u_i01"
-          defaultAction="equip"
-          armorType="magic" bodypart="chest" immediateEffect="1" crystalCount="9008" crystalType="r99" weight="1750"
-          price="422292000"
-          enchantEnabled="1" enchant4Skill="13312-3" armorSet="19790" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Aeore" />
-        </cond>
-        <baseAdd stat="mDef" val="56" />
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="248" />
-        <add stat="maxMp" val="649" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="pAtk" val="3" />
-        <enchant stat="mAtk" val="2" />
-        <skill id="8816" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="6" chance="97.805" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="70.482" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="34" chance="99.359" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="84.457" /> <!-- Elcyum Crystal -->
+        <baseAdd stat="mDef" val="56" />
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 5%. Aeore Healers only. -->
-    <item id="27806" type="Armor" name="Ultimate Eternal Stockings - Recovery Type / Robe / Lv1"
+    <item id="27806" type="Weapon" name="Ultimate Eternal Stockings - Recovery Type / Robe / Lv1"
           icon="BranchIcon.icon.armor_t813_l_i01"
-          defaultAction="equip"
-          armorType="magic" bodypart="legs" immediateEffect="1" crystalCount="5630" crystalType="r99" weight="850"
-          price="263933000"
-          enchantEnabled="1" armorSet="19790" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Aeore" />
-        </cond>
-        <baseAdd stat="mDef" val="37" />
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="155" />
-        <add stat="maxMp" val="427" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="rCrit" val="0.5" />
-        <enchant stat="mCritRate" val="0.5" />
-        <skill id="8817" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="4" chance="91.692" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="44.051" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="22" chance="95.972" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="52.786" /> <!-- Elcyum Crystal -->
+        <baseAdd stat="mDef" val="37" />
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%. Aeore Healers only. -->
-    <item id="27807" type="Armor" name="Ultimate Eternal Gloves - Recovery Type / Robe / Lv1"
+    <item id="27807" type="Weapon" name="Ultimate Eternal Gloves - Recovery Type / Robe / Lv1"
           icon="BranchIcon.icon.armor_t813_g_i01"
-          bodypart="gloves" immediateEffect="1" crystalCount="2252" crystalType="r99" weight="510" price="105573000"
-          enchantEnabled="1"
-          armorSet="19790" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Aeore" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="accCombat" val="0.3" />
-        <enchant stat="accMagic" val="0.3" />
-        <skill id="8818" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 2%. Aeore Healers only. -->
-    <item id="27808" type="Armor" name="Ultimate Eternal Shoes - Recovery Type / Robe / Lv1"
+    <item id="27808" type="Weapon" name="Ultimate Eternal Shoes - Recovery Type / Robe / Lv1"
           icon="BranchIcon.icon.armor_t813_b_i01"
-          defaultAction="equip"
-          bodypart="feet" immediateEffect="1" crystalCount="2252" crystalType="r99" weight="1070" price="105573000"
-          enchantEnabled="1"
-          armorSet="19790" isBlessed="true">
-        <cond addName="1" msgId="113">
-            <player starts_with_class_name_restriction="Aeore" />
-        </cond>
+          bodypart="none" material="steel" weight="0" crystal_type="none">
         <baseAdd stat="pDef" val="113" />
-        <enchant stat="pDef" val="0" />
-        <enchant stat="runSpd" val="1.0" />
-        <skill id="8819" level="1" /> <!-- PvP Defense -->
-        <crystallizeReward id="36164" count="2" chance="73.353" /> <!-- Giant's Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="19448" count="1" chance="17.62" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="17527" count="9" chance="93.839" /> <!-- Scroll: Enchant Armor (R-grade) -->
-        <crystallizeReward id="36514" count="1" chance="21.114" /> <!-- Elcyum Crystal -->
     </item>
     <!-- Ultimate enchant item. Decreases Damage Received by 3%. Bestows an attack or defense type set option. Tyrr Warriors, Sigel Knights and Iss Enchanters only. -->
     <item id="27809" type="Weapon" name="Ultimate Eternal Helmet - Heavy Armor / lv2"

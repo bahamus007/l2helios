@@ -2328,4 +2328,34 @@
             <augments ids="30340-30351" chance="3.0" />
         </augmentGroup>
     </lifeStone>
+
+	<lifeStone id="36979" grade="6" level="0">
+        <augmentGroup weaponType="hair,hair2,hairall" order="0">
+            <augments ids="30336-30339" chance="62.0" />
+            <augments ids="30330-30335" chance="30.0" />
+            <augments ids="30324-30329" chance="5.0" />
+            <augments ids="30315-30323" chance="3.0" />
+        </augmentGroup>
+        <augmentGroup weaponType="hair,hair2,hairall" order="1">
+            <augments ids="30374-30376" chance="62.0" />
+            <augments ids="30363-30373" chance="30.0" />
+            <augments ids="30352-30362" chance="5.0" />
+            <augments ids="30340-30351" chance="3.0" />
+        </augmentGroup>
+    </lifeStone>
+
+	<lifeStone id="45937" grade="6" level="0">
+        <augmentGroup weaponType="hair,hair2,hairall" order="0">
+            <augments ids="30336-30339" chance="55.0" />
+            <augments ids="30330-30335" chance="35.0" />
+            <augments ids="30324-30329" chance="7.0" />
+            <augments ids="30315-30323" chance="3.0" />
+        </augmentGroup>
+        <augmentGroup weaponType="hair,hair2,hairall" order="1">
+            <augments ids="30374-30376" chance="55.0" />
+            <augments ids="30363-30373" chance="35.0" />
+            <augments ids="30352-30362" chance="7.0" />
+            <augments ids="30340-30351" chance="3.0" />
+        </augmentGroup>
+    </lifeStone>
 </list>
