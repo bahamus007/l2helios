@@ -294,6 +294,12 @@ public class LifeStoneTable
 				return generateRandomAugmentation(lifeStone, "earring");
 			case L2Item.SLOT_NECK:
 				return generateRandomAugmentation(lifeStone, "necklace");
+			case L2Item.SLOT_HAIR:
+				return generateRandomAugmentation(lifeStone, "hair");
+			case L2Item.SLOT_HAIR2:
+				return generateRandomAugmentation(lifeStone, "hair2");
+			case L2Item.SLOT_HAIRALL:
+				return generateRandomAugmentation(lifeStone, "hairall");
 			default:
 				return generateRandomAugmentation(lifeStone,
 						targetItem.getWeaponItem().isMagicWeapon() ? "mage" : "warrior");
@@ -473,6 +479,9 @@ public class LifeStoneTable
 				case L2Item.SLOT_LR_FINGER:
 				case L2Item.SLOT_LR_EAR:
 				case L2Item.SLOT_NECK:
+				case L2Item.SLOT_HAIR:
+				case L2Item.SLOT_HAIR2:
+				case L2Item.SLOT_HAIRALL:
 					break;
 				default:
 					return false;
