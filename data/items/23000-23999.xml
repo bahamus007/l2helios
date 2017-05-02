@@ -1084,13 +1084,13 @@
     <!-- Fancy cap that completely blocks the sun. Uses 2 hair accessory slots. 30-day. -->
     <item id="23175" type="Armor" name="Brilliant Beach Sun Cap - 30-day (Event)" icon="BranchSys3.icon.g_beach_cap"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10" isTradable="false" isDropable="false" isSellable="false">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="10" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Hat made of straw fibers. Uses 2 hair accessory slots. 30-day. -->
     <item id="23176" type="Armor" name="Stylish Straw Hat - 30-day (Event)" icon="BranchSys3.icon.g_straw_hat"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10" isTradable="false" isDropable="false" isSellable="false">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="10" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Wrapped Pack containing Brilliant Beach Sun Cap (30-day). -->
@@ -1146,7 +1146,7 @@
     <!-- Ninja Hair Accessory. Mask form. Part of a costume. -->
     <item id="23183" type="Armor" name="Ninja Hair Accessory" icon="BranchSys3.icon1.g_co_ninja_hair"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="17">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="17">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Tribal Warrior Top. Part of a costume. -->
@@ -1172,7 +1172,7 @@
     <!-- Tribal Warrior Hair Accessory. Hat form. Part of a costume. -->
     <item id="23188" type="Armor" name="Tribal Warrior Hair Accessory" icon="BranchSys3.icon1.g_co_paiwan_hair"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="17">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="17">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Changes the appearance of a top to that of a Ninja outfit. Abilities do not change after modification. Can be used regardless of material. -->
@@ -1274,31 +1274,31 @@
     </item>
     <!-- CON + 1, MEN + 1 and INT + 1. 3-day. -->
     <item id="23202" type="Armor" name="Shiny Alien Mask" icon="icon.ev_shiny_alien_mask_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" crystalType="a"
           immediateEffect="1" weight="10" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- CON + 1, STR + 1 and DEX + 1. 3-day. -->
     <item id="23203" type="Armor" name="Shiny Reanimated Corpse Mask" icon="icon.ev_shiny_frankenstein_mask_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10" isTradable="false" isDropable="false" isSellable="false">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="10" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- CON + 1, DEX + 1 and WIT + 1. 3-day. -->
     <item id="23204" type="Armor" name="Shiny Shriek Mask" icon="icon.ev_shiny_scream_mask_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" crystalType="a"
           immediateEffect="1" weight="10" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- INT + 1, MEN + 1 and WIT + 1. 3-day. -->
     <item id="23205" type="Armor" name="Shiny Red Devil Mask" icon="icon.ev_shiny_doccabi_mask_i00"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip" bodypart="hairall" crystalType="a"
           immediateEffect="1" weight="10" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- CON + 1, DEX + 1 and WIT + 1. 3-day. -->
     <item id="23206" type="Armor" name="Shiny Mummy Mask" icon="icon.ev_shiny_mummy_mask_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" crystalType="a"
           immediateEffect="1" weight="10" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
@@ -1452,7 +1452,7 @@
     <!-- Helmet for brave warriors on server Aria. Uses 2 hair accessory slots. -->
     <item id="23231" type="Armor" name="Aria's Warrior Helmet" icon="BranchSys2.icon.br_close_helmet_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="13" isTradable="false" isDropable="false" isSellable="false">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="13" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Traces of Ancient Kartia's Labyrinth. Perhaps a Kartia Researcher may know more about it. -->
@@ -2046,7 +2046,10 @@
 	-->
     <item id="23342" type="EtcItem" name="Ancient Scroll: Enchant Weapon (R-grade)"
           icon="BranchSys.icon.br_ancient_cry_of_ench_wp_s_i00"
-          immediateEffect="1" weight="0">
+          defaultAction="skill_reduce" etcitemType="scrl_enchant_wp" immediateEffect="1" isTradable="true"
+          isDropable="false"
+          isSellable="false" isDepositable="false" isStackable="true" isPremium="true" isOlyRestricted="true"
+          handler="EnchantScrolls">
     </item>
     <!--
 		Enchant success rate is 100%.
@@ -2063,7 +2066,10 @@
 	-->
     <item id="23344" type="EtcItem" name="Ancient Scroll: Enchant Armor (R-grade)"
           icon="BranchSys.icon.br_ancient_cry_of_ench_am_s_i00"
-          immediateEffect="1" weight="0">
+          defaultAction="skill_reduce" etcitemType="scrl_enchant_am" immediateEffect="1" isTradable="true"
+          isDropable="false"
+          isSellable="false" isDepositable="false" isStackable="true" isPremium="true" isOlyRestricted="true"
+          handler="EnchantScrolls">
     </item>
     <!--
 		Enchant success rate is 100%.
@@ -2645,14 +2651,14 @@
     </item>
     <!-- Hair accessory commemorating Lineage II's 4th anniversary. Looks like a traditional Russian kokoshnik. Uses 2 hair accessory slots. Female only. -->
     <item id="23442" type="Armor" name="Kokoshnik" icon="BranchSys3.icon1.g_hair_kokoshnik_f" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" crystalType="a"
           immediateEffect="1" weight="13" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Hair accessory commemorating Lineage II's 4th anniversary. Looks like a Russian navy cap. Uses 2 hair accessory slots. Male only. -->
     <item id="23443" type="Armor" name="Russian Navy Cap" icon="BranchSys3.icon1.g_hair_peakless_cap_m"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="13" isTradable="false" isDropable="false" isSellable="false">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="13" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Cloak commemorating Lineage II's 4th anniversary. Elaborately embroidered. -->
@@ -2663,7 +2669,7 @@
     </item>
     <!-- Hair accessory commemorating Lineage II's 4th anniversary. Looks like a traditional Russian kokoshnik. Uses 2 hair accessory slots. Female only. -->
     <item id="23445" type="Armor" name="Kokoshnik" icon="BranchSys3.icon1.g_hair_kokoshnik_f" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" crystalType="a"
           immediateEffect="1" weight="13">
         <cond msgId="1518">
             <player sex="1" />
@@ -2672,7 +2678,7 @@
     <!-- Hair accessory commemorating Lineage II's 4th anniversary. Looks like a Russian navy cap. Uses 2 hair accessory slots. Male only. -->
     <item id="23446" type="Armor" name="Russian Navy Cap" icon="BranchSys3.icon1.g_hair_peakless_cap_m"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="13">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="13">
         <cond msgId="1518">
             <player sex="2" />
         </cond>
@@ -2706,7 +2712,7 @@
     <!-- Metal Suit Hair Accessory. Hat form. Part of a costume. -->
     <item id="23452" type="Armor" name="Metal Suit Hair Accessory" icon="BranchSys3.icon1.g_co_sf_hair"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="17">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="17">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Military Top. Part of a costume. -->
@@ -2752,7 +2758,7 @@
     <!-- Military Hair Accessory. Hat form. Part of a costume. Sailor hat for women, and navy cap for men. -->
     <item id="23457" type="Armor" name="Military Hair Accessory" icon="BranchSys3.icon1.g_co_military_hair_m"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="17">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="17">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Maid costume. Female only. -->
@@ -2771,7 +2777,7 @@
     <!-- Maid hair accessory. Part of a costume. Female only. -->
     <item id="23459" type="Armor" name="Maid Hair Accessory" icon="BranchSys3.icon1.g_co_cutie_maid_hair"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="13">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="13">
         <enchant stat="mDef" val="0" />
     </item>
     <item id="23460" type="EtcItem" name="Ink Herb - Event" icon="BranchSys3.icon1.g_ev_invite_ink_02"
@@ -2906,7 +2912,7 @@
     </item>
     <!-- Hat with the secretive air of magicians. Uses 2 hair accessory slots. -->
     <item id="23482" type="Armor" name="Top Hat" icon="icon.accessory_magicial_cap_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" crystalType="a"
           immediateEffect="1" weight="13" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
@@ -2917,7 +2923,7 @@
     </item>
     <!-- Wizard's hat with a wide rim and slumped, pointy top. Uses 2 hair accessory slots. -->
     <item id="23484" type="Armor" name="Wizard Hat" icon="icon.accessory_magic_cap_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" crystalType="a"
           immediateEffect="1" weight="13" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
@@ -3194,7 +3200,7 @@
     <!-- Ninja hair accessory in the form of a mask. Used in costumes. Gives you active skills. -->
     <item id="23558" type="Armor" name="Ninja Hair Accessory - Modified Set Test"
           icon="BranchSys3.icon1.g_co_ninja_hair" defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="17">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="17">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Ninja top. Used in costumes. Gives you passive skills. -->
@@ -3220,7 +3226,7 @@
     <!-- Ninja hair accessory in the form of a mask. Used in costumes. Gives you passive skills. -->
     <item id="23563" type="Armor" name="Ninja Hair Accessory - Modified Set Test"
           icon="BranchSys3.icon1.g_co_ninja_hair" defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="17">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="17">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Changes the appearance of a top into that of a Ninja Outfit. An appearance-modified item has no change in abilities. All armor types. Gives you active skills upon modification. -->
@@ -3474,7 +3480,7 @@
     <!-- Crown bestowed upon the winner of the tournament. The hero's name will be forever engraved in server history. -->
     <item id="23613" type="Armor" name="2012 Tournament Winner's Crown - Cain"
           icon="BranchSys.icon.br_comfortspirit_hat_a_i00"
-          defaultAction="equip" bodypart="hairall" immediateEffect="1" weight="10" isTradable="false" isDropable="false"
+          defaultAction="equip" bodypart="hairall" crystalType="a" immediateEffect="1" weight="10" isTradable="false" isDropable="false"
           isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
@@ -3486,14 +3492,14 @@
     <!-- Black gem mask made of luxurious metal. -->
     <item id="23615" type="Armor" name="Black Gem Mask - Vitality (7-day) (No Weekly Usage Limit)"
           icon="BranchSys.icon.br_black_gem_mask_i00"
-          defaultAction="equip" bodypart="hair" immediateEffect="1" weight="10" isTradable="false" isDropable="false"
+          defaultAction="equip" bodypart="hair" crystalType="a" immediateEffect="1" weight="10" isTradable="false" isDropable="false"
           isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Large round goggles to protect your eyes. Uses 2 accessory slots. -->
     <item id="23616" type="Armor" name="Artisan's Goggles - Vitality (7-day) (No Weekly Usage Limit)"
           icon="icon.accessory_dwarf_goggle_i00"
-          defaultAction="equip" bodypart="hairall" immediateEffect="1" weight="10" isTradable="false" isDropable="false"
+          defaultAction="equip" bodypart="hairall" crystalType="a" immediateEffect="1" weight="10" isTradable="false" isDropable="false"
           isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
@@ -3542,19 +3548,19 @@
     </item>
     <!-- Hat worn by mountain dwellers. Uses 2 hair accessory slots. -->
     <item id="23624" type="Armor" name="Gorale Hat" icon="BranchSys3.icon1.g_hair_gorale_hat_pl" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" crystalType="a"
           immediateEffect="1" weight="10" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Fancy hat with feathers worn by Polish aristocrats in the 17th century. Requires 2 hair accessory slots. -->
     <item id="23625" type="Armor" name="Fancy Hat" icon="BranchSys3.icon1.g_hair_fancy_hat_pl" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" crystalType="a"
           immediateEffect="1" weight="10" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Red and white hat worn by Polish fans at soccer games. Uses 2 hair accessory slots. -->
     <item id="23626" type="Armor" name="Hat of Cheers" icon="BranchSys3.icon1.g_hair_jester_hat_pl"
-          defaultAction="equip" bodypart="hairall"
+          defaultAction="equip" bodypart="hairall" crystalType="a"
           immediateEffect="1" weight="10" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
@@ -4921,7 +4927,7 @@
     <!-- Samurai look. -->
     <item id="23877" type="Armor" name="Samurai Hair Accessory" icon="BranchSys3.iconArmar.g_co_japan_general_hair_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="0">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="0">
         <enchant stat="mDef" val="0" />
     </item>
     <!--
@@ -5013,7 +5019,7 @@
     <!-- Vampiric wear in the form of a mask. -->
     <item id="23887" type="Armor" name="Vampire Hair Accessory" icon="BranchSys3.iconArmar.g_co_vampiric_hair_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="0">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="0">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Modifies the appearance of armor into that of a Vampire Outfit. No change in stats. All armor types. -->
@@ -5459,13 +5465,13 @@
     <!-- Hair Accessory worn by the hero of the 2014 World Olympiad. Equip for a boost of + 5 on all stats. -->
     <item id="23953" type="Armor" name="2014 World Olympiad Hero's Accessory" icon="icon.accessory_archer_hat2_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="0">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="0">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Hair Accessory worn by the semifinalist of the 2014 World Olympiad. Equip for a boost of + 2 on all stats. -->
     <item id="23954" type="Armor" name="2014 World Olympiad Semifinalist's Accessory"
           icon="icon.accessory_archer_hat2_i00"
-          defaultAction="equip" bodypart="hairall" immediateEffect="1" weight="0">
+          defaultAction="equip" bodypart="hairall" crystalType="a" immediateEffect="1" weight="0">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Identical to the Kamaloka Secret Chest found in Infernal and Lunatic Kamaloka. Has a chance of obtaining either a Dark/Bloody Amaranthine Enhancement Stone, Dark/Bloody Eternal Enhancement Stone, Life Stone Instilled with Giant's Power, Scroll of Blessing: Weapon/Armor (R99-grade), Top-grade Life Stone (R/R95/R99-grade), Giant's Scroll: Enchant Weapon/Armor (R-grade), an Attribute Stone (+ 60), or Gemstone (R-grade). -->

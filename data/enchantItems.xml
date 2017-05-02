@@ -157,4 +157,10 @@
 <enchantScroll id="33843" targetType="WEAPON" grade="r" isSafe="true" maxLevel="15" /> <!-- Destruction Scroll: Enchant Weapon (R-grade) - Event -->
 <enchantScroll id="33849" targetType="ARMOR" grade="r" isSafe="true" maxLevel="6" /> <!-- Destruction Scroll: Enchant Armor (R-grade) - Event  -->
 
+<enchantScroll id="22426" targetType="WEAPON" grade="r" isSafe="true" maxLevel="16" extraChance="10" /> <!-- Ancient Scroll: Enchant Weapon (R-grade) -->
+<enchantScroll id="22429" targetType="ARMOR" grade="r" isSafe="true" maxLevel="16" extraChance="10" /> <!-- Ancient Scroll: Enchant Armor (R-grade) -->
+
+<enchantScroll id="23342" targetType="WEAPON" grade="r" isSafe="true" maxLevel="16" extraChance="10" /> <!-- Ancient Scroll: Enchant Weapon (R-grade) -->
+<enchantScroll id="23344" targetType="ARMOR" grade="r" isSafe="true" maxLevel="16" extraChance="10" /> <!-- Ancient Scroll: Enchant Armor (R-grade) -->
+
 </list>

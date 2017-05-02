@@ -2846,7 +2846,10 @@
 	-->
     <item id="22426" type="EtcItem" name="Ancient Scroll: Enchant Weapon (R-grade)"
           icon="BranchSys.icon.br_ancient_cry_of_ench_wp_s_i00"
-          immediateEffect="1" isTradable="false" isDropable="false" isSellable="false" isStackable="true">
+          defaultAction="skill_reduce" etcitemType="scrl_enchant_wp" immediateEffect="1" isTradable="false"
+          isDropable="false"
+          isSellable="false" isDepositable="false" isStackable="true" isPremium="true" isOlyRestricted="true"
+          handler="EnchantScrolls">
     </item>
     <!--
 		Enchant success rate is 100%.
@@ -2871,7 +2874,10 @@
 	-->
     <item id="22429" type="EtcItem" name="Ancient Scroll: Enchant Armor (R-grade)"
           icon="BranchSys.icon.br_ancient_cry_of_ench_am_s_i00"
-          immediateEffect="1" isStackable="true">
+          defaultAction="skill_reduce" etcitemType="scrl_enchant_am" immediateEffect="1" isTradable="false"
+          isDropable="false"
+          isSellable="false" isDepositable="false" isStackable="true" isPremium="true" isOlyRestricted="true"
+          handler="EnchantScrolls">
     </item>
     <!--
 		Enchant success rate is 100%.
