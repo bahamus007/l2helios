@@ -7207,16 +7207,24 @@
     <!-- P. Atk. + 6 for R-grade one-handed sword, one-handed blunt, dagger, spear, and other weapons when enchanted. P. Atk. + 7 for two-handed sword, two-handed blunt, dualsword, two-handed fist weapon, and crossbow. P. Atk. + 12 for bow weapons. M. Atk. + 5 for all weapons. P. Atk./M. Atk. greatly increases starting at + 4. All amounts are increased for blessed weapons. If enchanting fails, the item is not reset but maintains its prior enchant value through the power of the goddess of destruction. Cannot be used on weapons + 15 or above. -->
     <item id="33478" type="EtcItem" name="Destruction Scroll: Enchant Weapon (R-grade)"
           icon="icon.scroll_of_enchant_weapon_i06"
-          immediateEffect="1" weight="0">
+          defaultAction="skill_reduce" etcitemType="scrl_enchant_wp" immediateEffect="1" isTradable="true"
+          isDropable="false"
+          isSellable="false" isDepositable="true" isStackable="true" isPremium="true" isOlyRestricted="true"
+          handler="EnchantScrolls">
     </item>
+
     <!-- When enchanted, P. Def. + 2 for R-grade armor and accessories. Greatly increased starting at + 4. Can be enhanced safely to + 3. When enhanced + 4 or more, HP also increases according to the enchant value. If enchanting fails, the item is not reset but maintains its prior enchant value through the power of the goddess of destruction. Cannot be used on armors + 6 or above. -->
     <item id="33479" type="EtcItem" name="Destruction Scroll: Enchant Armor (R-grade)"
           icon="icon.scroll_of_enchant_armor_i06"
-          immediateEffect="1" weight="0">
+          defaultAction="skill_reduce" etcitemType="scrl_enchant_am" immediateEffect="1" isTradable="true"
+          isDropable="false"
+          isSellable="false" isDepositable="true" isStackable="true" isPremium="true" isOlyRestricted="true"
+          handler="EnchantScrolls">
     </item>
+
     <!-- WiFi helmet. -->
     <item id="33480" type="Armor" name="WiFi Helmet" icon="icon.wifi_event_goggle_i00" defaultAction="equip"
-          bodypart="hairall"
+          bodypart="hairall" crystalType="a"
           immediateEffect="1" weight="10" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
@@ -8776,7 +8784,7 @@
     <!-- Kukurin Feather Helm. -->
     <item id="33649" type="Armor" name="Kukurin Feather Helm" icon="icon.accessory_tengallon_brown_hat_i00"
           defaultAction="equip"
-          bodypart="hairall" immediateEffect="1" weight="10" isTradable="false" isDropable="false" isSellable="false">
+          bodypart="hairall" crystalType="a" immediateEffect="1" weight="10" isTradable="false" isDropable="false" isSellable="false">
         <enchant stat="mDef" val="0" />
     </item>
     <!-- Shilen Wand. -->
@@ -10112,10 +10120,16 @@
           immediateEffect="1" weight="0" isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- P. Atk. + 6 for R-grade one-handed swords, one-handed blunts, daggers, spears, and other weapons when enchanted. P. Atk. + 7 for two-handed swords, two-handed blunts, dualswords, two-handed fist weapons, and crossbows. P. Atk. + 12 for bow weapons. M. Atk. + 5 for all weapons. P. Atk./M. Atk. greatly increase at + 4. All amounts are increased for blessed weapons. If enchanting fails, the power of the Goddess of Destruction stops the item from resetting and maintains its existing enchant value. Cannot be used on weapons + 15 or above. -->
+
     <item id="33843" type="EtcItem" name="Destruction Scroll: Enchant Weapon (R-grade) - Event"
           icon="icon.scroll_of_enchant_weapon_i06"
-          immediateEffect="1" weight="0" isTradable="false" isDropable="false" isSellable="false">
+          defaultAction="skill_reduce" etcitemType="scrl_enchant_wp" immediateEffect="1" isTradable="false"
+          isDropable="false"
+          isSellable="false" isDepositable="false" isStackable="true" isPremium="true" isOlyRestricted="true"
+          handler="EnchantScrolls">
     </item>
+
+
     <!-- P. Def. + 1 for D-grade armor and accessories. Increases by 3 starting from + 4. It can safely be enchanted up to + 3. For one-piece armor, it can safely be enchanted up to + 4. If enchanting fails, the power of the Goddess of Destruction stops the item from resetting and maintains its existing enchant value. HP gradually increases with each enchant level starting from + 4. Cannot be used on armor + 6 or above. -->
     <item id="33844" type="EtcItem" name="Destruction Scroll: Enchant Armor (D-grade) - Event"
           icon="icon.etc_blessed_scrl_of_ench_am_d_i01"
@@ -10142,10 +10156,16 @@
           immediateEffect="1" weight="0" isTradable="false" isDropable="false" isSellable="false">
     </item>
     <!-- P. Def. + 2 for R-grade armor and accessories, and greatly increases it starting from + 4. Can be safely enchanted up to + 3. When enchanted to + 4 or more, HP also increases according to the enchantment stats. If enchanting fails, the power of the Goddess of Destruction stops the item from crystallizing, and the existing enchantment value is maintained. Cannot be used + 6 or above. -->
+
     <item id="33849" type="EtcItem" name="Destruction Scroll: Enchant Armor (R-grade) - Event"
           icon="icon.scroll_of_enchant_armor_i06"
-          immediateEffect="1" weight="0" isTradable="false" isDropable="false" isSellable="false">
+          defaultAction="skill_reduce" etcitemType="scrl_enchant_am" immediateEffect="1" isTradable="false"
+          isDropable="false"
+          isSellable="false" isDepositable="false" isStackable="true" isPremium="true" isOlyRestricted="true"
+          handler="EnchantScrolls">
     </item>
+
+
     <!-- Enchant success rate + 20% for weapons (D-grade). Can only be used with regular Enchant Scrolls. Only for items enchanted between + 3 and + 9. -->
     <item id="33850" type="EtcItem" name="Lucky Enchant Stone: Weapon (D-grade) - Event" icon="icon.ench_wp_stone_i00"
           immediateEffect="1"
