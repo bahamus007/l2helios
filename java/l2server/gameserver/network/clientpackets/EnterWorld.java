@@ -441,6 +441,10 @@ public class EnterWorld extends L2GameClientPacket
 
 		Announcements.getInstance().showAnnouncements(activeChar);
 
+		if ((Config.SERVER_RESTART_SCHEDULE_ENABLED) && (Config.SERVER_RESTART_SCHEDULE_MESSAGE))
+		{
+			activeChar.sendPacket(new CreatureSay(2, Say2.BATTLEFIELD, "[SERVER]", "เซิฟเวอร์ จะรีสตาร์ท ครั้งต่อไปเวลา " + ServerRestartManager.getInstance().getNextRestartTime() + "."));
+		}
 		if (!CharacterCreate.isValidName(activeChar.getName()) && !activeChar.getName().contains("Khadia_Gift_"))
 		{
 			activeChar.setMovieId(1000);

@@ -154,9 +154,9 @@ public class Shutdown extends Thread
 	{
 		if (restart)
 		{
-			Broadcast.toAllOnlinePlayers(new ExShowScreenMessage("Restarting in " + seconds + " seconds", 5000));
+			Broadcast.toAllOnlinePlayers(new ExShowScreenMessage("รีสตาร์ทเกมส์ในอีก " + seconds + " วินาที", 5000));
 			Announcements.getInstance().announceToAll(
-					"The server is restarting in " + seconds + " seconds. Find a safe place to log out.");
+					"เซิฟเวอร์ จะรีสตาร์ทในอีก " + seconds + " วินาที. โปรดหาจุดปลอดภัย และ ออกจากเกมส์ หลังจากนั้นประมาณ 1 นาที จะกลับเข้าเล่นได้ตามปกติ.");
 		}
 		else
 		{

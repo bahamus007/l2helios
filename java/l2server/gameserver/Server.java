@@ -421,7 +421,11 @@ public class Server
 		Runtime.getRuntime().addShutdownHook(Shutdown.getInstance());//singto add offline
 
 		Log.info("IdFactory: Free ObjectID's remaining: " + IdFactory.getInstance().size());
-
+		
+		if (Config.SERVER_RESTART_SCHEDULE_ENABLED)
+		{
+			ServerRestartManager.getInstance();
+		}
 		if (Config.DEADLOCK_DETECTOR)
 		{
 			_deadDetectThread = new DeadLockDetector();

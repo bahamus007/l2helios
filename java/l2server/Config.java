@@ -845,6 +845,10 @@ public final class Config
 	public static boolean RESERVE_HOST_ON_LOGIN = false;
 	public static boolean LOG_LOGIN_CONTROLLER;
 
+	public static boolean SERVER_RESTART_SCHEDULE_ENABLED;
+	public static boolean SERVER_RESTART_SCHEDULE_MESSAGE;
+	public static int SERVER_RESTART_SCHEDULE_COUNTDOWN;
+	public static String[] SERVER_RESTART_SCHEDULE;
 	//--------------------------------------------------
 	// MMO Settings
 	//--------------------------------------------------
