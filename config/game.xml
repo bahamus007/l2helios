@@ -3097,4 +3097,14 @@
     <!-- Password Recovery Link -->
     <config name="SecondAuthRecoveryLink" var="SECOND_AUTH_REC_LINK"
             default="http://l2club.net/Account/?action=show_forget" />
+
+		 <!-- auto restart -->
+     <config name="LoginRestartSchedule" var="LOGIN_SERVER_SCHEDULE_RESTART" default="true" />
+     <config name="LoginRestartTime" var="LOGIN_SERVER_SCHEDULE_RESTART_TIME" default="24" />
+
+     <config name="ServerRestartScheduleEnabled" var="SERVER_RESTART_SCHEDULE_ENABLED" default="true" />
+     <config name="ServerRestartScheduleMessage" var="SERVER_RESTART_SCHEDULE_MESSAGE" default="true" />
+     <config name="ServerRestartScheduleCountdown" var="SERVER_RESTART_SCHEDULE_COUNTDOWN" default="300" />
+     <config name="ServerRestartSchedule" var="SERVER_RESTART_SCHEDULE" default="06:00,18:00"/>
+
 </list>

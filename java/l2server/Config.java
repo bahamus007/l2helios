@@ -845,6 +845,9 @@ public final class Config
 	public static boolean RESERVE_HOST_ON_LOGIN = false;
 	public static boolean LOG_LOGIN_CONTROLLER;
 
+	public static boolean LOGIN_SERVER_SCHEDULE_RESTART;
+	public static long LOGIN_SERVER_SCHEDULE_RESTART_TIME;
+	
 	public static boolean SERVER_RESTART_SCHEDULE_ENABLED;
 	public static boolean SERVER_RESTART_SCHEDULE_MESSAGE;
 	public static int SERVER_RESTART_SCHEDULE_COUNTDOWN;

@@ -42,6 +42,7 @@ public class L2LoginServer
 	private static L2LoginServer _instance;
 	private GameServerListener _gameServerListener;
 	private Core<L2LoginClient> _selectorThread;
+	private Thread _restartLoginServer;
 
 	public static void main(String[] args)
 	{
@@ -286,6 +287,37 @@ public class L2LoginServer
 		else
 		{
 			Log.warning("IP Bans file (" + bannedFile.getName() + ") is missing or is a directory, skipped.");
+		}
+		if (Config.LOGIN_SERVER_SCHEDULE_RESTART)
+		{
+			Log.info("Scheduled LS restart after " + Config.LOGIN_SERVER_SCHEDULE_RESTART_TIME + " hours");
+			_restartLoginServer = new LoginServerRestart();
+			_restartLoginServer.setDaemon(true);
+			_restartLoginServer.start();
+		}
+	}
+	class LoginServerRestart extends Thread
+	{
+		public LoginServerRestart()
+		{
+			setName("LoginServerRestart");
+		}
+		
+		@Override
+		public void run()
+		{
+			while (!isInterrupted())
+			{
+				try
+				{
+					Thread.sleep(Config.LOGIN_SERVER_SCHEDULE_RESTART_TIME * 3600000);
+				}
+				catch (InterruptedException e)
+				{
+					return;
+				}
+				shutdown(true);
+			}
 		}
 	}
 
