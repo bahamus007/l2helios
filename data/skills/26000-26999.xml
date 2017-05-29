@@ -1314,9 +1314,7 @@
     </skill>
     <!-- For 30 seconds, P./M. Atk., and Atk./Casting Spd. x 2. -->
     <skill id="26122" levels="12" name="Mad Cow">
-        <table name="#reuseDelay">2250000 2100000 1950000 1800000 1650000 1500000 1350000 1200000 1050000 900000 750000
-            600000
-        </table>
+<table name="#reuseDelay">2250000 2100000 1950000 1800000 1650000 1500000 1350000 1200000 1050000 900000 750000 600000</table>
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_ACTIVE" />
@@ -1325,10 +1323,10 @@
         <set name="reuseDelay" val="#reuseDelay" />
         <set name="staticReuse" val="true" />
         <for>
-            <cond>
+            <cond msgId="1509">
                 <and>
                     <player olympiad="false" />
-                    <player agathionId="8590" />
+                    <player onEvent="false" />
                 </and>
             </cond>
             <abnormal duration="30" stackLvl="1" stackType="ultimate_enchanter">
