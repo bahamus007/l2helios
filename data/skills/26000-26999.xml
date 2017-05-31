@@ -1229,7 +1229,7 @@
             <cond>
                 <and>
                     <player olympiad="false" />
-                    <player agathionId="8582" />
+                    <player onEvent="false" />
                 </and>
             </cond>
         </for>
@@ -1250,7 +1250,7 @@
             <cond>
                 <and>
                     <player olympiad="false" />
-                    <player agathionId="8596" />
+                    <player onEvent="false" />
                 </and>
             </cond>
             <abnormal noicon="1" self="1">
@@ -1274,7 +1274,7 @@
             <cond>
                 <and>
                     <player olympiad="false" />
-                    <player agathionId="8599" />
+                    <player onEvent="false" />
                 </and>
             </cond>
             <abnormal count="15" duration="1" stackLvl="2" stackType="life_force_others">
@@ -1301,7 +1301,7 @@
                         <target active_effect_id="1912" />
                     </not>
                     <player olympiad="false" />
-                    <player agathionId="8595" />
+                    <player onEvent="false" />
                 </and>
             </cond>
             <abnormal duration="15" stackLvl="1" stackType="turn_stone">
@@ -1353,7 +1353,7 @@
             <cond>
                 <and>
                     <player olympiad="false" />
-                    <player agathionId="8598" />
+                    <player onEvent="false" />
                 </and>
             </cond>
             <abnormal duration="10" stackLvl="1" stackType="invincibility" visualEffect="invincible">
@@ -1375,7 +1375,7 @@
             <cond>
                 <and>
                     <player olympiad="false" />
-                    <player agathionId="8597" />
+                    <player onEvent="false" />
                 </and>
             </cond>
             <abnormal duration="30" stackLvl="1" stackType="resurrection_special">
@@ -1402,7 +1402,7 @@
             <cond>
                 <and>
                     <player olympiad="false" />
-                    <player agathionId="8589" />
+                    <player onEvent="false" />
                 </and>
             </cond>
             <abnormal count="5" duration="1" landRate="60" stackType="exile" visualEffect="cage">
@@ -1431,7 +1431,7 @@
             <cond>
                 <and>
                     <player olympiad="false" />
-                    <player agathionId="8592" />
+                    <player onEvent="false" />
                 </and>
             </cond>
             <abnormal comboId="365" count="10" duration="1" landRate="65" stackLvl="1" stackType="lift_hold">
@@ -1458,7 +1458,7 @@
             <cond>
                 <and>
                     <player olympiad="false" />
-                    <player agathionId="8591" />
+                    <player onEvent="false" />
                 </and>
             </cond>
             <abnormal duration="60" stackLvl="1">
@@ -1486,7 +1486,7 @@
             <cond>
                 <and>
                     <player olympiad="false" />
-                    <player agathionId="8588" />
+                    <player onEvent="false" />
                 </and>
             </cond>
         </for>
@@ -1506,7 +1506,7 @@
             <cond>
                 <and>
                     <player olympiad="false" />
-                    <player agathionId="8593" />
+                    <player onEvent="false" />
                 </and>
             </cond>
             <abnormal duration="1200" stackLvl="1" stackType="dmg_shield">
